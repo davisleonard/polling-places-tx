@@ -160,8 +160,30 @@
             right: 1rem;
             top: 50%;
             transform: translateY(-50%);
-            pointer-events: none;
             color: var(--gray-muted);
+            cursor: pointer;
+        }
+
+        .combobox .clear-btn {
+            position: absolute;
+            right: 0.75rem;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: var(--gray-muted);
+            padding: 4px 6px;
+            display: none;
+            font-size: 1.4rem;
+            line-height: 1;
+            border-radius: 50%;
+            transition: color 0.15s, background 0.15s;
+        }
+
+        .combobox .clear-btn:hover {
+            color: var(--navy);
+            background: var(--blue-accent-light);
         }
 
         .combobox .dropdown {
@@ -660,9 +682,10 @@
         <label for="county-input">Select your county</label>
         <div class="combobox" id="combobox">
             <input type="text" id="county-input" placeholder="Search counties..." autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list">
-            <div class="chevron">
+            <div class="chevron" id="combobox-chevron">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3.5 5.25L7 8.75L10.5 5.25" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </div>
+            <button class="clear-btn" id="combobox-clear" type="button" aria-label="Clear selection">&times;</button>
             <div class="dropdown" id="county-dropdown" role="listbox"></div>
         </div>
     </div>
@@ -706,6 +729,9 @@ async function init() {
     const hash = decodeURIComponent(window.location.hash.replace('#', ''));
     if (hash && COUNTIES[hash]) {
         document.getElementById('county-input').value = hash + ' County';
+        // Show clear button since we have a county selected
+        document.getElementById('combobox-chevron').style.display = 'none';
+        document.getElementById('combobox-clear').style.display = 'block';
         showCounty(hash);
     }
 }
@@ -713,6 +739,30 @@ async function init() {
 function setupCombobox() {
     const input = document.getElementById('county-input');
     const dropdown = document.getElementById('county-dropdown');
+    const chevron = document.getElementById('combobox-chevron');
+    const clearBtn = document.getElementById('combobox-clear');
+
+    function updateToggle() {
+        if (input.value.trim()) {
+            chevron.style.display = 'none';
+            clearBtn.style.display = 'block';
+        } else {
+            chevron.style.display = 'block';
+            clearBtn.style.display = 'none';
+        }
+    }
+
+    clearBtn.addEventListener('mousedown', (e) => {
+        e.preventDefault();
+        input.value = '';
+        userCoords = null;
+        currentCounty = null;
+        document.getElementById('results').style.display = 'none';
+        window.location.hash = '';
+        updateToggle();
+        input.focus();
+        openDropdown();
+    });
 
     function renderDropdown(filter) {
         const query = (filter || '').toLowerCase().replace(' county', '').trim();
@@ -755,9 +805,11 @@ function setupCombobox() {
     }
 
     function selectCounty(name) {
+        userCoords = null;
         input.value = name + ' County';
         dropdown.classList.remove('open');
         input.setAttribute('aria-expanded', 'false');
+        updateToggle();
         showCounty(name);
     }
 
@@ -773,6 +825,7 @@ function setupCombobox() {
         renderDropdown(input.value);
         dropdown.classList.add('open');
         input.setAttribute('aria-expanded', 'true');
+        updateToggle();
     });
 
     input.addEventListener('keydown', (e) => {
@@ -998,7 +1051,10 @@ function buildCalendarHTML(hours) {
     return html;
 }
 
+let showCountyGen = 0;
+
 async function showCounty(name) {
+    const gen = ++showCountyGen;
     const data = COUNTIES[name];
     if (!data) return;
     currentCounty = name;
@@ -1006,6 +1062,7 @@ async function showCounty(name) {
     window.location.hash = encodeURIComponent(name);
     const results = document.getElementById('results');
     results.style.display = 'block';
+    results.innerHTML = '<div style="text-align:center;padding:3rem;color:var(--gray-muted);">Loading...</div>';
 
     let html = `<div class="county-header">
         <h2>${name} County</h2>
@@ -1042,6 +1099,7 @@ async function showCounty(name) {
         locs = data.locations;
         if (userCoords && showFind) {
             locs = await sortByDistance(data.locations, name);
+            if (gen !== showCountyGen) return;
         }
 
         // Map container
@@ -1086,6 +1144,7 @@ async function showCounty(name) {
     // Initialize map if we have locations
     if (data.locations && data.locations.length > 0) {
         await initMap(locs || data.locations, name);
+        if (gen !== showCountyGen) return;
         // After zip/geo search, scroll to map so user sees their location
         if (userCoords) {
             const mapContainer = document.getElementById('map-container');

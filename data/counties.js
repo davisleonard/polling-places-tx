@@ -8,7 +8,7 @@
   "Angelina": {
     "website": "https://www.angelinacounty.net/elections/",
     "phone": "(936) 634-8339",
-    "pdfUrl": null,
+    "pdfUrl": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/030326/ev_locations_and_hours_030326_1.pdf",
     "hours": [
       {
         "dates": "Tue-Fri, Feb 17-20",
@@ -47,8 +47,13 @@
       {
         "name": "Angelina County Zavalla Sub Courthouse",
         "address": "16663 FM 2190, Zavalla, TX 75980"
+      },
+      {
+        "name": "Huntington Civic Center",
+        "address": "1179 Hwy 69, Huntington, TX 75949"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.angelinacounty.net/elections/"
   },
   "Aransas": {
     "website": "http://www.aransascountytx.gov/clerk/voteelectinfo.php"
@@ -139,7 +144,8 @@
         "name": "Temple ISD Admin Building",
         "address": "401 Santa Fe Way, Temple, TX 76501"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.bellcountytx.com/departments/elections/early_voting_information.php"
   },
   "Bexar": {
     "website": "http://www.bexar.org/elections/index.html",
@@ -363,7 +369,8 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "(210) 335-8683"
+    "phone": "(210) 335-8683",
+    "pdfUrl": "https://www.bexar.org/DocumentCenter/View/4572/Early-Voting-Locations-and-Hours-PDF"
   },
   "Blanco": {
     "website": "http://www.co.blanco.tx.us/"
@@ -442,7 +449,8 @@
         "name": "Lake Jackson Civic Center",
         "address": "332 Hwy 332 E, Lake Jackson, TX 77566"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.brazoriacountyclerktx.gov/departments/elections/polling-places-early-voting"
   },
   "Brazos": {
     "website": "https://elections.brazoscountytx.gov/",
@@ -487,7 +495,8 @@
         "name": "Arena Hall",
         "address": "2906 Tabor Rd, Bryan, TX 77803"
       }
-    ]
+    ],
+    "evPageUrl": "https://elections.brazoscountytx.gov/early-voting-places/"
   },
   "Brewster": {
     "website": "https://www.brewstercounty.gov/"
@@ -816,7 +825,8 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "(972) 548-4100"
+    "phone": "(972) 548-4100",
+    "evPageUrl": "https://www.collincountytx.gov/Elections/polling-locations"
   },
   "Collingsworth": {
     "website": "http://www.co.collingsworth.tx.us/"
@@ -827,7 +837,7 @@
   "Comal": {
     "website": "https://www.comalcounty.gov/193/Elections-Voter-Registration",
     "phone": "(830) 221-1100",
-    "pdfUrl": null,
+    "pdfUrl": "https://terrylowry.com/jedi/2026PrimarySB/ComalEVL.pdf",
     "hours": [
       {
         "dates": "Tue-Fri, Feb 17-20",
@@ -839,7 +849,7 @@
       },
       {
         "dates": "Sun, Feb 22",
-        "hours": "12:00 PM - 5:00 PM"
+        "hours": "12:00 PM - 6:00 PM"
       },
       {
         "dates": "Mon-Fri, Feb 23-27",
@@ -871,7 +881,8 @@
         "name": "Garden Ridge City Hall (Municipal Court Room)",
         "address": "9400 Municipal Pkwy, Garden Ridge, TX 78266"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.comalcounty.gov/700/Tuesday-March-3-2026---Primary-Election-"
   },
   "Comanche": {
     "website": null
@@ -1399,7 +1410,8 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "(214) 819-6300"
+    "phone": "(214) 819-6300",
+    "evPageUrl": "https://www.dallascountyvotes.org/vote-centers/"
   },
   "Dawson": {
     "website": "http://www.co.dawson.tx.us/"
@@ -1712,7 +1724,8 @@
         "name": "Odessa College Sports Center (Foyer)",
         "address": "201 W University Blvd, Odessa, TX 79764"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.co.ector.tx.us/page/ector.Elections"
   },
   "Edwards": {
     "website": "https://www.co.edwards.tx.us/page/edwards.electionsnew"
@@ -1891,7 +1904,8 @@
         "name": "Zaraplex Community Center - Large Classroom",
         "address": "8400 Boeing Dr., El Paso, TX 79907"
       }
-    ]
+    ],
+    "evPageUrl": "https://epcountyvotes.com/voter-information/early-voting-locations"
   },
   "Ellis": {
     "website": "http://co.ellis.tx.us/index.asp?nid=312"
@@ -2241,7 +2255,8 @@
         "name": "Village on the Park",
         "address": "400 E Parkwood, Friendswood, TX 77546"
       }
-    ]
+    ],
+    "evPageUrl": "https://galvestonvotes.org/polling-locations/"
   },
   "Garza": {
     "website": "http://www.garzacounty.net/"
@@ -2312,7 +2327,8 @@
         "name": "Whitesboro City Hall (Council Chambers)",
         "address": "111 W Main, Whitesboro, TX 76273"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.co.grayson.tx.us/page/elec.home"
   },
   "Gregg": {
     "website": "https://www.greggcountyvotes.com/",
@@ -2361,7 +2377,8 @@
         "name": "Elderville Community Center",
         "address": "10450 Hwy 349, Longview, TX 75603"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.greggcountyvotes.com/"
   },
   "Grimes": {
     "website": "https://grimescountytexas.gov/"
@@ -2401,7 +2418,8 @@
         "name": "TLU Alumni Student Center",
         "address": "1109 University St, Seguin, TX 78155"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.guadalupetx.gov/page/elections.home"
   },
   "Hale": {
     "website": "http://www.halecounty.org/index.php"
@@ -2762,7 +2780,8 @@
         "name": "LBJ Student Center - Texas State University",
         "address": "301 Student Center Dr, San Marcos, TX 78666"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.hayscountytx.gov/elections/20260303"
   },
   "Hemphill": {
     "website": "http://www.co.hemphill.tx.us/"
@@ -2982,7 +3001,8 @@
         "name": "Hood County Annex I",
         "address": "1410 W Pearl St, Granbury, TX 76048"
       }
-    ]
+    ],
+    "evPageUrl": "https://hoodcounty.texas.gov/departments/elections_administration/"
   },
   "Hopkins": {
     "website": "http://www.hopkinscountytx.org/default.aspx?Hopkins_County/Elections"
@@ -3023,7 +3043,8 @@
         "name": "Hunt County Voter Administration",
         "address": "2217 Washington St, Greenville, TX 75401"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.huntcounty.net/page/hunt.election"
   },
   "Hutchinson": {
     "website": "http://www.co.hutchinson.tx.us/"
@@ -3098,7 +3119,8 @@
         "name": "Theodore Johns Library",
         "address": "4255 Fannett Rd, Beaumont, TX 77705"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.jeffersonelections.com/"
   },
   "Jim Hogg": {
     "website": "https://www.co.jim-hogg.tx.us/page/jim-hogg.Elections"
@@ -3137,7 +3159,8 @@
         "name": "Burleson Sub-Courthouse",
         "address": "247 Elk Dr, Rm 212, Burleson, TX 76028"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.johnsoncountytx.org/departments/elections-office"
   },
   "Jones": {
     "website": "http://www.co.jones.tx.us/default.aspx?Jones_County/Home"
@@ -3299,7 +3322,8 @@
         "name": "Liberty County Clerk Election Office",
         "address": "1915 Trinity St, Liberty, TX 77575"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.co.liberty.tx.us/page/liberty.Elections"
   },
   "Limestone": {
     "website": "https://www.co.limestone.tx.us/",
@@ -3393,7 +3417,8 @@
         "name": "Market Street (98th & Quaker)",
         "address": "4205 98th St, Lubbock, TX 79423"
       }
-    ]
+    ],
+    "evPageUrl": "https://votelubbock.gov/election-information/early-voting-information/"
   },
   "Lynn": {
     "website": "http://www.co.lynn.tx.us/"
@@ -3484,7 +3509,8 @@
         "name": "Hewitt City Hall & Library",
         "address": "200 Patriot Ct, Hewitt, TX 76643"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.mclennan.gov/337/Elections"
   },
   "McMullen": {
     "website": null
@@ -3653,7 +3679,8 @@
         "name": "Election Central (Special forms/mail ballots only)",
         "address": "9159 Airport Rd, Conroe, TX 77303"
       }
-    ]
+    ],
+    "evPageUrl": "https://elections.mctx.org/evPolls.asp?ELID=93&curLang=English&ElectionId=PRI030326"
   },
   "Moore": {
     "website": "http://www.co.moore.tx.us/default.aspx?Moore_County/Elections"
@@ -3691,7 +3718,8 @@
         "name": "Nacogdoches County Courthouse Annex",
         "address": "203 W Main St, Nacogdoches, TX 75961"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.co.nacogdoches.tx.us/"
   },
   "Navarro": {
     "website": "https://www.co.navarro.tx.us/page/navarro.elections",
@@ -3720,7 +3748,8 @@
         "name": "Navarro County Courthouse Annex",
         "address": "601 N 13th St, Corsicana, TX 75110"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.co.navarro.tx.us/page/navarro.elections"
   },
   "Newton": {
     "website": "http://www.co.newton.tx.us/default.aspx?Newton_County/Home"
@@ -3815,7 +3844,8 @@
         "name": "West Oso ISD",
         "address": "5050 Rockford Dr, Corpus Christi, TX 78416"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.nuecesco.com/county-services/county-clerk/elections-department"
   },
   "Ochiltree": {
     "website": "http://www.co.ochiltree.tx.us/"
@@ -3858,7 +3888,8 @@
         "name": "Orange County Airport Conference Room",
         "address": "2640 Hwy 87, Orange, TX 77632"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.co.orange.tx.us/departments/ElectionsAdministration/ElectionLocationHours"
   },
   "Palo Pinto": {
     "website": "https://www.co.palo-pinto.tx.us/"
@@ -3967,7 +3998,8 @@
         "name": "Cornerstone Outreach (Fellowship Room)",
         "address": "1111 N Buchanan St, Amarillo, TX 79107"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.pottercountytexasvotes.gov/"
   },
   "Presidio": {
     "website": "http://www.co.presidio.tx.us/"
@@ -4014,7 +4046,8 @@
         "name": "Southwest Branch Library",
         "address": "6801 SW 45th Ave, Amarillo, TX 79109"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.randallcounty.gov/166/Election-Administration"
   },
   "Reagan": {
     "website": null
@@ -4098,7 +4131,8 @@
         "name": "Rockwall County Courthouse Annex",
         "address": "1101 E Yellowjacket Ln, Rockwall, TX 75087"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.rockwallvotes.com/"
   },
   "Runnels": {
     "website": "http://www.co.runnels.tx.us/"
@@ -4139,7 +4173,7 @@
   "Smith": {
     "website": "https://www.smith-county.com/233/Current-Election-Information",
     "phone": "(903) 590-4777",
-    "pdfUrl": null,
+    "pdfUrl": "https://www.smithcountyelection.com/upload_datestimes/datestimes.pdf",
     "hours": [
       {
         "dates": "Tue-Fri, Feb 17-20",
@@ -4372,7 +4406,8 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "(817) 831-8683"
+    "phone": "(817) 831-8683",
+    "pdfUrl": "https://www.tarrantcountytx.gov/content/dam/main/elections/2026/pm26/locations/PM26_EV_Sched.pdf"
   },
   "Taylor": {
     "website": "https://www.taylorcounty.texas.gov/212/Elections",
@@ -4421,7 +4456,8 @@
         "name": "Mall of Abilene",
         "address": "4310 Buffalo Gap Rd, Abilene, TX 79606"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.taylorcounty.texas.gov/212/Elections"
   },
   "Terrell": {
     "website": "http://www.co.terrell.tx.us/"
@@ -4478,7 +4514,8 @@
         "name": "MHMR Services of the Concho Valley (Jack Ray Room)",
         "address": "1501 W Beauregard Ave, San Angelo, TX 76901"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.tomgreencountytx.gov/page/ele.ElectionsHome"
   },
   "Travis": {
     "website": "https://votetravis.gov",
@@ -4654,7 +4691,8 @@
         "hours": "7:00 AM - 10:00 PM"
       }
     ],
-    "phone": "(512) 238-8683"
+    "phone": "(512) 238-8683",
+    "pdfUrl": "https://votetravis.gov/wp-content/uploads/EARLY-VOTING-FLYER-FINAL.pdf"
   },
   "Trinity": {
     "website": "http://www.co.trinity.tx.us/"
@@ -4741,7 +4779,8 @@
         "name": "Webb County Elections Office",
         "address": "1110 Washington St, Suite 103, Laredo, TX 78040"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.webbcountytx.gov/electionsadministration/"
   },
   "Wharton": {
     "website": "http://www.co.wharton.tx.us/default.aspx?Wharton_County/Elections"
@@ -4792,7 +4831,8 @@
         "name": "Commissioner Precinct 4 Building",
         "address": "2023 State Hwy 25 N, Electra, TX 76360"
       }
-    ]
+    ],
+    "evPageUrl": "https://wichitacountytx.com/election_info/current-election-information/"
   },
   "Wilbarger": {
     "website": "http://www.co.wilbarger.tx.us/default.aspx?Wilbarger_County/Elections"
@@ -4950,7 +4990,8 @@
         "name": "Alvord City Hall",
         "address": "215 W Elm, Alvord, TX 76225"
       }
-    ]
+    ],
+    "evPageUrl": "https://www.co.wise.tx.us/315/Elections"
   },
   "Wood": {
     "website": "http://elections.mywoodcounty.com/"
