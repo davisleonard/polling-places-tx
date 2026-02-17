@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texas Early Voting Locations - 2026 Primary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --navy: #182d53;
+            --navy-light: #2a4070;
+            --gray-subtitle: #4a5568;
+            --gray-muted: #718096;
+            --blue-accent: #3b82f6;
+            --blue-accent-light: rgba(59, 130, 246, 0.12);
+            --green: #22c55e;
+            --bg-light: #f7f8fa;
+            --bg-white: #ffffff;
+            --border: #e2e8f0;
+            --red-accent: #BF0A30;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, system-ui, sans-serif;
+            background: var(--bg-white);
+            color: var(--navy);
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* NAV */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        nav .logo {
+            font-weight: 900;
+            font-size: 1.1rem;
+            letter-spacing: -0.02em;
+            color: var(--navy);
+            text-transform: uppercase;
+        }
+
+        nav .nav-links {
+            display: flex;
+            gap: 2rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        nav .nav-links a {
+            color: var(--gray-subtitle);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        nav .nav-links a:hover { color: var(--navy); }
+
+        /* HERO */
+        .hero {
+            text-align: center;
+            padding: 6rem 2rem 4rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: clamp(3rem, 8vw, 6rem);
+            font-weight: 900;
+            letter-spacing: -0.03em;
+            line-height: 1;
+            color: var(--navy);
+            margin-bottom: 1.5rem;
+        }
+
+        .hero .subtitle {
+            font-size: clamp(1rem, 2.5vw, 1.35rem);
+            font-weight: 500;
+            color: var(--gray-subtitle);
+            line-height: 1.6;
+            max-width: 640px;
+            margin: 0 auto 2rem;
+        }
+
+        .hero .dates-pill {
+            display: inline-block;
+            background: var(--blue-accent-light);
+            color: var(--blue-accent);
+            font-weight: 700;
+            font-size: 0.95rem;
+            padding: 0.6rem 1.5rem;
+            border-radius: 100px;
+        }
+
+        /* SEARCH SECTION */
+        .search-section {
+            background: var(--bg-light);
+            padding: 3rem 2rem;
+        }
+
+        .search-inner {
+            max-width: 500px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .search-inner label {
+            display: block;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        /* COMBOBOX */
+        .combobox {
+            position: relative;
+        }
+
+        .combobox input {
+            width: 100%;
+            padding: 1rem 3rem 1rem 1.25rem;
+            font-size: 1.1rem;
+            font-family: 'Inter', sans-serif;
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            background: var(--bg-white);
+            color: var(--navy);
+            outline: none;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .combobox input:focus {
+            border-color: var(--blue-accent);
+            box-shadow: 0 0 0 4px var(--blue-accent-light);
+        }
+
+        .combobox input::placeholder { color: var(--gray-muted); }
+
+        .combobox .chevron {
+            position: absolute;
+            right: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            pointer-events: none;
+            color: var(--gray-muted);
+        }
+
+        .combobox .dropdown {
+            display: none;
+            position: absolute;
+            top: calc(100% + 4px);
+            left: 0;
+            right: 0;
+            background: var(--bg-white);
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            max-height: 300px;
+            overflow-y: auto;
+            z-index: 50;
+            box-shadow: 0 8px 30px rgba(24,45,83,0.12);
+        }
+
+        .combobox .dropdown.open { display: block; }
+
+        .combobox .dropdown-item {
+            padding: 0.75rem 1.25rem;
+            cursor: pointer;
+            font-size: 1rem;
+            color: var(--navy);
+            transition: background 0.1s;
+        }
+
+        .combobox .dropdown-item:first-child { border-radius: 10px 10px 0 0; }
+        .combobox .dropdown-item:last-child { border-radius: 0 0 10px 10px; }
+        .combobox .dropdown-item:hover,
+        .combobox .dropdown-item.active { background: var(--blue-accent-light); }
+
+        .combobox .dropdown-empty {
+            padding: 1rem 1.25rem;
+            color: var(--gray-muted);
+            font-size: 0.95rem;
+        }
+
+        /* RESULTS */
+        .results-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem 4rem;
+        }
+
+        #results { display: none; }
+
+        .county-header { margin-bottom: 1.5rem; }
+
+        .county-header h2 {
+            font-size: 2rem;
+            font-weight: 900;
+            color: var(--navy);
+            letter-spacing: -0.02em;
+            margin-bottom: 0.5rem;
+        }
+
+        .county-header .meta {
+            color: var(--gray-muted);
+            font-size: 0.9rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem 1.5rem;
+        }
+
+        .county-header .meta a {
+            color: var(--blue-accent);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .county-header .meta a:hover {
+            color: var(--navy);
+            text-decoration: underline;
+        }
+
+        /* CALENDAR HOURS */
+        .hours-calendar {
+            margin-bottom: 1.5rem;
+        }
+
+        .hours-calendar h3 {
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--blue-accent);
+            margin-bottom: 0.75rem;
+        }
+
+        .cal-week-header {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 4px;
+            margin-bottom: 4px;
+        }
+
+        .cal-week-header span {
+            text-align: center;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--gray-muted);
+            padding: 0.4rem 0;
+        }
+
+        .cal-week {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 4px;
+            margin-bottom: 4px;
+        }
+
+        .cal-cell {
+            background: var(--bg-white);
+            border-radius: 10px;
+            padding: 0.6rem 0.25rem 0.5rem;
+            text-align: center;
+            border: 2px solid var(--border);
+            min-height: 76px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0.15rem;
+        }
+
+        .cal-cell.voting {
+            background: var(--bg-white);
+            border-color: var(--blue-accent);
+        }
+
+        .cal-cell.no-voting {
+            background: #f0f1f3;
+            border-color: transparent;
+        }
+
+        .cal-cell.no-voting .cal-date {
+            color: #c0c5ce;
+        }
+
+        .cal-cell.no-voting .cal-dow-label {
+            color: #c0c5ce;
+        }
+
+        .cal-cell.today {
+            border-color: var(--blue-accent);
+            background: var(--blue-accent-light);
+            border-width: 2px;
+            box-shadow: 0 2px 8px rgba(59,130,246,0.15);
+        }
+
+        .cal-cell .cal-dow-label {
+            font-size: 0.6rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--gray-muted);
+        }
+
+        .cal-cell .cal-date {
+            font-size: 1.5rem;
+            font-weight: 900;
+            color: var(--navy);
+            line-height: 1;
+        }
+
+        .cal-cell .cal-hours {
+            font-size: 0.6rem;
+            font-weight: 600;
+            color: var(--gray-subtitle);
+            line-height: 1.25;
+        }
+
+        .cal-cell.today .cal-dow-label { color: var(--blue-accent); }
+        .cal-cell.today .cal-hours { color: var(--blue-accent); font-weight: 700; }
+        .cal-cell.voting .cal-dow-label { color: var(--blue-accent); }
+
+        .cal-cell.no-voting .cal-hours {
+            color: #c0c5ce;
+            font-size: 0.55rem;
+        }
+
+        /* FIND NEAREST */
+        .find-nearest {
+            background: var(--bg-light);
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .find-nearest p {
+            font-size: 0.9rem;
+            color: var(--gray-subtitle);
+            margin-bottom: 0.75rem;
+            font-weight: 500;
+        }
+
+        .find-nearest .find-row {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .find-nearest input[type="text"] {
+            flex: 1;
+            min-width: 140px;
+            padding: 0.6rem 1rem;
+            font-size: 0.9rem;
+            font-family: 'Inter', sans-serif;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            background: var(--bg-white);
+            color: var(--navy);
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .find-nearest input[type="text"]:focus {
+            border-color: var(--blue-accent);
+        }
+
+        .find-nearest button,
+        .find-nearest .btn-geo {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 600;
+            padding: 0.6rem 1rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .find-nearest .btn-zip {
+            background: var(--blue-accent);
+            color: white;
+        }
+
+        .find-nearest .btn-zip:hover { background: #2563eb; }
+
+        .find-nearest .btn-geo {
+            background: var(--bg-white);
+            color: var(--navy);
+            border: 1px solid var(--border);
+        }
+
+        .find-nearest .btn-geo:hover { border-color: var(--navy); }
+
+        .find-nearest .find-status {
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
+            font-weight: 600;
+        }
+
+        .find-nearest .or-divider {
+            display: flex;
+            align-items: center;
+            color: var(--gray-muted);
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        /* LOCATION COUNT */
+        .location-count {
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--gray-muted);
+            margin-bottom: 1rem;
+        }
+
+        /* LOCATION CARDS */
+        .location-card {
+            background: var(--bg-white);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1.25rem 1.5rem;
+            margin-bottom: 0.75rem;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .location-card:hover {
+            border-color: var(--blue-accent);
+            box-shadow: 0 4px 20px rgba(24, 45, 83, 0.08);
+        }
+
+        .location-card .card-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        .location-card h3 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 0.3rem;
+        }
+
+        .location-card .distance {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--blue-accent);
+            white-space: nowrap;
+            background: var(--blue-accent-light);
+            padding: 0.25rem 0.6rem;
+            border-radius: 6px;
+            flex-shrink: 0;
+        }
+
+        .location-card .address {
+            font-size: 0.9rem;
+            color: var(--gray-subtitle);
+        }
+
+        .location-card .address a {
+            color: var(--gray-subtitle);
+            text-decoration: none;
+        }
+
+        .location-card .address a:hover {
+            color: var(--blue-accent);
+            text-decoration: underline;
+        }
+
+        .location-card .hours-detail {
+            margin-top: 0.6rem;
+            font-size: 0.85rem;
+            color: var(--gray-muted);
+            line-height: 1.6;
+        }
+
+        .location-card .hours-detail .date-range {
+            font-weight: 600;
+            color: var(--gray-subtitle);
+        }
+
+        /* NO DATA */
+        .no-data {
+            text-align: center;
+            padding: 3rem 1.5rem;
+        }
+
+        .no-data h3 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 0.75rem;
+        }
+
+        .no-data p {
+            color: var(--gray-subtitle);
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+        }
+
+        .no-data .btn-row {
+            margin-top: 1.5rem;
+            display: flex;
+            justify-content: center;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            display: inline-block;
+            font-family: 'Inter', sans-serif;
+            background: var(--blue-accent);
+            color: white;
+            padding: 0.7rem 1.5rem;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+
+        .btn-primary:hover { background: #2563eb; }
+
+        .btn-secondary {
+            display: inline-block;
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-light);
+            color: var(--navy);
+            padding: 0.7rem 1.5rem;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            border: 1px solid var(--border);
+            transition: all 0.2s;
+        }
+
+        .btn-secondary:hover { border-color: var(--navy); }
+
+        /* MAP */
+        #map-container {
+            margin-bottom: 1.5rem;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+
+        #vote-map {
+            height: 400px;
+            width: 100%;
+            z-index: 1;
+        }
+
+        .leaflet-popup-content-wrapper {
+            border-radius: 10px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .leaflet-popup-content {
+            margin: 10px 14px;
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
+
+        .leaflet-popup-content strong {
+            font-size: 0.9rem;
+            color: var(--navy);
+        }
+
+        .leaflet-popup-content a {
+            color: var(--blue-accent);
+            text-decoration: none;
+        }
+
+        .leaflet-popup-content a:hover { text-decoration: underline; }
+
+        /* FOOTER */
+        footer {
+            background: var(--navy);
+            color: rgba(255,255,255,0.6);
+            padding: 3rem 2rem;
+            text-align: center;
+            font-size: 0.85rem;
+            line-height: 1.7;
+        }
+
+        footer a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+        }
+
+        footer a:hover { color: white; }
+
+        /* RESPONSIVE */
+        @media (max-width: 640px) {
+            nav { padding: 0 1rem; }
+            .hero { padding: 4rem 1.25rem 2.5rem; }
+            .hero h1 { font-size: 2.8rem; }
+            .search-section { padding: 2rem 1.25rem; }
+            .results-container { padding: 1.5rem 1rem 3rem; }
+            .county-header h2 { font-size: 1.6rem; }
+            .location-card { padding: 1rem 1.15rem; }
+            .location-card .card-top { flex-direction: column; gap: 0.4rem; }
+            .county-header .meta { flex-direction: column; gap: 0.3rem; }
+            .cal-cell { min-height: 58px; padding: 0.4rem 0.1rem; }
+            .cal-cell .cal-date { font-size: 1.1rem; }
+            .cal-cell .cal-hours { font-size: 0.5rem; }
+            .cal-cell .cal-dow-label { font-size: 0.5rem; }
+            .cal-week-header span { font-size: 0.55rem; }
+            .cal-week, .cal-week-header { gap: 2px; }
+            .find-nearest .find-row { flex-direction: column; }
+            .find-nearest .or-divider { justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="logo">Texas Early Vote</div>
+    <div class="nav-links">
+        <a href="#top">Find Locations</a>
+        <a href="https://www.votetexas.gov" target="_blank">VoteTexas.gov</a>
+    </div>
+</nav>
+
+<section class="hero" id="top">
+    <h1>FIND YOUR VOTE CENTER</h1>
+    <p class="subtitle">
+        Look up early voting locations and hours for the 2026 Texas primary election. You can vote at any early vote center in your county.
+    </p>
+    <span class="dates-pill">Early Voting: Feb 17 &ndash; Feb 27, 2026</span>
+</section>
+
+<section class="search-section">
+    <div class="search-inner">
+        <label for="county-input">Select your county</label>
+        <div class="combobox" id="combobox">
+            <input type="text" id="county-input" placeholder="Search counties..." autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list">
+            <div class="chevron">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3.5 5.25L7 8.75L10.5 5.25" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="dropdown" id="county-dropdown" role="listbox"></div>
+        </div>
+    </div>
+</section>
+
+<div class="results-container">
+    <div id="results"></div>
+
+</div>
+
+<footer>
+    <p>Data sourced from county election offices. For official information, visit
+    <a href="https://www.votetexas.gov" target="_blank">VoteTexas.gov</a> or contact your
+    <a href="https://www.sos.state.tx.us/elections/voter/links.shtml#County" target="_blank">county election office</a>.</p>
+    <p style="margin-top:0.5rem;">This site is not affiliated with the Texas Secretary of State.</p>
+    <p style="margin-top:1rem; opacity: 0.5;">Paid for by Relentless PAC</p>
+</footer>
+
+<script>
+let COUNTIES = {};
+let userCoords = null;
+let countyNames = [];
+let activeIndex = -1;
+let currentCounty = null;
+let map = null;
+let mapMarkers = [];
+let userMarker = null;
+
+async function init() {
+    try {
+        const resp = await fetch('data/counties.js');
+        COUNTIES = await resp.json();
+    } catch(e) {
+        console.error('Failed to load county data:', e);
+        return;
+    }
+
+    countyNames = Object.keys(COUNTIES).sort();
+    setupCombobox();
+
+    const hash = decodeURIComponent(window.location.hash.replace('#', ''));
+    if (hash && COUNTIES[hash]) {
+        document.getElementById('county-input').value = hash + ' County';
+        showCounty(hash);
+    }
+}
+
+function setupCombobox() {
+    const input = document.getElementById('county-input');
+    const dropdown = document.getElementById('county-dropdown');
+
+    function renderDropdown(filter) {
+        const query = (filter || '').toLowerCase().replace(' county', '').trim();
+        const filtered = query
+            ? countyNames.filter(n => n.toLowerCase().includes(query))
+            : countyNames;
+
+        dropdown.innerHTML = '';
+        activeIndex = -1;
+
+        if (filtered.length === 0) {
+            dropdown.innerHTML = '<div class="dropdown-empty">No counties found</div>';
+        } else {
+            filtered.forEach((name, i) => {
+                const item = document.createElement('div');
+                item.className = 'dropdown-item';
+                item.setAttribute('role', 'option');
+                item.textContent = name + ' County';
+                item.addEventListener('mousedown', (e) => {
+                    e.preventDefault();
+                    selectCounty(name);
+                });
+                item.addEventListener('mouseenter', () => {
+                    setActive(i);
+                });
+                dropdown.appendChild(item);
+            });
+        }
+        return filtered;
+    }
+
+    function setActive(idx) {
+        const items = dropdown.querySelectorAll('.dropdown-item');
+        items.forEach(el => el.classList.remove('active'));
+        activeIndex = idx;
+        if (idx >= 0 && idx < items.length) {
+            items[idx].classList.add('active');
+            items[idx].scrollIntoView({ block: 'nearest' });
+        }
+    }
+
+    function selectCounty(name) {
+        input.value = name + ' County';
+        dropdown.classList.remove('open');
+        input.setAttribute('aria-expanded', 'false');
+        showCounty(name);
+    }
+
+    function openDropdown() {
+        renderDropdown(input.value);
+        dropdown.classList.add('open');
+        input.setAttribute('aria-expanded', 'true');
+    }
+
+    input.addEventListener('focus', openDropdown);
+
+    input.addEventListener('input', () => {
+        renderDropdown(input.value);
+        dropdown.classList.add('open');
+        input.setAttribute('aria-expanded', 'true');
+    });
+
+    input.addEventListener('keydown', (e) => {
+        const items = dropdown.querySelectorAll('.dropdown-item');
+        if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            if (!dropdown.classList.contains('open')) openDropdown();
+            setActive(Math.min(activeIndex + 1, items.length - 1));
+        } else if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            setActive(Math.max(activeIndex - 1, 0));
+        } else if (e.key === 'Enter') {
+            e.preventDefault();
+            if (activeIndex >= 0 && items[activeIndex]) {
+                const name = items[activeIndex].textContent.replace(' County', '');
+                selectCounty(name);
+            }
+        } else if (e.key === 'Escape') {
+            dropdown.classList.remove('open');
+            input.setAttribute('aria-expanded', 'false');
+        }
+    });
+
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('#combobox')) {
+            dropdown.classList.remove('open');
+            input.setAttribute('aria-expanded', 'false');
+        }
+    });
+}
+
+// Haversine distance in miles
+function getDistance(lat1, lon1, lat2, lon2) {
+    const R = 3959;
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLon = (lon2 - lon1) * Math.PI / 180;
+    const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180) * Math.cos(lat2*Math.PI/180) * Math.sin(dLon/2)**2;
+    return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
+
+const geocodeCache = {};
+let geocodeQueue = Promise.resolve();
+async function geocodeAddress(address) {
+    if (geocodeCache[address]) return geocodeCache[address];
+    // Queue requests to respect Nominatim 1 req/sec rate limit
+    const result = await new Promise((resolve) => {
+        geocodeQueue = geocodeQueue.then(async () => {
+            if (geocodeCache[address]) { resolve(geocodeCache[address]); return; }
+            try {
+                const resp = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}&limit=1`, {
+                    headers: { 'User-Agent': 'TXEarlyVote/1.0' }
+                });
+                const data = await resp.json();
+                if (data.length > 0) {
+                    const r = { lat: parseFloat(data[0].lat), lon: parseFloat(data[0].lon) };
+                    geocodeCache[address] = r;
+                    resolve(r);
+                } else {
+                    resolve(null);
+                }
+            } catch(e) { console.warn('Geocode failed for', address); resolve(null); }
+            // Wait 1.1s before next request
+            await new Promise(r => setTimeout(r, 1100));
+        });
+    });
+    return result;
+}
+
+async function sortByDistance(locations, countyName) {
+    if (!userCoords) return locations;
+    const withCoords = await Promise.all(locations.map(async (loc) => {
+        let coords = null;
+        if (loc.lat && loc.lon) {
+            coords = { lat: loc.lat, lon: loc.lon };
+        } else {
+            const addr = loc.address || (loc.name + ', ' + countyName + ' County, TX');
+            coords = await geocodeAddress(addr);
+        }
+        let dist = null;
+        if (coords) dist = getDistance(userCoords.lat, userCoords.lon, coords.lat, coords.lon);
+        return { ...loc, _dist: dist, _coords: coords };
+    }));
+    withCoords.sort((a, b) => {
+        if (a._dist === null && b._dist === null) return 0;
+        if (a._dist === null) return 1;
+        if (b._dist === null) return -1;
+        return a._dist - b._dist;
+    });
+    return withCoords;
+}
+
+async function findByZip(countyName) {
+    const zipInput = document.getElementById('zip-input');
+    const statusEl = document.getElementById('find-status');
+    const zip = zipInput.value.trim();
+    if (!/^\d{5}$/.test(zip)) {
+        statusEl.textContent = 'Please enter a 5-digit zip code';
+        statusEl.style.color = 'var(--red-accent)';
+        return;
+    }
+    statusEl.textContent = 'Looking up zip code...';
+    statusEl.style.color = 'var(--gray-muted)';
+    const coords = await geocodeAddress(zip + ', TX');
+    if (coords) {
+        userCoords = coords;
+        statusEl.textContent = 'Sorting by distance...';
+        await showCounty(countyName);
+    } else {
+        statusEl.textContent = 'Could not find that zip code';
+        statusEl.style.color = 'var(--red-accent)';
+    }
+}
+
+function findByGeo(countyName) {
+    const statusEl = document.getElementById('find-status');
+    if (!navigator.geolocation) {
+        statusEl.textContent = 'Geolocation not supported by your browser';
+        statusEl.style.color = 'var(--red-accent)';
+        return;
+    }
+    statusEl.textContent = 'Finding your location...';
+    statusEl.style.color = 'var(--gray-muted)';
+    navigator.geolocation.getCurrentPosition(
+        async (pos) => {
+            userCoords = { lat: pos.coords.latitude, lon: pos.coords.longitude };
+            statusEl.textContent = 'Sorting by distance...';
+            await showCounty(countyName);
+        },
+        () => {
+            statusEl.textContent = 'Location access denied. Try entering a zip code instead.';
+            statusEl.style.color = 'var(--red-accent)';
+        },
+        { enableHighAccuracy: false, timeout: 10000 }
+    );
+}
+
+// Build calendar from hours data - looks like a real week calendar
+function buildCalendarHTML(hours) {
+    const today = new Date();
+    today.setHours(0,0,0,0);
+
+    // Get hours for a specific day
+    function getHoursForDay(d) {
+        for (const h of hours) {
+            const dStr = h.dates.toLowerCase();
+            // Range: "Feb 17-21" or "Feb 17-20"
+            const rangeMatch = dStr.match(/feb(?:ruary)?\s*(\d+)\s*[-–]\s*(\d+)/);
+            if (rangeMatch) {
+                const start = parseInt(rangeMatch[1]);
+                const end = parseInt(rangeMatch[2]);
+                if (d >= start && d <= end) return h.hours;
+            }
+            // Single date: "Feb 22" or "Feb 21"
+            const singleMatch = dStr.match(/feb(?:ruary)?\s*(\d+)/);
+            if (singleMatch && !dStr.match(/feb(?:ruary)?\s*\d+\s*[-–]/)) {
+                if (parseInt(singleMatch[1]) === d) return h.hours;
+            }
+        }
+        return null;
+    }
+
+    function shortHours(h) {
+        if (!h) return '';
+        // Normalize to "7 am - 7 pm" style
+        return h
+            .replace(/:00/g, '')
+            .replace(/\s*AM/gi, ' am')
+            .replace(/\s*PM/gi, ' pm');
+    }
+
+    // Week 1: Sun Feb 15 - Sat Feb 21
+    // Week 2: Sun Feb 22 - Sat Feb 28
+    // EV is Feb 17-27
+    let html = '<div class="hours-calendar"><h3>Early Voting Schedule</h3>';
+
+    const dayAbbrs = ['SUN','MON','TUE','WED','THU','FRI','SAT'];
+
+    // Week 1: Feb 15 (Sun) through Feb 21 (Sat)
+    html += '<div class="cal-week">';
+    for (let d = 15; d <= 21; d++) {
+        const date = new Date(2026, 1, d);
+        const dow = date.getDay();
+        const isToday = date.getTime() === today.getTime();
+        const isEV = d >= 17; // EV starts Feb 17
+        const hrs = isEV ? getHoursForDay(d) : null;
+        const noVoting = !isEV;
+        const classes = ['cal-cell'];
+        if (noVoting) classes.push('no-voting');
+        else classes.push('voting');
+        if (isToday) classes.push('today');
+
+        html += `<div class="${classes.join(' ')}">
+            <div class="cal-dow-label">${dayAbbrs[dow]}</div>
+            <div class="cal-date">${d}</div>
+            <div class="cal-hours">${noVoting ? 'No voting' : shortHours(hrs) || 'Hours vary'}</div>
+        </div>`;
+    }
+    html += '</div>';
+
+    // Week 2: Feb 22 (Sun) through Feb 28 (Sat)
+    html += '<div class="cal-week">';
+    for (let d = 22; d <= 28; d++) {
+        const date = new Date(2026, 1, d);
+        const dow = date.getDay();
+        const isToday = date.getTime() === today.getTime();
+        const isEV = d <= 27; // EV ends Feb 27
+        const hrs = isEV ? getHoursForDay(d) : null;
+        const noVoting = !isEV;
+        const classes = ['cal-cell'];
+        if (noVoting) classes.push('no-voting');
+        else classes.push('voting');
+        if (isToday) classes.push('today');
+
+        html += `<div class="${classes.join(' ')}">
+            <div class="cal-dow-label">${dayAbbrs[dow]}</div>
+            <div class="cal-date">${d}</div>
+            <div class="cal-hours">${noVoting ? 'No voting' : shortHours(hrs) || 'Hours vary'}</div>
+        </div>`;
+    }
+    html += '</div>';
+
+    html += '</div>';
+    return html;
+}
+
+async function showCounty(name) {
+    const data = COUNTIES[name];
+    if (!data) return;
+    currentCounty = name;
+
+    window.location.hash = encodeURIComponent(name);
+    const results = document.getElementById('results');
+    results.style.display = 'block';
+
+    let html = `<div class="county-header">
+        <h2>${name} County</h2>
+        <div class="meta">`;
+    if (data.website) html += `<a href="${data.website}" target="_blank">Election Office Website</a>`;
+    if (data.phone) html += `<span>Phone: <a href="tel:${data.phone}">${data.phone}</a></span>`;
+    if (data.pdfUrl) html += `<a href="${data.pdfUrl}" target="_blank">Early Voting PDF</a>`;
+    html += `</div></div>`;
+
+    let locs = null;
+
+    if (data.locations && data.locations.length > 0) {
+        // Calendar hours
+        if (data.hours) {
+            html += buildCalendarHTML(data.hours);
+        }
+
+        // Find nearest for counties with 5+ locations
+        const showFind = data.locations.length >= 5;
+        if (showFind) {
+            html += `<div class="find-nearest">
+                <p>Find the closest vote center to you</p>
+                <div class="find-row">
+                    <input type="text" id="zip-input" placeholder="Enter zip code" maxlength="5" value="${document.getElementById('zip-input')?.value || ''}" onkeydown="if(event.key==='Enter'){event.preventDefault();findByZip('${name}');}">
+                    <button class="btn-zip" onclick="findByZip('${name}')">Search</button>
+                    <span class="or-divider">or</span>
+                    <button class="btn-geo" onclick="findByGeo('${name}')">Use my location</button>
+                </div>
+                <div id="find-status" class="find-status">${userCoords ? '<span style="color:var(--green)">Sorted by distance</span>' : ''}</div>
+            </div>`;
+        }
+
+        // Sort by distance if we have coords
+        locs = data.locations;
+        if (userCoords && showFind) {
+            locs = await sortByDistance(data.locations, name);
+        }
+
+        // Map container
+        html += `<div id="map-container"><div id="vote-map"></div></div>`;
+
+        html += `<p class="location-count">${locs.length} early voting location${locs.length !== 1 ? 's' : ''}</p>`;
+
+        locs.forEach((loc, idx) => {
+            const addr = loc.address || '';
+            const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(addr || loc.name + ', ' + name + ' County, TX')}`;
+            html += `<div class="location-card" data-loc-idx="${idx}"><div class="card-top"><div>
+                <h3>${loc.name}</h3>`;
+            if (addr) html += `<p class="address"><a href="${mapsUrl}" target="_blank">${addr}</a></p>`;
+            html += `</div>`;
+            if (loc._dist !== undefined && loc._dist !== null) {
+                html += `<span class="distance">${loc._dist.toFixed(1)} mi</span>`;
+            }
+            html += `</div>`;
+            if (loc.hours && loc.hours.length > 0) {
+                html += `<div class="hours-detail">`;
+                loc.hours.forEach(h => {
+                    html += `<span class="date-range">${h.dates}:</span> ${h.hours}<br>`;
+                });
+                html += `</div>`;
+            }
+            html += `</div>`;
+        });
+    } else {
+        html += `<div class="no-data">
+            <h3>Detailed locations coming soon</h3>
+            <p>Visit your county's election office for early voting locations and hours.</p>
+            <div class="btn-row">`;
+        if (data.pdfUrl) html += `<a href="${data.pdfUrl}" target="_blank" class="btn-primary">View Early Voting PDF</a>`;
+        if (data.website) html += `<a href="${data.website}" target="_blank" class="btn-secondary">County Election Website</a>`;
+        html += `</div>
+            <p style="margin-top:1.25rem;font-size:0.85rem;">You can also check <a href="https://www.votetexas.gov/voting/where.html" target="_blank" style="color:var(--blue-accent);">VoteTexas.gov</a> to find your vote center.</p>
+        </div>`;
+    }
+
+    results.innerHTML = html;
+
+    // Initialize map if we have locations
+    if (data.locations && data.locations.length > 0) {
+        await initMap(locs || data.locations, name);
+        // After zip/geo search, scroll to map so user sees their location
+        if (userCoords) {
+            const mapContainer = document.getElementById('map-container');
+            if (mapContainer) mapContainer.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        } else {
+            results.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    } else {
+        results.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+}
+
+async function initMap(locs, countyName) {
+    // Clean up previous map
+    if (map) { map.remove(); map = null; }
+    mapMarkers = [];
+
+    const mapEl = document.getElementById('vote-map');
+    if (!mapEl) return;
+
+    map = L.map('vote-map', { scrollWheelZoom: false });
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors',
+        maxZoom: 18
+    }).addTo(map);
+
+    // Custom blue marker icon
+    const pinIcon = L.divIcon({
+        className: '',
+        html: `<svg width="28" height="36" viewBox="0 0 28 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14 0C6.268 0 0 6.268 0 14c0 10.5 14 22 14 22s14-11.5 14-22C28 6.268 21.732 0 14 0z" fill="#3b82f6"/>
+            <circle cx="14" cy="14" r="6" fill="white"/>
+        </svg>`,
+        iconSize: [28, 36],
+        iconAnchor: [14, 36],
+        popupAnchor: [0, -36]
+    });
+
+    const bounds = L.latLngBounds();
+    let hasAnyCoords = false;
+
+    // Use pre-stored lat/lon, _coords from distance sorting, or geocode as fallback
+    for (let i = 0; i < locs.length; i++) {
+        const loc = locs[i];
+        let coords = null;
+        if (loc.lat && loc.lon) {
+            coords = { lat: loc.lat, lon: loc.lon };
+        } else if (loc._coords) {
+            coords = loc._coords;
+        } else {
+            const addr = loc.address || (loc.name + ', ' + countyName + ' County, TX');
+            coords = await geocodeAddress(addr);
+        }
+        if (coords) {
+            hasAnyCoords = true;
+            const marker = L.marker([coords.lat, coords.lon], { icon: pinIcon }).addTo(map);
+            const addr = loc.address || '';
+            const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(addr || loc.name)}`;
+            let popupHtml = `<strong>${loc.name}</strong>`;
+            if (addr) popupHtml += `<br>${addr}`;
+            if (loc._dist !== null && loc._dist !== undefined) popupHtml += `<br><strong style="color:#3b82f6">${loc._dist.toFixed(1)} mi away</strong>`;
+            popupHtml += `<br><a href="${mapsUrl}" target="_blank">Get Directions</a>`;
+            marker.bindPopup(popupHtml);
+
+            // Highlight card on marker click
+            marker.on('click', () => {
+                const card = document.querySelector(`[data-loc-idx="${i}"]`);
+                if (card) {
+                    card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    card.style.borderColor = 'var(--blue-accent)';
+                    card.style.boxShadow = '0 4px 20px rgba(59,130,246,0.2)';
+                    setTimeout(() => {
+                        card.style.borderColor = '';
+                        card.style.boxShadow = '';
+                    }, 2000);
+                }
+            });
+
+            bounds.extend([coords.lat, coords.lon]);
+            mapMarkers.push(marker);
+        }
+    }
+
+    // Add user location marker if available
+    if (userCoords) {
+        const userIcon = L.divIcon({
+            className: '',
+            html: `<div style="width:16px;height:16px;background:#22c55e;border:3px solid white;border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,0.3);"></div>`,
+            iconSize: [16, 16],
+            iconAnchor: [8, 8]
+        });
+        userMarker = L.marker([userCoords.lat, userCoords.lon], { icon: userIcon }).addTo(map);
+        userMarker.bindPopup('<strong>Your location</strong>');
+        bounds.extend([userCoords.lat, userCoords.lon]);
+        hasAnyCoords = true;
+    }
+
+    if (hasAnyCoords) {
+        map.fitBounds(bounds, { padding: [30, 30], maxZoom: 13 });
+    } else {
+        // Default to rough center of Texas
+        map.setView([31.0, -97.5], 7);
+    }
+
+    // Enable scroll zoom after first interaction
+    map.on('focus', () => map.scrollWheelZoom.enable());
+    map.on('blur', () => map.scrollWheelZoom.disable());
+}
+
+init();
+</script>
+
+</body>
+</html>
