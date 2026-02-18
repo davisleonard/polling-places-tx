@@ -4,7 +4,9 @@
     "locations": [
       {
         "name": "Anderson County Courthouse Annex",
-        "address": "703 N Mallard St, Suite 116, Palestine, TX 75801"
+        "address": "703 N Mallard St, Suite 116, Palestine, TX 75801",
+        "lat": 31.7663664,
+        "lon": -95.6279981
       }
     ],
     "hours": [
