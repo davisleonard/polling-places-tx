@@ -598,6 +598,28 @@
             flex-wrap: wrap;
         }
 
+        .pdf-embed-container {
+            margin-top: 1.5rem;
+            border: 1px solid var(--gray-border);
+            border-radius: 12px;
+            overflow: hidden;
+            background: #f8f8f8;
+        }
+
+        .pdf-embed-container iframe {
+            width: 100%;
+            height: 75vh;
+            min-height: 500px;
+            border: none;
+        }
+
+        @media (max-width: 600px) {
+            .pdf-embed-container iframe {
+                height: 60vh;
+                min-height: 350px;
+            }
+        }
+
         .btn-primary {
             display: inline-block;
             font-family: 'Inter', sans-serif;
@@ -812,7 +834,7 @@
 
 </div>
 
-<p style="text-align:center;padding:1.5rem 2rem;color:var(--gray-muted);font-size:0.9rem;">You can also look up your voting locations in the <a href="https://teamrv-mvp.sos.texas.gov/MVP/mvp.do" target="_blank" style="color:var(--gray-muted);text-decoration:underline;">Texas MyVoter Portal</a>.</p>
+<p style="text-align:center;padding:1.5rem 2rem;color:var(--gray-muted);font-size:0.9rem;">You can also look up your voting locations in the <a href="https://goelect.txelections.civixapps.com/ivis-mvp-ui/#/login" target="_blank" style="color:var(--gray-muted);text-decoration:underline;">Texas Secretary of State Voter Portal</a>.</p>
 
 <section class="voting-plan-cta">
     <h2>Make Your Voting Plan</h2>
@@ -1307,18 +1329,26 @@ async function showCounty(name) {
             html += `</div>`;
         });
     } else {
-        html += `<div class="no-data">
-            <h3>Early Voting Locations</h3>
-            <p>Access ${name} County's vote centers and hours here:</p>
-            <div class="btn-row">`;
         const hasPdf = data.pdfUrl || (data.evSourceUrl && data.evSourceUrl.endsWith('.pdf'));
-        if (data.pdfUrl) html += `<a href="${data.pdfUrl}" target="_blank" class="btn-primary">View Early Voting PDF</a>`;
+        const isLocalPdf = data.pdfUrl && data.pdfUrl.startsWith('docs and pdfs/');
+        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+        const canEmbed = isLocalPdf && !isMobile;
+        html += `<div class="no-data">
+            <h3>Early Voting Locations</h3>`;
+        if (!canEmbed) html += `<p>Access ${name} County's vote centers and hours here:</p>`;
+        html += `<div class="btn-row">`;
+        if (data.pdfUrl) html += `<a href="${data.pdfUrl}" target="_blank" class="btn-primary">${canEmbed ? 'Open PDF in New Tab' : 'View Early Voting PDF'}</a>`;
         if (data.evSourceUrl) html += `<a href="${data.evSourceUrl}" target="_blank" class="btn-primary">${data.evSourceLabel || 'Early Voting Locations'}</a>`;
         if (data.evPageUrl) html += `<a href="${data.evPageUrl}" target="_blank" class="btn-primary">${data.evPageLabel || 'Voting Locations on County Site'}</a>`;
         if (!hasPdf && !data.evPageUrl && data.website && data.website !== data.evSourceUrl) html += `<a href="${data.website}" target="_blank" class="btn-secondary">County Election Website</a>`;
-        if (!hasPdf && !data.evPageUrl) html += `<a href="https://www.votetexas.gov/voting/where.html" target="_blank" class="btn-secondary">Look Up on VoteTexas.gov</a>`;
+        if (!hasPdf && !data.evPageUrl) html += `<a href="https://goelect.txelections.civixapps.com/ivis-mvp-ui/#/login" target="_blank" class="btn-secondary">Find Your Polling Place</a>`;
         html += `</div>`;
         if (data.phone) html += `<p style="margin-top:1rem;font-size:0.9rem;">Or call the ${name} County election office: <a href="tel:${data.phone}">${data.phone}</a></p>`;
+        if (canEmbed) {
+            html += `<div class="pdf-embed-container">
+                <iframe src="${data.pdfUrl}" title="${name} County Early Voting Locations"></iframe>
+            </div>`;
+        }
         html += `</div>`;
     }
 
