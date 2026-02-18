@@ -1242,10 +1242,11 @@ async function showCounty(name) {
             <h3>Early Voting Locations</h3>
             <p>Access ${name} County's vote centers and hours here:</p>
             <div class="btn-row">`;
+        const hasPdf = data.pdfUrl || (data.evSourceUrl && data.evSourceUrl.endsWith('.pdf'));
         if (data.pdfUrl) html += `<a href="${data.pdfUrl}" target="_blank" class="btn-primary">View Early Voting PDF</a>`;
         if (data.evSourceUrl) html += `<a href="${data.evSourceUrl}" target="_blank" class="btn-primary">${data.evSourceLabel || 'Early Voting Locations'}</a>`;
-        if (data.website && data.website !== data.evSourceUrl) html += `<a href="${data.website}" target="_blank" class="btn-primary">County Election Website</a>`;
-        html += `<a href="https://www.votetexas.gov/voting/where.html" target="_blank" class="btn-secondary">Look Up on VoteTexas.gov</a>`;
+        if (!hasPdf && data.website && data.website !== data.evSourceUrl) html += `<a href="${data.website}" target="_blank" class="btn-secondary">County Election Website</a>`;
+        if (!hasPdf) html += `<a href="https://www.votetexas.gov/voting/where.html" target="_blank" class="btn-secondary">Look Up on VoteTexas.gov</a>`;
         html += `</div>`;
         if (data.phone) html += `<p style="margin-top:1rem;font-size:0.9rem;">Or call the ${name} County election office: <a href="tel:${data.phone}">${data.phone}</a></p>`;
         html += `</div>`;
