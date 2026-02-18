@@ -72,15 +72,21 @@
       },
       {
         "name": "T.L.L. Temple Memorial Library (John Hannah Room)",
-        "address": "300 Park St, Lufkin, TX 75901"
+        "address": "300 Park St, Lufkin, TX 75901",
+        "lat": 31.3386242,
+        "lon": -94.7288558
       },
       {
         "name": "Clawson Assembly of God Church",
-        "address": "5569 US 69 N, Lufkin, TX 75904"
+        "address": "5569 US 69 N, Lufkin, TX 75904",
+        "lat": 31.3386242,
+        "lon": -94.7288558
       },
       {
         "name": "Angelina County Zavalla Sub Courthouse",
-        "address": "16663 FM 2190, Zavalla, TX 75980"
+        "address": "16663 FM 2190, Zavalla, TX 75980",
+        "lat": 31.1569346,
+        "lon": -94.4175196
       },
       {
         "name": "Huntington Civic Center",
@@ -216,7 +222,9 @@
       },
       {
         "name": "Temple ISD Admin Building",
-        "address": "401 Santa Fe Way, Temple, TX 76501"
+        "address": "401 Santa Fe Way, Temple, TX 76501",
+        "lat": 31.0983747,
+        "lon": -97.3429563
       }
     ],
     "evPageUrl": "https://www.bellcountytx.com/departments/elections/early_voting_information.php"
@@ -650,7 +658,9 @@
       },
       {
         "name": "Westside Event Center",
-        "address": "2150 Countryplace Pkwy, Pearland, TX 77584"
+        "address": "2150 Countryplace Pkwy, Pearland, TX 77584",
+        "lat": 29.5639758,
+        "lon": -95.2864299
       },
       {
         "name": "Lake Jackson Civic Center",
@@ -865,7 +875,9 @@
       },
       {
         "name": "Cameron Park Community Center (El Centro Cultural)",
-        "address": "2100 Gregory Ave, Brownsville, TX 78520"
+        "address": "2100 Gregory Ave, Brownsville, TX 78520",
+        "lat": 25.9024289,
+        "lon": -97.4981698
       },
       {
         "name": "Harlingen County Annex Bldg.",
@@ -1387,7 +1399,9 @@
       },
       {
         "name": "St. Francis by the Lake Episcopal Church",
-        "address": "121 Spring Mountain Dr, Canyon Lake, TX 78133"
+        "address": "121 Spring Mountain Dr, Canyon Lake, TX 78133",
+        "lat": 29.8643185,
+        "lon": -98.2437802
       },
       {
         "name": "Garden Ridge City Hall (Municipal Court Room)",
@@ -2088,7 +2102,9 @@
       },
       {
         "name": "Celina Fire Station #3 - Community Room",
-        "address": "4400 FM 1385, Aubrey, TX 76227"
+        "address": "4400 FM 1385, Aubrey, TX 76227",
+        "lat": 33.3142085,
+        "lon": -96.9756323
       },
       {
         "name": "Bartonville Town Hall - Council Chambers",
@@ -2937,7 +2953,9 @@
       },
       {
         "name": "FBC ESD No. 4 Admin. Bldg.",
-        "address": "33301 FM 1093 Rd, Fulshear, TX 77441"
+        "address": "33301 FM 1093 Rd, Fulshear, TX 77441",
+        "lat": 29.6925638,
+        "lon": -95.9001865
       },
       {
         "name": "Four Corners Community Center",
@@ -3013,7 +3031,9 @@
       },
       {
         "name": "Fulshear Branch Library",
-        "address": "6350 GM Library Road, Fulshear, TX 77441"
+        "address": "6350 GM Library Road, Fulshear, TX 77441",
+        "lat": 29.6925638,
+        "lon": -95.9001865
       },
       {
         "name": "George Memorial Library",
@@ -3206,7 +3226,9 @@
       },
       {
         "name": "Galveston County Courthouse",
-        "address": "722 Moody (2nd Floor), Galveston, TX 77550"
+        "address": "722 Moody (2nd Floor), Galveston, TX 77550",
+        "lat": 29.3056996,
+        "lon": -94.7933252
       },
       {
         "name": "Galveston County Justice Center",
@@ -3222,7 +3244,9 @@
       },
       {
         "name": "Seaside Church",
-        "address": "16523 Termini-San Luis Pass, Jamaica Beach, TX 77563"
+        "address": "16523 Termini-San Luis Pass, Jamaica Beach, TX 77563",
+        "lat": 29.1831247,
+        "lon": -94.9729396
       },
       {
         "name": "MUD 12 Building",
@@ -3256,7 +3280,9 @@
       },
       {
         "name": "Bay Colony West HOA",
-        "address": "6621 Calder Rd, Dickinson, TX 77539"
+        "address": "6621 Calder Rd, Dickinson, TX 77539",
+        "lat": 29.4607876,
+        "lon": -95.0513173
       },
       {
         "name": "Santa Fe ISD Museum",
@@ -3553,11 +3579,15 @@
       },
       {
         "name": "Broughton Recreation Center",
-        "address": "801 S MLK Jr Blvd, Longview, TX 75602"
+        "address": "801 S MLK Jr Blvd, Longview, TX 75602",
+        "lat": 32.5007031,
+        "lon": -94.74049
       },
       {
         "name": "Elderville Community Center",
-        "address": "10450 Hwy 349, Longview, TX 75603"
+        "address": "10450 Hwy 349, Longview, TX 75603",
+        "lat": 32.5007031,
+        "lon": -94.74049
       }
     ],
     "evPageUrl": "https://www.greggcountyvotes.com/"
@@ -3834,7 +3864,9 @@
       },
       {
         "name": "Sheldon ISD Early Childhood Center \u2013 Main Lobby",
-        "address": "11411 C.E. King Parkway, Houston, TX 77044"
+        "address": "11411 C.E. King Parkway, Houston, TX 77044",
+        "lat": 29.7589382,
+        "lon": -95.3676974
       },
       {
         "name": "Iglesia Mundo De Fe (World of Faith Church) \u2013 Main Auditorium",
@@ -3910,7 +3942,9 @@
       },
       {
         "name": "Compaq Center at Brookhollow \u2013 Entrance A",
-        "address": "10510 Fountainview Drive, Houston, TX 77042"
+        "address": "10510 Fountainview Drive, Houston, TX 77042",
+        "lat": 29.7589382,
+        "lon": -95.3676974
       },
       {
         "name": "Clinton Park Swim Center \u2013 Meeting Room",
@@ -3962,7 +3996,9 @@
       },
       {
         "name": "Dodson Lake Activity Center \u2013 Main Room",
-        "address": "611 Olive Avenue, South Houston, TX 77587"
+        "address": "611 Olive Avenue, South Houston, TX 77587",
+        "lat": 29.663008,
+        "lon": -95.2354902
       },
       {
         "name": "HCPL Maud Smith Marks Branch Library \u2013 Meeting Room",
@@ -4026,7 +4062,9 @@
       },
       {
         "name": "Lone Star College Creekside \u2013 Room 116",
-        "address": "8747 West New Harmony Trail, Tomball, TX 77375"
+        "address": "8747 West New Harmony Trail, Tomball, TX 77375",
+        "lat": 30.0971621,
+        "lon": -95.6160549
       },
       {
         "name": "Hockley Community Center \u2013 Room ABC",
@@ -4164,7 +4202,9 @@
       },
       {
         "name": "La Cima Amenity Center",
-        "address": "301A Central Park Loop, San Marcos, TX 78666"
+        "address": "301A Central Park Loop, San Marcos, TX 78666",
+        "lat": 29.8826436,
+        "lon": -97.9405828
       },
       {
         "name": "HCISD Academic Support Center",
@@ -4307,11 +4347,15 @@
       },
       {
         "name": "Hidalgo Public Library - Conference Room",
-        "address": "710 Ram\u00f3n Ayala Dr., Hidalgo, TX 78557"
+        "address": "710 Ram\u00f3n Ayala Dr., Hidalgo, TX 78557",
+        "lat": 26.1019892,
+        "lon": -98.2577597
       },
       {
         "name": "La Joya Youth Center - Back Room",
-        "address": "604 Salomon Chapa Dr., La Joya, TX 78560"
+        "address": "604 Salomon Chapa Dr., La Joya, TX 78560",
+        "lat": 26.2470165,
+        "lon": -98.4814092
       },
       {
         "name": "La Villa ISD Multi-Purpose Service Center - Meeting Room A",
@@ -4375,7 +4419,9 @@
       },
       {
         "name": "Pct. 3 Field Operations Office - Old Workshop Training Room",
-        "address": "8320 W. Mile 7 Rd., Mission, TX 78572"
+        "address": "8320 W. Mile 7 Rd., Mission, TX 78572",
+        "lat": 26.2159066,
+        "lon": -98.3252932
       },
       {
         "name": "Monte Alto ISD Teaching and Learning Center - Meeting Room",
@@ -4731,7 +4777,9 @@
     "locations": [
       {
         "name": "Ray Chesson Office Building Courtroom",
-        "address": "19217 FM 365, Beaumont, TX 77705"
+        "address": "19217 FM 365, Beaumont, TX 77705",
+        "lat": 30.0829344,
+        "lon": -94.0984277
       },
       {
         "name": "Marion & Ed Hughes Public Library",
@@ -5162,7 +5210,9 @@
       },
       {
         "name": "Cleveland Civic Center",
-        "address": "210 Peach Ave, Cleveland, TX 77327"
+        "address": "210 Peach Ave, Cleveland, TX 77327",
+        "lat": 30.3414794,
+        "lon": -95.0900115
       },
       {
         "name": "Liberty County Clerk Election Office",
@@ -5619,7 +5669,9 @@
       },
       {
         "name": "East Montgomery County Fair Association Building",
-        "address": "21675A McCleskey Rd, New Caney, TX 77357"
+        "address": "21675A McCleskey Rd, New Caney, TX 77357",
+        "lat": 30.155216,
+        "lon": -95.2113221
       },
       {
         "name": "Magnolia Event Center Annex",
@@ -6078,7 +6130,9 @@
       },
       {
         "name": "Casey Carpet One (Main Entrance)",
-        "address": "3500 I-40 W Frontage Rd, Amarillo, TX 79102"
+        "address": "3500 I-40 W Frontage Rd, Amarillo, TX 79102",
+        "lat": 35.20729,
+        "lon": -101.8371192
       },
       {
         "name": "Cornerstone Outreach (Fellowship Room)",
@@ -6495,7 +6549,9 @@
       },
       {
         "name": "Noonday Community Center",
-        "address": "16662 CR 196, Tyler, TX 75703"
+        "address": "16662 CR 196, Tyler, TX 75703",
+        "lat": 32.3512601,
+        "lon": -95.3010624
       },
       {
         "name": "Whitehouse Methodist Church",
@@ -7126,7 +7182,9 @@
       },
       {
         "name": "Christ Our Savior Lutheran Church \u2013 Fellowship Hall/ Library",
-        "address": "21900 Farm To Market Rd 1431, Lago Vista, TX 78645"
+        "address": "21900 Farm To Market Rd 1431, Lago Vista, TX 78645",
+        "lat": 30.4601975,
+        "lon": -97.9883477
       },
       {
         "name": "Circle C Community Center \u2013 Meeting Rooms 2",
@@ -7238,7 +7296,9 @@
       },
       {
         "name": "Typhoon Texas Waterpark \u2013 Main Lobby",
-        "address": "18500 TX 130 Service Rd, Pflugerville, TX 78660"
+        "address": "18500 TX 130 Service Rd, Pflugerville, TX 78660",
+        "lat": 30.4393696,
+        "lon": -97.6200043
       },
       {
         "name": "Westoak Woods Baptist Church \u2013 CMB Room #104",
