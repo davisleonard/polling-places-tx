@@ -31,13 +31,9 @@
   },
   "Andrews": {
     "website": "https://www.co.andrews.tx.us/190/Elections-Department",
-    "locations": [
-      {
-        "name": "James Roberts Center",
-        "address": "855 E Broadway, Andrews, TX 79714"
-      }
-    ],
-    "phone": "432-524-1463"
+    "phone": "432-524-1463",
+    "evSourceUrl": "https://www.co.andrews.tx.us/190/Elections-Department",
+    "evSourceLabel": "Andrews County Elections"
   },
   "Angelina": {
     "website": "https://www.angelinacounty.net/elections/",
@@ -132,33 +128,9 @@
   },
   "Bastrop": {
     "website": "http://www.bastropvotes.org/",
-    "locations": [
-      {
-        "name": "Bastrop County Courthouse Annex",
-        "address": "804 Pecan St, Bastrop, TX 78602"
-      },
-      {
-        "name": "River Valley Christian Fellowship",
-        "address": "1224 W Hwy 71, Bastrop, TX 78602"
-      },
-      {
-        "name": "Paige Community Center",
-        "address": "107 S Main St, Paige, TX 78659"
-      },
-      {
-        "name": "Bastrop County Community Center",
-        "address": "15 American Legion Dr, Bastrop, TX 78602"
-      },
-      {
-        "name": "Smithville Rec Center",
-        "address": "106 Royston St, Smithville, TX 78957"
-      },
-      {
-        "name": "Bastrop County ESD#2 Station 4",
-        "address": "1432 N Hwy 95, Bastrop, TX 78602"
-      }
-    ],
-    "phone": "512-581-7160"
+    "phone": "512-581-7160",
+    "evSourceUrl": "http://www.bastropvotes.org/",
+    "evSourceLabel": "Bastrop County Elections"
   },
   "Baylor": {
     "website": "https://www.co.baylor.tx.us/page/baylor.Elections",
@@ -167,13 +139,9 @@
   },
   "Bee": {
     "website": "http://www.co.bee.tx.us/",
-    "locations": [
-      {
-        "name": "Elections Administration Office",
-        "address": "107 S St. Mary's St, Beeville, TX 78102"
-      }
-    ],
-    "phone": "361-621-1519"
+    "phone": "361-621-1519",
+    "evSourceUrl": "http://www.co.bee.tx.us/",
+    "evSourceLabel": "Bee County Website"
   },
   "Bell": {
     "website": "https://www.bellcountytx.com/departments/elections/",
@@ -330,11 +298,15 @@
       },
       {
         "name": "Fair Oaks Ranch Police Dept. \u2013 Training Room",
-        "address": "7286 Dietz Elkhorn Dr., Fair Oaks Ranch, TX 78015"
+        "address": "7286 Dietz Elkhorn Dr., Fair Oaks Ranch, TX 78015",
+        "lat": 29.731039340377,
+        "lon": -98.629124393451
       },
       {
         "name": "Frank Garrett Multi Service Center",
-        "address": "1226 N.W. 18th St., San Antonio, TX 78221"
+        "address": "1226 N.W. 18th St., San Antonio, TX 78221",
+        "lat": 29.440427165522,
+        "lon": -98.532386037578
       },
       {
         "name": "Great Northwest Branch Library",
@@ -362,7 +334,9 @@
       },
       {
         "name": "Johnston Branch Library",
-        "address": "6307 Sun Valley Dr., San Antonio, TX 78235"
+        "address": "6307 Sun Valley Dr., San Antonio, TX 78235",
+        "lat": 29.370615147342,
+        "lon": -98.639513614723
       },
       {
         "name": "Kirby City Hall",
@@ -384,7 +358,9 @@
       },
       {
         "name": "Lions Field Adult and Senior Center",
-        "address": "2809 Broadway St., San Antonio, TX 78209"
+        "address": "2809 Broadway St., San Antonio, TX 78209",
+        "lat": 29.452745552494,
+        "lon": -98.472789207107
       },
       {
         "name": "Macedonia Baptist Church",
@@ -442,7 +418,9 @@
       },
       {
         "name": "Our Lady of the Lake University \u2013 Sueltenfus Library Community Room",
-        "address": "411 S.W. 24th St., San Antonio, TX 78207"
+        "address": "411 S.W. 24th St., San Antonio, TX 78207",
+        "lat": 29.432577529402,
+        "lon": -98.542258343563
       },
       {
         "name": "Palo Alto College \u2013 Palomino Center Rm. 110",
@@ -570,16 +548,6 @@
   },
   "Blanco": {
     "website": "http://www.co.blanco.tx.us/",
-    "locations": [
-      {
-        "name": "Blanco County Hoppe Room",
-        "address": "101 E Cypress St, Johnson City, TX 78636"
-      },
-      {
-        "name": "Blanco County South Annex",
-        "address": "402 Blanco Ave, Blanco, TX 78606"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -597,7 +565,9 @@
         "dates": "Feb 23-27",
         "hours": "7:00 AM - 7:00 PM"
       }
-    ]
+    ],
+    "evSourceUrl": "http://www.co.blanco.tx.us/",
+    "evSourceLabel": "Blanco County Website"
   },
   "Borden": {
     "website": "http://www.co.borden.tx.us/default.aspx?Borden_County/Home",
@@ -639,21 +609,9 @@
   },
   "Bowie": {
     "website": "http://www.co.bowie.tx.us/default.aspx?Bowie_County/Elections",
-    "locations": [
-      {
-        "name": "Bowie County Courthouse Elections Workroom",
-        "address": "710 James Bowie Dr, New Boston, TX 75570"
-      },
-      {
-        "name": "Southwest Center (ABC Room)",
-        "address": "3222 W 7th St, Texarkana, TX 75501"
-      },
-      {
-        "name": "Cross Pointe Baptist Church (Gym)",
-        "address": "3130 University Ave, Texarkana, TX 75503"
-      }
-    ],
-    "phone": "903-628-6810"
+    "phone": "903-628-6810",
+    "evSourceUrl": "http://www.co.bowie.tx.us/default.aspx?Bowie_County/Elections",
+    "evSourceLabel": "Bowie County Elections"
   },
   "Brazoria": {
     "website": "https://www.brazoriacountyclerktx.gov/departments/elections/",
@@ -696,7 +654,9 @@
       },
       {
         "name": "Lake Jackson Civic Center",
-        "address": "332 Hwy 332 E, Lake Jackson, TX 77566"
+        "address": "332 Hwy 332 E, Lake Jackson, TX 77566",
+        "lat": 29.013680155677,
+        "lon": -95.429015707589
       }
     ],
     "evPageUrl": "https://www.brazoriacountyclerktx.gov/departments/elections/polling-places-early-voting"
@@ -726,7 +686,9 @@
     "locations": [
       {
         "name": "Brazos County Election Administrator Office (McLeod Training Rm)",
-        "address": "300 E Wm J Bryan Pkwy, Suite 100, Bryan, TX 77803"
+        "address": "300 E Wm J Bryan Pkwy, Suite 100, Bryan, TX 77803",
+        "lat": 30.674492979412,
+        "lon": -96.370960362043
       },
       {
         "name": "Galilee Baptist Church",
@@ -757,12 +719,6 @@
   },
   "Brewster": {
     "website": "https://www.brewstercounty.gov/",
-    "locations": [
-      {
-        "name": "Judge Val Clark Beard Complex",
-        "address": "203 N 7th St, Alpine, TX 79830"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -781,7 +737,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "432-837-6200"
+    "phone": "432-837-6200",
+    "evSourceUrl": "https://www.brewstercounty.gov/",
+    "evSourceLabel": "Brewster County Website"
   },
   "Briscoe": {
     "website": "http://www.co.briscoe.tx.us/",
@@ -795,12 +753,6 @@
   },
   "Brown": {
     "website": "http://www.browncountytx.org/default.aspx?Brown_County/Elections",
-    "locations": [
-      {
-        "name": "Brown County Elections Office",
-        "address": "613 N Fisk St, Brownwood, TX 76801"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -819,57 +771,27 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "325-646-4333"
+    "phone": "325-646-4333",
+    "evSourceUrl": "http://www.browncountytx.org/default.aspx?Brown_County/Elections",
+    "evSourceLabel": "Brown County Elections"
   },
   "Burleson": {
     "website": "http://co.burleson.tx.us/government/elections/",
-    "locations": [
-      {
-        "name": "Burleson County Courthouse",
-        "address": "100 W Buck St, Suite 107, Caldwell, TX 77836"
-      }
-    ],
-    "phone": "979-567-2333"
+    "phone": "979-567-2333",
+    "evSourceUrl": "http://co.burleson.tx.us/government/elections/",
+    "evSourceLabel": "Burleson County Elections"
   },
   "Burnet": {
     "website": "http://www.burnetcountytexas.org/default.aspx?name=elect.home",
-    "locations": [
-      {
-        "name": "AgriLife Auditorium",
-        "address": "607 N Vandeveer, Burnet, TX 78611"
-      },
-      {
-        "name": "Bertram Community Center",
-        "address": "340 S Gabriel St, Bertram, TX 78605"
-      },
-      {
-        "name": "Granite Shoals Community Center",
-        "address": "1208 N Phillips Ranch Rd, Granite Shoals, TX 78654"
-      },
-      {
-        "name": "Texas Tech of the Highland Lakes",
-        "address": "806 Steve Hawkins Pkwy, Marble Falls, TX 78654"
-      }
-    ],
-    "phone": "512-715-5288"
+    "phone": "512-715-5288",
+    "evSourceUrl": "http://www.burnetcountytexas.org/default.aspx?name=elect.home",
+    "evSourceLabel": "Burnet County Website"
   },
   "Caldwell": {
     "website": "https://www.co.caldwell.tx.us/page/ElectionsOffice",
-    "locations": [
-      {
-        "name": "Lockhart ISD - Adam's Gym",
-        "address": "419 Bois D'Arc St, Lockhart, TX 78644"
-      },
-      {
-        "name": "Three Rivers Community Church",
-        "address": "103 Main St, Martindale, TX 78655"
-      },
-      {
-        "name": "Luling Civic Center",
-        "address": "333 E Austin St, Luling, TX 78648"
-      }
-    ],
-    "phone": "512-398-1404"
+    "phone": "512-398-1404",
+    "evSourceUrl": "https://www.co.caldwell.tx.us/page/ElectionsOffice",
+    "evSourceLabel": "Caldwell County Elections"
   },
   "Calhoun": {
     "website": "https://www.calhouncotx.org/calhoun-county-elections/",
@@ -878,20 +800,6 @@
   },
   "Callahan": {
     "website": "http://www.co.callahan.tx.us/",
-    "locations": [
-      {
-        "name": "TOB Courthouse Meeting Room B",
-        "address": "1257 FM 2047, Baird, TX 79504"
-      },
-      {
-        "name": "JP1 Office",
-        "address": "208 Oak St, Clyde, TX 79510"
-      },
-      {
-        "name": "Cross Plains Community Center",
-        "address": "108 Beech St, Cross Plains, TX 76443"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -910,7 +818,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "325-854-5885"
+    "phone": "325-854-5885",
+    "evSourceUrl": "http://www.co.callahan.tx.us/",
+    "evSourceLabel": "Callahan County Website"
   },
   "Cameron": {
     "website": "https://www.cameroncountytx.gov/elections/",
@@ -1061,20 +971,6 @@
   },
   "Cass": {
     "website": "http://www.co.cass.tx.us/default.aspx?Cass_County/Elections",
-    "locations": [
-      {
-        "name": "Cass County Voting Building",
-        "address": "227 E Rush St, Linden, TX 75563"
-      },
-      {
-        "name": "North East Texas Property Management Building",
-        "address": "101 E Pinecrest Dr, Atlanta, TX 75551"
-      },
-      {
-        "name": "Hughes Springs Community Center",
-        "address": "902 E First St, Hughes Springs, TX 75656"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -1093,7 +989,9 @@
         "hours": "8:00 AM - 5:00 PM"
       }
     ],
-    "phone": "903-756-5513"
+    "phone": "903-756-5513",
+    "evSourceUrl": "http://www.co.cass.tx.us/default.aspx?Cass_County/Elections",
+    "evSourceLabel": "Cass County Elections"
   },
   "Castro": {
     "website": "http://www.co.castro.tx.us/",
@@ -1102,52 +1000,18 @@
   },
   "Chambers": {
     "website": "http://co.chambers.tx.us/default.aspx?name=elections",
-    "locations": [
-      {
-        "name": "Chambers County Health & Wellness Center",
-        "address": "102 Airport Rd, Anahuac, TX 77514"
-      },
-      {
-        "name": "Barbers Hill ISD Community Election Center",
-        "address": "9650 Eagle Dr, Mont Belvieu, TX 77523"
-      },
-      {
-        "name": "West Side Complex",
-        "address": "8138 FM 3246, Baytown, TX 77523"
-      },
-      {
-        "name": "JP 6 Courtroom",
-        "address": "7711 Hwy 146, Baytown, TX 77523"
-      }
-    ],
-    "phone": "409-267-2418"
+    "phone": "409-267-2418",
+    "evSourceUrl": "http://co.chambers.tx.us/default.aspx?name=elections",
+    "evSourceLabel": "Chambers County Elections"
   },
   "Cherokee": {
     "website": "http://www.co.cherokee.tx.us/ips/cms/othercountyoffices/elections.html",
-    "locations": [
-      {
-        "name": "Cherokee County Election Office",
-        "address": "138 W 5th St, Rusk, TX 75785"
-      },
-      {
-        "name": "Jacksonville Public Library",
-        "address": "526 E Commerce St, Jacksonville, TX 75766"
-      },
-      {
-        "name": "The River Church",
-        "address": "595 Marcus St, Alto, TX 75925"
-      }
-    ],
-    "phone": "903-683-8409"
+    "phone": "903-683-8409",
+    "evSourceUrl": "http://www.co.cherokee.tx.us/ips/cms/othercountyoffices/elections.html",
+    "evSourceLabel": "Cherokee County Elections"
   },
   "Childress": {
     "website": null,
-    "locations": [
-      {
-        "name": "501 Event Center",
-        "address": "107 Ave E NW, Childress, TX 79201"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -1158,7 +1022,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "940-937-2232"
+    "phone": "940-937-2232",
+    "evSourceUrl": "https://www.votetexas.gov/voting/where.html",
+    "evSourceLabel": "Find Your Polling Place"
   },
   "Clay": {
     "website": "https://www.claycountytx.net/",
@@ -1172,28 +1038,18 @@
   },
   "Coke": {
     "website": "http://www.co.coke.tx.us/",
-    "locations": [
-      {
-        "name": "Coke County Courthouse",
-        "address": "13 E 7th St, Robert Lee, TX 76945"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-27",
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "325-453-2631"
+    "phone": "325-453-2631",
+    "evSourceUrl": "http://www.co.coke.tx.us/",
+    "evSourceLabel": "Coke County Website"
   },
   "Coleman": {
     "website": "http://www.co.coleman.tx.us/default.aspx?Coleman_County/Elections",
-    "locations": [
-      {
-        "name": "Coleman County Courthouse",
-        "address": "100 W Live Oak St, Suite 105, Coleman, TX 76834"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -1212,7 +1068,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "325-625-2889"
+    "phone": "325-625-2889",
+    "evSourceUrl": "http://www.co.coleman.tx.us/default.aspx?Coleman_County/Elections",
+    "evSourceLabel": "Coleman County Elections"
   },
   "Collin": {
     "website": "http://www.collincountytx.gov/elections/Pages/default.aspx",
@@ -1297,7 +1155,9 @@
       },
       {
         "name": "Davis Library - Program Room 1 & 2",
-        "address": "7501 Independence Parkway A, Plano, TX 75025"
+        "address": "7501 Independence Parkway A, Plano, TX 75025",
+        "lat": 33.08036233091,
+        "lon": -96.750230842155
       },
       {
         "name": "Frisco Fire Station #5 - Training Room",
@@ -1313,7 +1173,9 @@
       },
       {
         "name": "Gay Library - Meeting Room",
-        "address": "6861 W Eldorado Parkway, McKinney, TX 75070"
+        "address": "6861 W Eldorado Parkway, McKinney, TX 75070",
+        "lat": 33.174053836815,
+        "lon": -96.706048714042
       },
       {
         "name": "Haggard Library - Programs Room",
@@ -1425,7 +1287,9 @@
       },
       {
         "name": "Wylie Community Park Center - Meeting Room East",
-        "address": "800 Thomas Street #100, Wylie, TX 75098"
+        "address": "800 Thomas Street #100, Wylie, TX 75098",
+        "lat": 33.006022429339,
+        "lon": -96.532372267445
       }
     ],
     "hours": [
@@ -1456,20 +1320,6 @@
   },
   "Colorado": {
     "website": "http://www.co.colorado.tx.us/default.aspx?Colorado_County/County.Clerk",
-    "locations": [
-      {
-        "name": "Election Center",
-        "address": "1117 Travis St, Columbus, TX 78934"
-      },
-      {
-        "name": "Weimar City Hall",
-        "address": "106 E Main St, Weimar, TX 78962"
-      },
-      {
-        "name": "EL Community Center",
-        "address": "100 N Walnut, Eagle Lake, TX 77434"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-21",
@@ -1484,7 +1334,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "979-732-6860"
+    "phone": "979-732-6860",
+    "evSourceUrl": "http://www.co.colorado.tx.us/default.aspx?Colorado_County/County.Clerk",
+    "evSourceLabel": "Colorado County Website"
   },
   "Comal": {
     "website": "https://www.comalcounty.gov/193/Elections-Voter-Registration",
@@ -1529,7 +1381,9 @@
       },
       {
         "name": "Comal County Offices Church Hill Annex (Suite 1400)",
-        "address": "1345 Churchill Dr, New Braunfels, TX 78132"
+        "address": "1345 Churchill Dr, New Braunfels, TX 78132",
+        "lat": 29.708706546884,
+        "lon": -98.099015271443
       },
       {
         "name": "St. Francis by the Lake Episcopal Church",
@@ -1556,12 +1410,6 @@
   },
   "Cooke": {
     "website": "http://www.co.cooke.tx.us/page/cooke.elections",
-    "locations": [
-      {
-        "name": "Cooke County Courthouse Annex",
-        "address": "112 S Dixon St, Gainesville, TX 76240"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -1580,7 +1428,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "940-668-5437"
+    "phone": "940-668-5437",
+    "evSourceUrl": "http://www.co.cooke.tx.us/page/cooke.elections",
+    "evSourceLabel": "Cooke County Elections"
   },
   "Coryell": {
     "website": "https://www.coryellcounty.org/",
@@ -1636,12 +1486,6 @@
   },
   "Crosby": {
     "website": "http://www.co.crosby.tx.us/",
-    "locations": [
-      {
-        "name": "Crosby County Courthouse (First Floor)",
-        "address": "201 W Aspen St, Crosbyton, TX 79322"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -1660,7 +1504,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "806-675-2334"
+    "phone": "806-675-2334",
+    "evSourceUrl": "http://www.co.crosby.tx.us/",
+    "evSourceLabel": "Crosby County Website"
   },
   "Culberson": {
     "website": "http://www.co.culberson.tx.us/",
@@ -2148,12 +1994,6 @@
   },
   "DeWitt": {
     "website": "http://www.co.dewitt.tx.us/",
-    "locations": [
-      {
-        "name": "De Witt County Elections Office / Weber Annex",
-        "address": "115 N Gonzales St, Suite A, Cuero, TX 77954"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -2172,16 +2012,12 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "361-275-0859"
+    "phone": "361-275-0859",
+    "evSourceUrl": "http://www.co.dewitt.tx.us/",
+    "evSourceLabel": "DeWitt County Website"
   },
   "Deaf Smith": {
     "website": "http://www.co.deaf-smith.tx.us/default.aspx?Deaf-Smith_County/County.Clerk",
-    "locations": [
-      {
-        "name": "Deaf Smith County Courthouse",
-        "address": "235 E 3rd St, Hereford, TX 79045"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-21",
@@ -2200,7 +2036,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "806-363-7077"
+    "phone": "806-363-7077",
+    "evSourceUrl": "http://www.co.deaf-smith.tx.us/default.aspx?Deaf-Smith_County/County.Clerk",
+    "evSourceLabel": "Deaf Smith County Website"
   },
   "Delta": {
     "website": "https://www.deltacountytx.com/",
@@ -2416,7 +2254,9 @@
       },
       {
         "name": "Hackberry City Hall - Lobby",
-        "address": "119 Maxwell Rd., Frisco, TX 75036"
+        "address": "119 Maxwell Rd., Frisco, TX 75036",
+        "lat": 33.153755783908,
+        "lon": -96.920614394165
       },
       {
         "name": "Town of Hickory Creek Stables - Hickory Creek Stables Office",
@@ -2468,7 +2308,9 @@
       },
       {
         "name": "Castle Hills North Community Center - Banquet Room",
-        "address": "201 Anna Ave., Lewisville, TX 75056"
+        "address": "201 Anna Ave., Lewisville, TX 75056",
+        "lat": 33.053720674913,
+        "lon": -96.905717297734
       },
       {
         "name": "Frederick P. Herring Recreation Center - Multipurpose Room",
@@ -2568,12 +2410,6 @@
   },
   "Donley": {
     "website": "http://www.co.donley.tx.us/default.aspx?Donley_County/Elections",
-    "locations": [
-      {
-        "name": "Donley County Courthouse Annex",
-        "address": "220 W 4th St, Clarendon, TX 79226"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -2592,7 +2428,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "806-874-3436"
+    "phone": "806-874-3436",
+    "evSourceUrl": "http://www.co.donley.tx.us/default.aspx?Donley_County/Elections",
+    "evSourceLabel": "Donley County Elections"
   },
   "Duval": {
     "website": "https://www.co.duval.tx.us/",
@@ -2601,12 +2439,6 @@
   },
   "Eastland": {
     "website": "http://www.eastlandcountytexas.com/page/eastland.Joint.Elections.Administrator",
-    "locations": [
-      {
-        "name": "Eastland County Courthouse",
-        "address": "100 W Main St, Suite 104A, Eastland, TX 76448"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -2624,7 +2456,9 @@
         "dates": "Feb 23-27",
         "hours": "7:00 AM - 7:00 PM"
       }
-    ]
+    ],
+    "evSourceUrl": "http://www.eastlandcountytexas.com/page/eastland.Joint.Elections.Administrator",
+    "evSourceLabel": "Eastland County Elections"
   },
   "Ector": {
     "website": "https://www.co.ector.tx.us/page/ector.Elections",
@@ -2737,7 +2571,9 @@
       },
       {
         "name": "City of San Elizario Municipal Court - Council Chambers",
-        "address": "12004 Socorro Rd. Suite B, El Paso, TX 79849"
+        "address": "12004 Socorro Rd. Suite B, El Paso, TX 79849",
+        "lat": 31.599884304598,
+        "lon": -106.274258636639
       },
       {
         "name": "Clint Junior High School - Library Conference Room",
@@ -2936,32 +2772,6 @@
   },
   "Ellis": {
     "website": "http://co.ellis.tx.us/index.asp?nid=312",
-    "locations": [
-      {
-        "name": "Ellis County Womans Building (Davis Hall)",
-        "address": "407 W Jefferson St, Waxahachie, TX 75165"
-      },
-      {
-        "name": "Ennis Sub-Courthouse Pct 1 (Conference Rm)",
-        "address": "207 S Sonoma Trail, Ennis, TX 75119"
-      },
-      {
-        "name": "Midlothian Conference Center (Lobby)",
-        "address": "1 Community Circle Dr, Midlothian, TX 76065"
-      },
-      {
-        "name": "Palmer ISD Annex Building",
-        "address": "303 Bulldog Way, Palmer, TX 75152"
-      },
-      {
-        "name": "Red Oak Municipal Center (Room A)",
-        "address": "200 Lakeview Pkwy, Red Oak, TX 75154"
-      },
-      {
-        "name": "Knights of Columbus (Main Room)",
-        "address": "325 Broadhead Rd, Waxahachie, TX 75165"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-21",
@@ -2980,20 +2790,12 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "972-825-5195"
+    "phone": "972-825-5195",
+    "evSourceUrl": "http://co.ellis.tx.us/index.asp?nid=312",
+    "evSourceLabel": "Ellis County Website"
   },
   "Erath": {
     "website": "https://www.co.erath.tx.us/186/Current-Elections",
-    "locations": [
-      {
-        "name": "Erath County Annex",
-        "address": "222 E College St, Stephenville, TX 76401"
-      },
-      {
-        "name": "Dublin Annex",
-        "address": "219 S Grafton St, Dublin, TX 76446"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -3011,7 +2813,9 @@
         "dates": "Feb 23-27",
         "hours": "7:00 AM - 7:00 PM"
       }
-    ]
+    ],
+    "evSourceUrl": "https://www.co.erath.tx.us/186/Current-Elections",
+    "evSourceLabel": "Erath County Elections"
   },
   "Falls": {
     "website": "https://www.co.falls.tx.us/",
@@ -3031,31 +2835,17 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "locations": [
-      {
-        "name": "Falls County Courthouse Annex",
-        "address": "1910 Industrial Park Rd, Marlin, TX 76661"
-      }
-    ]
+    "evSourceUrl": "https://www.co.falls.tx.us/",
+    "evSourceLabel": "Falls County Website"
   },
   "Fannin": {
     "website": "http://www.co.fannin.tx.us/default.aspx?Fannin_County/Elections",
-    "locations": [
-      {
-        "name": "Roy V. Floyd Community Center",
-        "address": "1100 W 5th St, Bonham, TX 75418"
-      }
-    ],
-    "phone": "903-583-7457"
+    "phone": "903-583-7457",
+    "evSourceUrl": "http://www.co.fannin.tx.us/default.aspx?Fannin_County/Elections",
+    "evSourceLabel": "Fannin County Elections"
   },
   "Fayette": {
     "website": "http://www.co.fayette.tx.us/default.aspx?Fayette_County/Elections",
-    "locations": [
-      {
-        "name": "Fayette County Elections Office",
-        "address": "275 S Ellinger Rd, La Grange, TX 78945"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -3073,7 +2863,9 @@
         "dates": "Feb 23-27",
         "hours": "7:00 AM - 7:00 PM"
       }
-    ]
+    ],
+    "evSourceUrl": "http://www.co.fayette.tx.us/default.aspx?Fayette_County/Elections",
+    "evSourceLabel": "Fayette County Elections"
   },
   "Fisher": {
     "website": "http://www.co.fisher.tx.us/",
@@ -3149,7 +2941,9 @@
       },
       {
         "name": "Four Corners Community Center",
-        "address": "15700 Old Richmond Rd, Sugar Land, TX 77498"
+        "address": "15700 Old Richmond Rd, Sugar Land, TX 77498",
+        "lat": 29.668619260136,
+        "lon": -95.657784794038
       },
       {
         "name": "Jacks Conference Center",
@@ -3195,7 +2989,9 @@
       },
       {
         "name": "Chasewood Clubhouse",
-        "address": "7622 Chasewood Dr, Missouri City, TX 77489"
+        "address": "7622 Chasewood Dr, Missouri City, TX 77489",
+        "lat": 29.608268955238,
+        "lon": -95.501584726971
       },
       {
         "name": "Crawford High School",
@@ -3211,7 +3007,9 @@
       },
       {
         "name": "Firethorne Clubhouse",
-        "address": "28100 N Firethorne Road, Katy, TX 77494"
+        "address": "28100 N Firethorne Road, Katy, TX 77494",
+        "lat": 29.761021966092,
+        "lon": -95.851768617662
       },
       {
         "name": "Fulshear Branch Library",
@@ -3225,7 +3023,9 @@
       },
       {
         "name": "Great Oaks Baptist Church",
-        "address": "7101 FM 2759 Rd, Richmond, TX 77469"
+        "address": "7101 FM 2759 Rd, Richmond, TX 77469",
+        "lat": 29.536757880144,
+        "lon": -95.695690533583
       },
       {
         "name": "Hightower HS",
@@ -3259,7 +3059,9 @@
       },
       {
         "name": "Reese Technical Center",
-        "address": "12300 University Dr, Sugar Land, TX 77479"
+        "address": "12300 University Dr, Sugar Land, TX 77479",
+        "lat": 29.605444199131,
+        "lon": -95.646528401546
       },
       {
         "name": "Richmond Water Maintenance Facility",
@@ -3321,16 +3123,6 @@
   },
   "Frio": {
     "website": "http://www.co.frio.tx.us/default.aspx?Frio_County/Elections",
-    "locations": [
-      {
-        "name": "Frio County Conference Room",
-        "address": "410 S Pecan St, Pearsall, TX 78061"
-      },
-      {
-        "name": "Frio County Dilley Annex Building 2",
-        "address": "124 E Leona St, Dilley, TX 78017"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -3349,20 +3141,12 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "830-505-2988"
+    "phone": "830-505-2988",
+    "evSourceUrl": "http://www.co.frio.tx.us/default.aspx?Frio_County/Elections",
+    "evSourceLabel": "Frio County Elections"
   },
   "Gaines": {
     "website": "https://www.co.gaines.tx.us/",
-    "locations": [
-      {
-        "name": "Gaines County Civic Center",
-        "address": "405 NW 5th St, Seminole, TX 79360"
-      },
-      {
-        "name": "Seagraves Community Building",
-        "address": "512 14th St, Seagraves, TX 79359"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -3381,7 +3165,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "432-758-4003"
+    "phone": "432-758-4003",
+    "evSourceUrl": "https://www.co.gaines.tx.us/",
+    "evSourceLabel": "Gaines County Website"
   },
   "Galveston": {
     "website": "https://galvestonvotes.org/",
@@ -3408,7 +3194,9 @@
     "locations": [
       {
         "name": "Galveston County Records and Election Center (Main)",
-        "address": "10000 Emmett F Lowry Expy, Suite 1152, Texas City, TX 77591"
+        "address": "10000 Emmett F Lowry Expy, Suite 1152, Texas City, TX 77591",
+        "lat": 29.402930944836,
+        "lon": -95.023972753339
       },
       {
         "name": "Joe Faggard Community Center",
@@ -3428,7 +3216,9 @@
       },
       {
         "name": "Moody Methodist Church",
-        "address": "2803 53rd St (Room 116), Galveston, TX 77551"
+        "address": "2803 53rd St (Room 116), Galveston, TX 77551",
+        "lat": 29.276935373606,
+        "lon": -94.821622886757
       },
       {
         "name": "Seaside Church",
@@ -3436,7 +3226,9 @@
       },
       {
         "name": "MUD 12 Building",
-        "address": "2929 Highway 6 (2nd Floor), Bayou Vista, TX 77563"
+        "address": "2929 Highway 6 (2nd Floor), Bayou Vista, TX 77563",
+        "lat": 29.330883284322,
+        "lon": -94.939898213324
       },
       {
         "name": "Greater St. Matthews Church",
@@ -3516,7 +3308,9 @@
       },
       {
         "name": "League City Annex",
-        "address": "174 Calder Rd, League City, TX 77573"
+        "address": "174 Calder Rd, League City, TX 77573",
+        "lat": 29.505997302988,
+        "lon": -95.105823570959
       },
       {
         "name": "Public Works Operation Center",
@@ -3541,12 +3335,6 @@
   },
   "Garza": {
     "website": "http://www.garzacounty.net/",
-    "locations": [
-      {
-        "name": "Garza County Courthouse",
-        "address": "300 W Main St, Post, TX 79356"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -3565,16 +3353,12 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "806-990-1228"
+    "phone": "806-990-1228",
+    "evSourceUrl": "http://www.garzacounty.net/",
+    "evSourceLabel": "Garza County Website"
   },
   "Gillespie": {
     "website": "http://www.gillespiecounty.org/default.aspx?name=election_info",
-    "locations": [
-      {
-        "name": "Gillespie County Elections Office",
-        "address": "95 Frederick Rd, Fredericksburg, TX 78624"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -3593,7 +3377,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "830-997-6518"
+    "phone": "830-997-6518",
+    "evSourceUrl": "http://www.gillespiecounty.org/default.aspx?name=election_info",
+    "evSourceLabel": "Gillespie County Elections"
   },
   "Glasscock": {
     "website": "http://www.co.glasscock.tx.us/",
@@ -3607,20 +3393,6 @@
   },
   "Gonzales": {
     "website": "http://www.co.gonzales.tx.us/",
-    "locations": [
-      {
-        "name": "Randle Rather Building",
-        "address": "427 St George St, Gonzales, TX 78629"
-      },
-      {
-        "name": "Gonzales County Nixon Annex",
-        "address": "603 E Central, Nixon, TX 78140"
-      },
-      {
-        "name": "Waelder City Hall",
-        "address": "300 Hwy 90 W, Waelder, TX 78959"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -3638,16 +3410,12 @@
         "dates": "Feb 23-27",
         "hours": "7:00 AM - 7:00 PM"
       }
-    ]
+    ],
+    "evSourceUrl": "http://www.co.gonzales.tx.us/",
+    "evSourceLabel": "Gonzales County Website"
   },
   "Gray": {
     "website": "http://www.co.gray.tx.us/",
-    "locations": [
-      {
-        "name": "Gray County Courthouse, Room 104",
-        "address": "205 N Russell, Pampa, TX 79065"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -3666,7 +3434,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "806-669-8004"
+    "phone": "806-669-8004",
+    "evSourceUrl": "http://www.co.gray.tx.us/",
+    "evSourceLabel": "Gray County Website"
   },
   "Grayson": {
     "website": "https://www.co.grayson.tx.us/page/elec.home",
@@ -3794,16 +3564,6 @@
   },
   "Grimes": {
     "website": "https://grimescountytexas.gov/",
-    "locations": [
-      {
-        "name": "Historical Courthouse",
-        "address": "100 S Main St, Anderson, TX 77830"
-      },
-      {
-        "name": "Navasota Center",
-        "address": "101 Stadium Dr, Navasota, TX 77868"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -3822,7 +3582,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "936-873-3940"
+    "phone": "936-873-3940",
+    "evSourceUrl": "https://grimescountytexas.gov/",
+    "evSourceLabel": "Grimes County Website"
   },
   "Guadalupe": {
     "website": "https://www.guadalupetx.gov/page/elections.home",
@@ -3849,7 +3611,9 @@
     "locations": [
       {
         "name": "Guadalupe County Elections Main Office",
-        "address": "3251 State Hwy 123 N, Seguin, TX 78155"
+        "address": "3251 State Hwy 123 N, Seguin, TX 78155",
+        "lat": 29.606528083687,
+        "lon": -97.9571324713
       },
       {
         "name": "Seguin ISD Admin Building",
@@ -3893,24 +3657,6 @@
   },
   "Hardin": {
     "website": "https://www.co.hardin.tx.us/",
-    "locations": [
-      {
-        "name": "Hardin County Courthouse (County Courtroom)",
-        "address": "300 W Monroe St, Kountze, TX 77625"
-      },
-      {
-        "name": "Silsbee City Hall",
-        "address": "1220 Hwy 327 E, Silsbee, TX 77656"
-      },
-      {
-        "name": "Lumberton Event Center",
-        "address": "826 N Main St, Lumberton, TX 77657"
-      },
-      {
-        "name": "Sour Lake Community Center",
-        "address": "350 S Ann St, Sour Lake, TX 77659"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -3929,14 +3675,18 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "409-246-5185"
+    "phone": "409-246-5185",
+    "evSourceUrl": "https://www.co.hardin.tx.us/",
+    "evSourceLabel": "Hardin County Website"
   },
   "Harris": {
     "website": "https://www.harrisvotes.com/",
     "locations": [
       {
         "name": "Harris County Attorney Conference Center \u2013 County Conference Center III/Meeting Room 109",
-        "address": "1019 Congress Avenue, Houston, TX 77002"
+        "address": "1019 Congress Avenue, Houston, TX 77002",
+        "lat": 29.76199708563,
+        "lon": -95.3601752082
       },
       {
         "name": "BakerRipley Ripley House \u2013 Gym",
@@ -3958,7 +3708,9 @@
       },
       {
         "name": "Wheeler Avenue Baptist Church Fellowship Hall \u2013 Fellowship Hall",
-        "address": "3826 Wheeler Avenue Building D, Houston, TX 77004"
+        "address": "3826 Wheeler Avenue Building D, Houston, TX 77004",
+        "lat": 29.719505200027,
+        "lon": -95.352313866906
       },
       {
         "name": "Kashmere MultiService Center \u2013 Auditorium",
@@ -4034,7 +3786,9 @@
       },
       {
         "name": "Harris County Robert A. Eckels Justice Center \u2013 1st Floor Lobby",
-        "address": "1210 Congress Avenue, Houston, TX 77002"
+        "address": "1210 Congress Avenue, Houston, TX 77002",
+        "lat": 29.761141899878,
+        "lon": -95.358977994811
       },
       {
         "name": "Fiesta Mart \u2013 In front of store",
@@ -4062,7 +3816,9 @@
       },
       {
         "name": "Fallbrook Church \u2013 Multi-Purpose Room/Gym",
-        "address": "12512 Walters Road, Houston, TX 77014"
+        "address": "12512 Walters Road, Houston, TX 77014",
+        "lat": 29.971511030739,
+        "lon": -95.466904972585
       },
       {
         "name": "Northeast Multi-Service Center \u2013 Large Meeting Room",
@@ -4302,36 +4058,6 @@
   },
   "Harrison": {
     "website": "http://harrisoncountytexas.org/?page_id=1224",
-    "locations": [
-      {
-        "name": "Harrison County Elections Office",
-        "address": "415 E Burleson St, Marshall, TX 75670"
-      },
-      {
-        "name": "TJ Taylor Community Center",
-        "address": "15642 FM 134, Karnack, TX 75661"
-      },
-      {
-        "name": "Emergency Services District No. 9",
-        "address": "130 FM 451, Elysian Fields, TX 75642"
-      },
-      {
-        "name": "Hallsville Gold Hall",
-        "address": "101 Elm St, Hallsville, TX 75650"
-      },
-      {
-        "name": "Harleton Community Center",
-        "address": "4335 Community St, Harleton, TX 75651"
-      },
-      {
-        "name": "Waskom Sub-Courthouse",
-        "address": "165 W Texas Ave, Waskom, TX 75692"
-      },
-      {
-        "name": "Woodland Hills Baptist Church",
-        "address": "2105 E Loop 281, Longview, TX 75605"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -4350,7 +4076,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "903-935-4822"
+    "phone": "903-935-4822",
+    "evSourceUrl": "http://harrisoncountytexas.org/?page_id=1224",
+    "evSourceLabel": "Harrison County Website"
   },
   "Hartley": {
     "website": "http://www.co.hartley.tx.us/default.aspx?Hartley_County/Voter.Information",
@@ -4359,12 +4087,6 @@
   },
   "Haskell": {
     "website": "http://www.co.haskell.tx.us/default.aspx?Haskell_County/Home",
-    "locations": [
-      {
-        "name": "Haskell County Library",
-        "address": "300 N Ave E, Haskell, TX 79521"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -4383,7 +4105,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "940-864-2451"
+    "phone": "940-864-2451",
+    "evSourceUrl": "http://www.co.haskell.tx.us/default.aspx?Haskell_County/Home",
+    "evSourceLabel": "Haskell County Website"
   },
   "Hays": {
     "website": "https://www.hayscountytx.gov/elections",
@@ -4444,7 +4168,9 @@
       },
       {
         "name": "HCISD Academic Support Center",
-        "address": "21003 Interstate 35 Frontage Rd, Kyle, TX 78640"
+        "address": "21003 Interstate 35 Frontage Rd, Kyle, TX 78640",
+        "lat": 29.972549674455,
+        "lon": -97.874362481734
       },
       {
         "name": "Kyle City Hall",
@@ -4475,12 +4201,6 @@
   },
   "Hemphill": {
     "website": "http://www.co.hemphill.tx.us/",
-    "locations": [
-      {
-        "name": "Hemphill County Courthouse, Room 202",
-        "address": "400 Main St, Canadian, TX 79014"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -4499,7 +4219,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "806-323-6212"
+    "phone": "806-323-6212",
+    "evSourceUrl": "http://www.co.hemphill.tx.us/",
+    "evSourceLabel": "Hemphill County Website"
   },
   "Henderson": {
     "website": "https://www.henderson-county.com/departments/elections-voter-registration",
@@ -4561,7 +4283,9 @@
       },
       {
         "name": "San Carlos Endowment Center - Culture Room",
-        "address": "107 N. Sunflower Rd., Edinburg, TX 78541"
+        "address": "107 N. Sunflower Rd., Edinburg, TX 78541",
+        "lat": 26.28743647591,
+        "lon": -98.045714582878
       },
       {
         "name": "UTRGV - ESTAC Lounge",
@@ -4577,7 +4301,9 @@
       },
       {
         "name": "Granjeno Public Facility - Computer Lab/Library",
-        "address": "6569 S. FM 494, Mission, TX 78572"
+        "address": "6569 S. FM 494, Mission, TX 78572",
+        "lat": 26.136017501922,
+        "lon": -98.303869266806
       },
       {
         "name": "Hidalgo Public Library - Conference Room",
@@ -4653,7 +4379,9 @@
       },
       {
         "name": "Monte Alto ISD Teaching and Learning Center - Meeting Room",
-        "address": "25149 1st St., Monte Alto, TX 78538"
+        "address": "25149 1st St., Monte Alto, TX 78538",
+        "lat": 26.373578468755,
+        "lon": -97.977033059682
       },
       {
         "name": "Palmview Recreation Center - Gymnasium",
@@ -4675,7 +4403,9 @@
       },
       {
         "name": "Development and Research Center - Multi-Purpose Room",
-        "address": "850 W. Dicker Rd., Pharr, TX 78577"
+        "address": "850 W. Dicker Rd., Pharr, TX 78577",
+        "lat": 26.124453579274,
+        "lon": -98.204608350743
       },
       {
         "name": "Progreso Family Community Center - Main Entrance",
@@ -4744,24 +4474,6 @@
   },
   "Hockley": {
     "website": "http://www.co.hockley.tx.us/default.aspx?Hockley_County/Home",
-    "locations": [
-      {
-        "name": "Hockley County Election Office",
-        "address": "911 Austin St, Levelland, TX 79336"
-      },
-      {
-        "name": "Ropes City Hall",
-        "address": "107 Hockley Main, Ropesville, TX 79358"
-      },
-      {
-        "name": "Anton City Hall",
-        "address": "400 Spade Circle, Anton, TX 79313"
-      },
-      {
-        "name": "Sundown City Hall",
-        "address": "809 S Slaughter Ave, Sundown, TX 79372"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -4780,7 +4492,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "806-894-1105"
+    "phone": "806-894-1105",
+    "evSourceUrl": "http://www.co.hockley.tx.us/default.aspx?Hockley_County/Home",
+    "evSourceLabel": "Hockley County Website"
   },
   "Hood": {
     "website": "https://hoodcounty.texas.gov/departments/elections_administration/",
@@ -4816,12 +4530,6 @@
   },
   "Hopkins": {
     "website": "http://www.hopkinscountytx.org/default.aspx?Hopkins_County/Elections",
-    "locations": [
-      {
-        "name": "The Roc",
-        "address": "115 Putman St, Sulphur Springs, TX 75482"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -4840,7 +4548,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "903-438-3036"
+    "phone": "903-438-3036",
+    "evSourceUrl": "http://www.hopkinscountytx.org/default.aspx?Hopkins_County/Elections",
+    "evSourceLabel": "Hopkins County Elections"
   },
   "Houston": {
     "website": "http://www.co.houston.tx.us/default.aspx?Houston_County/Home",
@@ -4849,12 +4559,6 @@
   },
   "Howard": {
     "website": "http://www.co.howard.tx.us/default.aspx?Howard_County/Elections",
-    "locations": [
-      {
-        "name": "Howard County Election Center",
-        "address": "2006 FM 700, Big Spring, TX 79720"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -4873,7 +4577,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "432-264-2273"
+    "phone": "432-264-2273",
+    "evSourceUrl": "http://www.co.howard.tx.us/default.aspx?Howard_County/Elections",
+    "evSourceLabel": "Howard County Elections"
   },
   "Hudspeth": {
     "website": null,
@@ -4924,12 +4630,6 @@
   },
   "Jack": {
     "website": "http://www.jackcounty.org/",
-    "locations": [
-      {
-        "name": "Jack County Courthouse, Room 104",
-        "address": "100 N Main St, Jacksboro, TX 76458"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -4948,16 +4648,12 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "940-567-2910"
+    "phone": "940-567-2910",
+    "evSourceUrl": "http://www.jackcounty.org/",
+    "evSourceLabel": "Jack County Website"
   },
   "Jackson": {
     "website": "http://www.co.jackson.tx.us",
-    "locations": [
-      {
-        "name": "Jackson County Courthouse Lobby",
-        "address": "115 W Main St, Edna, TX 77957"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -4976,54 +4672,18 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "361-782-3563"
+    "phone": "361-782-3563",
+    "evSourceUrl": "http://www.co.jackson.tx.us",
+    "evSourceLabel": "Jackson County Website"
   },
   "Jasper": {
     "website": "http://www.co.jasper.tx.us/",
-    "locations": [
-      {
-        "name": "Jasper County Courthouse Annex",
-        "address": "271 E Lamar St, Jasper, TX 75951"
-      },
-      {
-        "name": "Jasper Church of Christ",
-        "address": "1830 S Wheeler St, Jasper, TX 75951"
-      },
-      {
-        "name": "Iglesia Pentecostal Unida Internacional",
-        "address": "314 State Hwy 63 W, Jasper, TX 75951"
-      },
-      {
-        "name": "East End VFD-Harrisburg Substation",
-        "address": "1165 FM 1738, Jasper, TX 75951"
-      },
-      {
-        "name": "Buna Methodist Church",
-        "address": "936 State Hwy 62, Buna, TX 77612"
-      },
-      {
-        "name": "Whitehead Office Building",
-        "address": "35529 S US Hwy 96, Buna, TX 77612"
-      },
-      {
-        "name": "Gateway Tabernacle Church",
-        "address": "22690 US Hwy 96 S, Kirbyville, TX 75956"
-      },
-      {
-        "name": "Tri Community Volunteer Fire Dept.",
-        "address": "7732 FM 1005, Magnolia Springs, TX 77355"
-      }
-    ],
-    "phone": "409-384-6226"
+    "phone": "409-384-6226",
+    "evSourceUrl": "http://www.co.jasper.tx.us/",
+    "evSourceLabel": "Jasper County Website"
   },
   "Jeff Davis": {
     "website": "https://www.jeffdaviscounty.texas.gov/page/jeffdavis.Elections",
-    "locations": [
-      {
-        "name": "District and County Clerk's Office",
-        "address": "111 N Court St, Fort Davis, TX 79734"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -5042,7 +4702,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "432-426-3251"
+    "phone": "432-426-3251",
+    "evSourceUrl": "https://www.jeffdaviscounty.texas.gov/page/jeffdavis.Elections",
+    "evSourceLabel": "Jeff Davis County Elections"
   },
   "Jefferson": {
     "website": "https://www.jeffersonelections.com/",
@@ -5157,7 +4819,9 @@
       },
       {
         "name": "Burleson Sub-Courthouse",
-        "address": "247 Elk Dr, Rm 212, Burleson, TX 76028"
+        "address": "247 Elk Dr, Rm 212, Burleson, TX 76028",
+        "lat": 32.527294122795,
+        "lon": -97.347232311358
       }
     ],
     "evPageUrl": "https://www.johnsoncountytx.org/departments/elections-office"
@@ -5235,12 +4899,6 @@
   },
   "Kendall": {
     "website": "https://www.kendallcountytx.gov/",
-    "locations": [
-      {
-        "name": "Kendall County Courthouse Annex",
-        "address": "221 Fawn Valley Dr, Boerne, TX 78006"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -5259,7 +4917,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "830-249-9343"
+    "phone": "830-249-9343",
+    "evSourceUrl": "https://www.kendallcountytx.gov/",
+    "evSourceLabel": "Kendall County Website"
   },
   "Kenedy": {
     "website": "http://www.co.kenedy.tx.us/",
@@ -5273,17 +4933,9 @@
   },
   "Kerr": {
     "website": "http://www.co.kerr.tx.us/elections/",
-    "locations": [
-      {
-        "name": "Hill Country Youth Event Center",
-        "address": "3785 TX-27, Kerrville, TX 78028"
-      },
-      {
-        "name": "West Kerr County Courthouse Annex",
-        "address": "510 College St, Ingram, TX 78025"
-      }
-    ],
-    "phone": "830-792-2242"
+    "phone": "830-792-2242",
+    "evSourceUrl": "http://www.co.kerr.tx.us/elections/",
+    "evSourceLabel": "Kerr County Elections"
   },
   "Kimble": {
     "website": "http://www.co.kimble.tx.us/",
@@ -5307,12 +4959,6 @@
   },
   "Knox": {
     "website": "http://www.knoxcountytexas.org/",
-    "locations": [
-      {
-        "name": "Knox County Clerk's Office",
-        "address": "100 W Cedar St, Benjamin, TX 79505"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -5331,7 +4977,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "940-459-2441"
+    "phone": "940-459-2441",
+    "evSourceUrl": "http://www.knoxcountytexas.org/",
+    "evSourceLabel": "Knox County Website"
   },
   "La Salle": {
     "website": "http://www.co.la-salle.tx.us/index.php?option=com_content&view=category&layout=blog&id=82&Itemid=435",
@@ -5340,12 +4988,6 @@
   },
   "Lamar": {
     "website": "http://www.co.lamar.tx.us/default.aspx?Lamar_County/Elections",
-    "locations": [
-      {
-        "name": "Lamar County Courthouse Annex (Old Post Office)",
-        "address": "231 Lamar Ave, Paris, TX 75460"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -5364,16 +5006,12 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "903-782-1116"
+    "phone": "903-782-1116",
+    "evSourceUrl": "http://www.co.lamar.tx.us/default.aspx?Lamar_County/Elections",
+    "evSourceLabel": "Lamar County Elections"
   },
   "Lamb": {
     "website": "https://www.co.lamb.tx.us/",
-    "locations": [
-      {
-        "name": "Lamb County Courthouse, County Clerk's Office",
-        "address": "100 6th Dr, Room 103, Littlefield, TX 79339"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -5392,16 +5030,12 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "806-385-4222"
+    "phone": "806-385-4222",
+    "evSourceUrl": "https://www.co.lamb.tx.us/",
+    "evSourceLabel": "Lamb County Website"
   },
   "Lampasas": {
     "website": "https://www.co.lampasas.tx.us/",
-    "locations": [
-      {
-        "name": "Lampasas County Elections Office",
-        "address": "407 S Pecan St, Suite 102, Lampasas, TX 76550"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -5419,16 +5053,12 @@
         "dates": "Feb 23-27",
         "hours": "7:00 AM - 7:00 PM"
       }
-    ]
+    ],
+    "evSourceUrl": "https://www.co.lampasas.tx.us/",
+    "evSourceLabel": "Lampasas County Website"
   },
   "Lavaca": {
     "website": "http://www.co.lavaca.tx.us/default.aspx?Lavaca_County/Elections",
-    "locations": [
-      {
-        "name": "Lavaca County Courthouse Annex",
-        "address": "412 N Texana St, Hallettsville, TX 77964"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-21",
@@ -5447,20 +5077,12 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "361-798-3594"
+    "phone": "361-798-3594",
+    "evSourceUrl": "http://www.co.lavaca.tx.us/default.aspx?Lavaca_County/Elections",
+    "evSourceLabel": "Lavaca County Elections"
   },
   "Lee": {
     "website": "http://www.co.lee.tx.us/default.aspx?Lee_County/Elections",
-    "locations": [
-      {
-        "name": "Lee County Elections Administrator's Office",
-        "address": "843 E Industry St, Ste B, Giddings, TX 78942"
-      },
-      {
-        "name": "American Legion Hall-Lexington",
-        "address": "304 S Rockdale, Lexington, TX 78947"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -5478,7 +5100,9 @@
         "dates": "Feb 23-27",
         "hours": "7:00 AM - 7:00 PM"
       }
-    ]
+    ],
+    "evSourceUrl": "http://www.co.lee.tx.us/default.aspx?Lee_County/Elections",
+    "evSourceLabel": "Lee County Elections"
   },
   "Leon": {
     "website": "https://www.co.leon.tx.us/",
@@ -5594,20 +5218,8 @@
   },
   "Llano": {
     "website": "http://www.co.llano.tx.us/default.aspx?Llano_County/Elections",
-    "locations": [
-      {
-        "name": "Llano County Library",
-        "address": "102 E Haynie, Llano, TX 78643"
-      },
-      {
-        "name": "Kingsland Public Library",
-        "address": "125 W Polk, Kingsland, TX 78639"
-      },
-      {
-        "name": "City of Horseshoe Bay Chamber Room",
-        "address": "1 Community Dr, Horseshoe Bay, TX 78657"
-      }
-    ]
+    "evSourceUrl": "http://www.co.llano.tx.us/default.aspx?Llano_County/Elections",
+    "evSourceLabel": "Llano County Elections"
   },
   "Loving": {
     "website": "https://www.co.loving.tx.us/",
@@ -5716,16 +5328,6 @@
   },
   "Marion": {
     "website": "http://www.co.marion.tx.us/default.aspx?Marion_County/Home",
-    "locations": [
-      {
-        "name": "Marion County Tax Office",
-        "address": "119 W Lafayette St, Jefferson, TX 75657"
-      },
-      {
-        "name": "Marion County Election Building",
-        "address": "504 N Alley St, Jefferson, TX 75657"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -5744,7 +5346,9 @@
         "hours": "8:00 AM - 8:00 PM"
       }
     ],
-    "phone": "903-665-3281"
+    "phone": "903-665-3281",
+    "evSourceUrl": "http://www.co.marion.tx.us/default.aspx?Marion_County/Home",
+    "evSourceLabel": "Marion County Website"
   },
   "Martin": {
     "website": "http://www.co.martin.tx.us/158/Elections-Administration-Office/",
@@ -5758,16 +5362,6 @@
   },
   "Matagorda": {
     "website": "http://www.co.matagorda.tx.us/default.aspx?Matagorda_County/Elections",
-    "locations": [
-      {
-        "name": "Bay City Service Center",
-        "address": "2105 Avenue M, Bay City, TX 77414"
-      },
-      {
-        "name": "Navigation District No. 1",
-        "address": "1602 Main St, Palacios, TX 77465"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -5786,17 +5380,15 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "979-244-7639"
+    "phone": "979-244-7639",
+    "evSourceUrl": "http://www.co.matagorda.tx.us/default.aspx?Matagorda_County/Elections",
+    "evSourceLabel": "Matagorda County Elections"
   },
   "Maverick": {
     "website": "https://co.maverick.tx.us/",
-    "locations": [
-      {
-        "name": "Eagle Pass Multipurpose Center",
-        "address": "480 S Adams St, Eagle Pass, TX 78852"
-      }
-    ],
-    "phone": "830-773-2829"
+    "phone": "830-773-2829",
+    "evSourceUrl": "https://co.maverick.tx.us/",
+    "evSourceLabel": "Maverick County Website"
   },
   "McCulloch": {
     "website": "http://www.co.mcculloch.tx.us/",
@@ -5828,11 +5420,15 @@
     "locations": [
       {
         "name": "McLennan County Elections Admin Building",
-        "address": "214 N 4th St, Suite 300, Waco, TX 76701"
+        "address": "214 N 4th St, Suite 300, Waco, TX 76701",
+        "lat": 31.558501889949,
+        "lon": -97.132120045501
       },
       {
         "name": "Robinson Community Center",
-        "address": "106 W Lyndale Ave, Robinson, TX 76706"
+        "address": "106 W Lyndale Ave, Robinson, TX 76706",
+        "lat": 31.468666008655,
+        "lon": -97.115527809867
       },
       {
         "name": "Waco Multipurpose Community Center",
@@ -5943,26 +5539,8 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "locations": [
-      {
-        "name": "Buckholts Community Center",
-        "address": "110 W Main St, Buckholts, TX 76518",
-        "lat": 30.8746063,
-        "lon": -97.1260552
-      },
-      {
-        "name": "Milam County Clerk's Office",
-        "address": "806 N Crockett Ave, Suite A, Cameron, TX 76520"
-      },
-      {
-        "name": "Rockdale George Hill Patterson Center",
-        "address": "609 Mills St, Rockdale, TX 76567"
-      },
-      {
-        "name": "Thorndale Veterans Memorial Hall",
-        "address": "302 E Moerbe Dr, Thorndale, TX 76577"
-      }
-    ]
+    "evSourceUrl": "https://www.milamcounty.net/",
+    "evSourceLabel": "Milam County Website"
   },
   "Mills": {
     "website": "http://www.co.mills.tx.us/",
@@ -5976,24 +5554,6 @@
   },
   "Montague": {
     "website": "http://www.co.montague.tx.us/default.aspx?Montague_County/Elections",
-    "locations": [
-      {
-        "name": "Montague County Annex Community Room",
-        "address": "11339 State Hwy 59N, Montague, TX 76251"
-      },
-      {
-        "name": "Bowie Senior Citizen Center",
-        "address": "501 Pelham St, Bowie, TX 76230"
-      },
-      {
-        "name": "Nocona HJ Justin Building",
-        "address": "100 Clay St, Nocona, TX 76255"
-      },
-      {
-        "name": "Saint Jo Civic Center",
-        "address": "101 E Boggess St, Saint Jo, TX 76265"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -6012,7 +5572,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "940-894-2540"
+    "phone": "940-894-2540",
+    "evSourceUrl": "http://www.co.montague.tx.us/default.aspx?Montague_County/Elections",
+    "evSourceLabel": "Montague County Elections"
   },
   "Montgomery": {
     "website": "https://elections.mctx.org/",
@@ -6091,7 +5653,9 @@
       },
       {
         "name": "East Montgomery County Community Development Center",
-        "address": "16401 First St, Suite 100, Splendora, TX 77372"
+        "address": "16401 First St, Suite 100, Splendora, TX 77372",
+        "lat": 30.210801696505,
+        "lon": -95.154963971775
       },
       {
         "name": "Election Central (Special forms/mail ballots only)",
@@ -6374,12 +5938,6 @@
   },
   "Panola": {
     "website": "http://www.co.panola.tx.us/",
-    "locations": [
-      {
-        "name": "Panola County Elections Office (Courthouse)",
-        "address": "110 S Sycamore St, Room 100, Carthage, TX 75633"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -6398,7 +5956,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "903-693-0370"
+    "phone": "903-693-0370",
+    "evSourceUrl": "http://www.co.panola.tx.us/",
+    "evSourceLabel": "Panola County Website"
   },
   "Parker": {
     "website": "https://www.parkercountytx.gov/530/Early-Vote-and-Election-Day-Locations",
@@ -6441,7 +6001,9 @@
       },
       {
         "name": "Peaster ISD Rock Gym",
-        "address": "8512 FM 920, Peaster, TX 76088"
+        "address": "8512 FM 920, Peaster, TX 76088",
+        "lat": 32.868997342116,
+        "lon": -97.867327984744
       },
       {
         "name": "Aledo ISD Admin Building",
@@ -6481,21 +6043,9 @@
   },
   "Polk": {
     "website": "http://www.co.polk.tx.us/default.aspx?Polk_County/County.Clerk",
-    "locations": [
-      {
-        "name": "Polk County Judicial Center",
-        "address": "101 W Mill St, Livingston, TX 77351"
-      },
-      {
-        "name": "Sechrest Webster Community Center",
-        "address": "100 W Front St, Corrigan, TX 75939"
-      },
-      {
-        "name": "Onalaska Sub-Courthouse",
-        "address": "14111 US Hwy 190 W, Onalaska, TX 77360"
-      }
-    ],
-    "phone": "936-327-4357"
+    "phone": "936-327-4357",
+    "evSourceUrl": "http://www.co.polk.tx.us/default.aspx?Polk_County/County.Clerk",
+    "evSourceLabel": "Polk County Website"
   },
   "Potter": {
     "website": "https://www.pottercountytexasvotes.gov/",
@@ -6541,16 +6091,6 @@
   },
   "Presidio": {
     "website": "http://www.co.presidio.tx.us/",
-    "locations": [
-      {
-        "name": "USO Visitors Center",
-        "address": "302 S Highland Ave, Marfa, TX 79843"
-      },
-      {
-        "name": "Spencer Building",
-        "address": "803 O'Reilly St, Presidio, TX 79845"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -6569,16 +6109,12 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "432-729-4452"
+    "phone": "432-729-4452",
+    "evSourceUrl": "http://www.co.presidio.tx.us/",
+    "evSourceLabel": "Presidio County Website"
   },
   "Rains": {
     "website": "http://www.co.rains.tx.us/default.aspx?Rains_County/Elections",
-    "locations": [
-      {
-        "name": "Rains County Courthouse Annex Elections Office",
-        "address": "220 W Quitman St, Suite E, Emory, TX 75440"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -6589,7 +6125,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "903-473-5009"
+    "phone": "903-473-5009",
+    "evSourceUrl": "http://www.co.rains.tx.us/default.aspx?Rains_County/Elections",
+    "evSourceLabel": "Rains County Elections"
   },
   "Randall": {
     "website": "https://www.randallcounty.gov/166/Election-Administration",
@@ -6738,22 +6276,12 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "locations": [
-      {
-        "name": "Rockwall County Courthouse Annex",
-        "address": "1101 E Yellowjacket Ln, Rockwall, TX 75087"
-      }
-    ],
-    "evPageUrl": "https://www.rockwallvotes.com/"
+    "evPageUrl": "https://www.rockwallvotes.com/",
+    "evSourceUrl": "https://www.rockwallvotes.com/",
+    "evSourceLabel": "Rockwall County Elections"
   },
   "Runnels": {
     "website": "http://www.co.runnels.tx.us/",
-    "locations": [
-      {
-        "name": "Runnels County Elections Office",
-        "address": "600 Strong Ave, Ballinger, TX 76821"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -6772,20 +6300,12 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "325-365-5027"
+    "phone": "325-365-5027",
+    "evSourceUrl": "http://www.co.runnels.tx.us/",
+    "evSourceLabel": "Runnels County Website"
   },
   "Rusk": {
     "website": "https://www.ruskcountytx.gov/page/rusk.Elections",
-    "locations": [
-      {
-        "name": "Rusk County Elections Office",
-        "address": "204 N Main St, Henderson, TX 75652"
-      },
-      {
-        "name": "Kilgore Chandler Street Church of Christ",
-        "address": "2700 Chandler St, Kilgore, TX 75662"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -6804,16 +6324,12 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "903-657-0321"
+    "phone": "903-657-0321",
+    "evSourceUrl": "https://www.ruskcountytx.gov/page/rusk.Elections",
+    "evSourceLabel": "Rusk County Elections"
   },
   "Sabine": {
     "website": "http://www.co.sabine.tx.us/default.aspx?Sabine_County/Elections",
-    "locations": [
-      {
-        "name": "Sabine County Administration Building (Back Room)",
-        "address": "280 Main St, Hemphill, TX 75948"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -6832,7 +6348,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "409-787-3786"
+    "phone": "409-787-3786",
+    "evSourceUrl": "http://www.co.sabine.tx.us/default.aspx?Sabine_County/Elections",
+    "evSourceLabel": "Sabine County Elections"
   },
   "San Augustine": {
     "website": "https://www.co.san-augustine.tx.us/page/sanaugustine.Elections",
@@ -6846,38 +6364,12 @@
   },
   "San Patricio": {
     "website": "http://www.co.san-patricio.tx.us/default.aspx?San-Patricio_County/Elections",
-    "locations": [
-      {
-        "name": "San Patricio County Elections Office",
-        "address": "410 W Market St, Sinton, TX 78387"
-      },
-      {
-        "name": "Portland Community Center (Multipurpose Room)",
-        "address": "2000 Billy G Webb Dr, Portland, TX 78374"
-      },
-      {
-        "name": "Mathis City Hall Annex",
-        "address": "401 E San Patricio Ave, Mathis, TX 78368"
-      },
-      {
-        "name": "Planters Co-Op Meeting Room",
-        "address": "200 Voss Ave, Odem, TX 78370"
-      },
-      {
-        "name": "Julia M. Alvarado Center",
-        "address": "110 Allende St, Taft, TX 78390"
-      }
-    ],
-    "phone": "361-364-6121"
+    "phone": "361-364-6121",
+    "evSourceUrl": "http://www.co.san-patricio.tx.us/default.aspx?San-Patricio_County/Elections",
+    "evSourceLabel": "San Patricio County Elections"
   },
   "San Saba": {
     "website": "http://www.co.san-saba.tx.us/",
-    "locations": [
-      {
-        "name": "San Saba County Clerk's Office (2nd Floor)",
-        "address": "500 E Wallace St, Suite 202, San Saba, TX 76877"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -6896,7 +6388,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "325-372-3614"
+    "phone": "325-372-3614",
+    "evSourceUrl": "http://www.co.san-saba.tx.us/",
+    "evSourceLabel": "San Saba County Website"
   },
   "Schleicher": {
     "website": null,
@@ -6905,12 +6399,6 @@
   },
   "Scurry": {
     "website": "http://www.co.scurry.tx.us/default.aspx?Scurry_County/Elections",
-    "locations": [
-      {
-        "name": "Scurry County Armory",
-        "address": "3000 Towle Park Rd, Snyder, TX 79549"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-21",
@@ -6925,7 +6413,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "325-238-7078"
+    "phone": "325-238-7078",
+    "evSourceUrl": "http://www.co.scurry.tx.us/default.aspx?Scurry_County/Elections",
+    "evSourceLabel": "Scurry County Elections"
   },
   "Shackelford": {
     "website": null,
@@ -6934,22 +6424,12 @@
   },
   "Shelby": {
     "website": "http://www.co.shelby.tx.us/",
-    "locations": [
-      {
-        "name": "Center Community House",
-        "address": "423 San Augustine St, Center, TX 75935"
-      }
-    ],
-    "phone": "936-598-5340"
+    "phone": "936-598-5340",
+    "evSourceUrl": "http://www.co.shelby.tx.us/",
+    "evSourceLabel": "Shelby County Website"
   },
   "Sherman": {
     "website": "http://www.co.sherman.tx.us/",
-    "locations": [
-      {
-        "name": "Sherman County Elections Room",
-        "address": "701 N 3rd St, Stratford, TX 79084"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -6968,7 +6448,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "806-366-2371"
+    "phone": "806-366-2371",
+    "evSourceUrl": "http://www.co.sherman.tx.us/",
+    "evSourceLabel": "Sherman County Website"
   },
   "Smith": {
     "website": "https://www.smith-county.com/233/Current-Election-Information",
@@ -7035,12 +6517,6 @@
   },
   "Stephens": {
     "website": "http://www.co.stephens.tx.us/",
-    "locations": [
-      {
-        "name": "Stephens County Courthouse (First Floor Hallway)",
-        "address": "200 W Walker St, Breckenridge, TX 76424"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -7059,7 +6535,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "254-559-3700"
+    "phone": "254-559-3700",
+    "evSourceUrl": "http://www.co.stephens.tx.us/",
+    "evSourceLabel": "Stephens County Website"
   },
   "Sterling": {
     "website": "http://www.co.sterling.tx.us/",
@@ -7068,12 +6546,6 @@
   },
   "Stonewall": {
     "website": "https://www.stonewallcounty.org/page/stonewall.Elections",
-    "locations": [
-      {
-        "name": "Stonewall County Elections Office",
-        "address": "128 Town Square Ln, Aspermont, TX 79502"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -7092,7 +6564,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "940-989-3393"
+    "phone": "940-989-3393",
+    "evSourceUrl": "https://www.stonewallcounty.org/page/stonewall.Elections",
+    "evSourceLabel": "Stonewall County Elections"
   },
   "Sutton": {
     "website": "https://www.co.sutton.tx.us/",
@@ -7101,12 +6575,6 @@
   },
   "Swisher": {
     "website": "http://www.co.swisher.tx.us/",
-    "locations": [
-      {
-        "name": "Swisher County Courthouse (Basement)",
-        "address": "119 S Maxwell, Tulia, TX 79088"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -7125,7 +6593,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "806-995-2363"
+    "phone": "806-995-2363",
+    "evSourceUrl": "http://www.co.swisher.tx.us/",
+    "evSourceLabel": "Swisher County Website"
   },
   "Tarrant": {
     "website": "http://www.tarrantcounty.com/en/elections.html",
@@ -7461,12 +6931,6 @@
   },
   "Terry": {
     "website": "http://www.co.terry.tx.us/default.aspx?Terry_County/Elections",
-    "locations": [
-      {
-        "name": "Terry County Annex",
-        "address": "507A W Main St, Brownfield, TX 79316"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-21",
@@ -7485,7 +6949,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "806-637-7230"
+    "phone": "806-637-7230",
+    "evSourceUrl": "http://www.co.terry.tx.us/default.aspx?Terry_County/Elections",
+    "evSourceLabel": "Terry County Elections"
   },
   "Throckmorton": {
     "website": null,
@@ -7670,11 +7136,15 @@
       },
       {
         "name": "Community Center at Del Valle \u2013 Activity Room/ Bldg D",
-        "address": "3518 S FM 973, Del Valle, TX 78617"
+        "address": "3518 S FM 973, Del Valle, TX 78617",
+        "lat": 30.198785094941,
+        "lon": -97.641766424749
       },
       {
         "name": "Community Center at Oak Hill \u2013 Community Room",
-        "address": "8656 State Hwy 71, Austin, TX 78735"
+        "address": "8656 State Hwy 71, Austin, TX 78735",
+        "lat": 30.249900381426,
+        "lon": -97.894135234279
       },
       {
         "name": "Dan Ruiz Branch Library \u2013 Meeting Room 1",
@@ -7726,7 +7196,9 @@
       },
       {
         "name": "Pleasant Hill Branch Library \u2013 Meeting Room",
-        "address": "211 E William Canon Dr, Austin, TX 78745"
+        "address": "211 E William Canon Dr, Austin, TX 78745",
+        "lat": 30.19257382618,
+        "lon": -97.777467194202
       },
       {
         "name": "Randalls Flagship West Lake Hills \u2013 Caf\u00e9",
@@ -7800,20 +7272,6 @@
   },
   "Trinity": {
     "website": "http://www.co.trinity.tx.us/",
-    "locations": [
-      {
-        "name": "Groveton VFD",
-        "address": "249 W Front St, Groveton, TX 75845"
-      },
-      {
-        "name": "Trinity City Hall",
-        "address": "101 W Madison, Trinity, TX 75862"
-      },
-      {
-        "name": "Apple Springs VFD",
-        "address": "14755 N SH 94, Apple Springs, TX 75926"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -7832,16 +7290,12 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "936-642-3959"
+    "phone": "936-642-3959",
+    "evSourceUrl": "http://www.co.trinity.tx.us/",
+    "evSourceLabel": "Trinity County Website"
   },
   "Tyler": {
     "website": "https://www.co.tyler.tx.us/",
-    "locations": [
-      {
-        "name": "Nutrition Center",
-        "address": "201 Willow, Woodville, TX 75979"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -7859,17 +7313,15 @@
         "dates": "Feb 23-27",
         "hours": "8:00 AM - 8:00 PM"
       }
-    ]
+    ],
+    "evSourceUrl": "https://www.co.tyler.tx.us/",
+    "evSourceLabel": "Tyler County Website"
   },
   "Upshur": {
     "website": "https://www.countyofupshur.com/",
-    "locations": [
-      {
-        "name": "Gilmer Civic Center",
-        "address": "1218 US Hwy 271 N, Gilmer, TX 75644"
-      }
-    ],
-    "phone": "903-680-8506"
+    "phone": "903-680-8506",
+    "evSourceUrl": "https://www.countyofupshur.com/",
+    "evSourceLabel": "Upshur County Website"
   },
   "Upton": {
     "website": "http://www.co.upton.tx.us/",
@@ -7878,23 +7330,15 @@
   },
   "Uvalde": {
     "website": "http://www.uvaldecounty.com/",
-    "locations": [
-      {
-        "name": "Willie De Leon Civic Center",
-        "address": "300 E Main St, Uvalde, TX 78801"
-      }
-    ],
-    "phone": "830-591-2724"
+    "phone": "830-591-2724",
+    "evSourceUrl": "http://www.uvaldecounty.com/",
+    "evSourceLabel": "Uvalde County Website"
   },
   "Val Verde": {
     "website": "http://www.valverdecounty.org/",
-    "locations": [
-      {
-        "name": "Del Rio Civic Center (Red Oak Ballroom)",
-        "address": "1915 Veterans Blvd, Del Rio, TX 78840"
-      }
-    ],
-    "phone": "830-774-7564"
+    "phone": "830-774-7564",
+    "evSourceUrl": "http://www.valverdecounty.org/",
+    "evSourceLabel": "Val Verde County Website"
   },
   "Van Zandt": {
     "website": "http://www.vanzandtcounty.org",
@@ -7903,12 +7347,6 @@
   },
   "Victoria": {
     "website": "https://www.vctxelections.org/",
-    "locations": [
-      {
-        "name": "Patti Dodson Public Health Center",
-        "address": "2805 N Navarro St, Victoria, TX 77901"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-21",
@@ -7927,16 +7365,12 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "361-576-0124"
+    "phone": "361-576-0124",
+    "evSourceUrl": "https://www.vctxelections.org/",
+    "evSourceLabel": "Victoria County Elections"
   },
   "Walker": {
     "website": "https://www.co.walker.tx.us/elections",
-    "locations": [
-      {
-        "name": "Walker County Storm Shelter",
-        "address": "455 SH 75 N, Huntsville, TX 77340"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -7955,7 +7389,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "936-436-4959"
+    "phone": "936-436-4959",
+    "evSourceUrl": "https://www.co.walker.tx.us/elections",
+    "evSourceLabel": "Walker County Elections"
   },
   "Waller": {
     "website": "https://www.co.waller.tx.us/page/Elections.current",
@@ -7990,12 +7426,6 @@
   },
   "Ward": {
     "website": "http://www.co.ward.tx.us",
-    "locations": [
-      {
-        "name": "Ward County Courthouse - County Clerk's Office",
-        "address": "400 S Allen Ave, Monahans, TX 79756"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -8014,16 +7444,12 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "432-943-3294"
+    "phone": "432-943-3294",
+    "evSourceUrl": "http://www.co.ward.tx.us",
+    "evSourceLabel": "Ward County Website"
   },
   "Washington": {
     "website": "http://www.co.washington.tx.us/default.aspx?Washington_County/Elections",
-    "locations": [
-      {
-        "name": "Washington County Courthouse Annex",
-        "address": "100 S Park St, Brenham, TX 77833"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -8042,7 +7468,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "979-277-6264"
+    "phone": "979-277-6264",
+    "evSourceUrl": "http://www.co.washington.tx.us/default.aspx?Washington_County/Elections",
+    "evSourceLabel": "Washington County Elections"
   },
   "Webb": {
     "website": "https://www.webbcountytx.gov/electionsadministration/",
@@ -8062,30 +7490,12 @@
         "hours": "8:00 AM - 8:00 PM"
       }
     ],
-    "locations": [
-      {
-        "name": "Webb County Elections Office",
-        "address": "1110 Washington St, Suite 103, Laredo, TX 78040"
-      }
-    ],
-    "evPageUrl": "https://www.webbcountytx.gov/electionsadministration/"
+    "evPageUrl": "https://www.webbcountytx.gov/electionsadministration/",
+    "evSourceUrl": "https://www.webbcountytx.gov/electionsadministration/",
+    "evSourceLabel": "Webb County Elections"
   },
   "Wharton": {
     "website": "http://www.co.wharton.tx.us/default.aspx?Wharton_County/Elections",
-    "locations": [
-      {
-        "name": "Wharton County Annex D (Classroom 116)",
-        "address": "315 E Milam St, Wharton, TX 77488"
-      },
-      {
-        "name": "East Bernard Library",
-        "address": "746 Clubside Dr, East Bernard, TX 77435"
-      },
-      {
-        "name": "El Campo Library (Mayor's Room)",
-        "address": "200 W Church St, El Campo, TX 77437"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -8104,20 +7514,12 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "979-532-0193"
+    "phone": "979-532-0193",
+    "evSourceUrl": "http://www.co.wharton.tx.us/default.aspx?Wharton_County/Elections",
+    "evSourceLabel": "Wharton County Elections"
   },
   "Wheeler": {
     "website": "http://www.co.wheeler.tx.us/",
-    "locations": [
-      {
-        "name": "Wheeler County Courthouse",
-        "address": "401 S Main St, Wheeler, TX 79096"
-      },
-      {
-        "name": "Shamrock City Hall",
-        "address": "305 N Main St, Shamrock, TX 79079"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -8136,7 +7538,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "806-826-5544"
+    "phone": "806-826-5544",
+    "evSourceUrl": "http://www.co.wheeler.tx.us/",
+    "evSourceLabel": "Wheeler County Website"
   },
   "Wichita": {
     "website": "https://wichitacountytx.com/election_info/current-election-information/",
@@ -8187,7 +7591,9 @@
       },
       {
         "name": "Commissioner Precinct 4 Building",
-        "address": "2023 State Hwy 25 N, Electra, TX 76360"
+        "address": "2023 State Hwy 25 N, Electra, TX 76360",
+        "lat": 34.05097822348,
+        "lon": -98.917481986212
       }
     ],
     "evPageUrl": "https://wichitacountytx.com/election_info/current-election-information/"
@@ -8199,13 +7605,9 @@
   },
   "Willacy": {
     "website": "http://www.co.willacy.tx.us/default.aspx?Willacy_County/Elections",
-    "locations": [
-      {
-        "name": "Reber Memorial Library Annex",
-        "address": "Main Ave, Raymondville, TX 78580"
-      }
-    ],
-    "phone": "956-689-2387"
+    "phone": "956-689-2387",
+    "evSourceUrl": "http://www.co.willacy.tx.us/default.aspx?Willacy_County/Elections",
+    "evSourceLabel": "Willacy County Elections"
   },
   "Williamson": {
     "website": "https://www.wilcotx.gov/elections",
@@ -8270,7 +7672,9 @@
       },
       {
         "name": "Georgetown City Hall - Community Room",
-        "address": "808 Martin Luther King Jr St, Georgetown, TX 78626"
+        "address": "808 Martin Luther King Jr St, Georgetown, TX 78626",
+        "lat": 30.636433726537,
+        "lon": -97.680999724631
       },
       {
         "name": "Hammerlun Center - Cafeteria",
@@ -8354,16 +7758,6 @@
   },
   "Wilson": {
     "website": "http://www.co.wilson.tx.us/default.aspx?Wilson_County/Elections",
-    "locations": [
-      {
-        "name": "Wilson County Courthouse Annex III - Elections Office",
-        "address": "1103 4th St, Bldg B, Ste 101, Floresville, TX 78114"
-      },
-      {
-        "name": "La Vernia Church of Christ",
-        "address": "131 Industrial Dr, La Vernia, TX 78121"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -8382,7 +7776,9 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "phone": "830-393-7380"
+    "phone": "830-393-7380",
+    "evSourceUrl": "http://www.co.wilson.tx.us/default.aspx?Wilson_County/Elections",
+    "evSourceLabel": "Wilson County Elections"
   },
   "Winkler": {
     "website": "http://www.co.winkler.tx.us/",
@@ -8441,12 +7837,6 @@
   },
   "Wood": {
     "website": "http://elections.mywoodcounty.com/",
-    "locations": [
-      {
-        "name": "Wood County Annex",
-        "address": "200 W Bermuda St, Quitman, TX 75783"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -8464,7 +7854,9 @@
         "dates": "Feb 23-27",
         "hours": "7:00 AM - 7:00 PM"
       }
-    ]
+    ],
+    "evSourceUrl": "http://elections.mywoodcounty.com/",
+    "evSourceLabel": "Wood County Elections"
   },
   "Yoakum": {
     "website": "http://www.co.yoakum.tx.us/",
@@ -8473,16 +7865,6 @@
   },
   "Young": {
     "website": "http://www.co.young.tx.us/default.aspx?Young_County/Elections",
-    "locations": [
-      {
-        "name": "Young County Courthouse Annex",
-        "address": "417 2nd St, Graham, TX 76450"
-      },
-      {
-        "name": "Olney Civic Center",
-        "address": "210 S Grand Ave, Olney, TX 76374"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -8500,16 +7882,12 @@
         "dates": "Feb 23-27",
         "hours": "7:00 AM - 7:00 PM"
       }
-    ]
+    ],
+    "evSourceUrl": "http://www.co.young.tx.us/default.aspx?Young_County/Elections",
+    "evSourceLabel": "Young County Elections"
   },
   "Zapata": {
     "website": "http://www.co.zapata.tx.us/",
-    "locations": [
-      {
-        "name": "Zapata County Courthouse",
-        "address": "200 E 7th Ave, Bldg B, Zapata, TX 78076"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-20",
@@ -8527,30 +7905,20 @@
         "dates": "Feb 23-27",
         "hours": "8:00 AM - 8:00 PM"
       }
-    ]
+    ],
+    "evSourceUrl": "http://www.co.zapata.tx.us/",
+    "evSourceLabel": "Zapata County Website"
   },
   "Zavala": {
     "website": "http://www.co.zavala.tx.us/",
-    "locations": [
-      {
-        "name": "Zavala County Nutrition Center",
-        "address": "1210 N 7th Ave, Crystal City, TX 78839"
-      },
-      {
-        "name": "Community Building J.P. Precinct #4",
-        "address": "121 US Hwy 57, La Pryor, TX 78872"
-      },
-      {
-        "name": "Zavala County Government Center Precinct 1",
-        "address": "44 W Avenue, Batesville, TX 78829"
-      }
-    ],
     "hours": [
       {
         "dates": "Feb 17-27",
         "hours": "8:00 AM - 5:00 PM"
       }
     ],
-    "phone": "830-374-3810"
+    "phone": "830-374-3810",
+    "evSourceUrl": "http://www.co.zavala.tx.us/",
+    "evSourceLabel": "Zavala County Website"
   }
 }
