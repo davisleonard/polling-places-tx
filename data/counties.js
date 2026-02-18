@@ -498,7 +498,7 @@
       }
     ],
     "phone": "(210) 335-8683",
-    "pdfUrl": "https://www.bexar.org/DocumentCenter/View/4572/Early-Voting-Locations-and-Hours-PDF"
+    "pdfUrl": "docs and pdfs/Bexar County.pdf"
   },
   "Blanco": {
     "website": "http://www.co.blanco.tx.us/",
@@ -1855,7 +1855,8 @@
       }
     ],
     "phone": "(214) 819-6300",
-    "evPageUrl": "https://www.dallascountyvotes.org/vote-centers/"
+    "evPageUrl": "https://www.dallascountyvotes.org/vote-centers/",
+    "pdfUrl": "docs and pdfs/Dallas County.pdf"
   },
   "Dawson": {
     "website": "http://www.co.dawson.tx.us/",
@@ -3876,7 +3877,7 @@
       }
     ],
     "phone": "(713) 755-6965",
-    "pdfUrl": "https://appfiles.harrisvotes.com/harrisvotes/prd/docs/VotingInfo/EarlyVotingPDFMaps/EarlyVotingMap.pdf"
+    "pdfUrl": "docs and pdfs/harris county.pdf"
   },
   "Harrison": {
     "website": "http://harrisoncountytexas.org/?page_id=1224",
@@ -6256,7 +6257,7 @@
       }
     ],
     "phone": "(817) 831-8683",
-    "pdfUrl": "https://www.tarrantcountytx.gov/content/dam/main/elections/2026/pm26/locations/PM26_EV_Sched.pdf"
+    "pdfUrl": "docs and pdfs/tarrant county.pdf"
   },
   "Taylor": {
     "website": "https://www.taylorcounty.texas.gov/212/Elections",
@@ -6602,7 +6603,7 @@
       }
     ],
     "phone": "(512) 238-8683",
-    "pdfUrl": "https://votetravis.gov/wp-content/uploads/EARLY-VOTING-FLYER-FINAL.pdf"
+    "pdfUrl": "docs and pdfs/travis county.pdf"
   },
   "Trinity": {
     "website": "http://www.co.trinity.tx.us/",
