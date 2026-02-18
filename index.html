@@ -1225,11 +1225,15 @@ async function showCounty(name) {
                 html += `<span class="distance">${loc._dist.toFixed(1)} mi</span>`;
             }
             html += `</div>`;
-            if (loc.hours && loc.hours.length > 0) {
+            if (loc.hours) {
                 html += `<div class="hours-detail">`;
-                loc.hours.forEach(h => {
-                    html += `<span class="date-range">${h.dates}:</span> ${h.hours}<br>`;
-                });
+                if (Array.isArray(loc.hours)) {
+                    loc.hours.forEach(h => {
+                        html += `<span class="date-range">${h.dates}:</span> ${h.hours}<br>`;
+                    });
+                } else {
+                    html += loc.hours;
+                }
                 html += `</div>`;
             }
             html += `</div>`;
