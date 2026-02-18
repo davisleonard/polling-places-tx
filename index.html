@@ -827,6 +827,11 @@ function setupCombobox() {
         }
     }
 
+    chevron.addEventListener('mousedown', (e) => {
+        e.preventDefault();
+        input.focus();
+    });
+
     clearBtn.addEventListener('mousedown', (e) => {
         e.preventDefault();
         input.value = '';
