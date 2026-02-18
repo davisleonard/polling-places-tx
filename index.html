@@ -513,6 +513,51 @@
             text-decoration: underline;
         }
 
+        .location-card .card-actions {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .location-card .copy-btn {
+            background: none;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 0.3rem 0.6rem;
+            font-size: 0.75rem;
+            font-family: 'Inter', sans-serif;
+            color: var(--gray-muted);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .location-card .copy-btn:hover {
+            border-color: var(--blue-accent);
+            color: var(--blue-accent);
+        }
+
+        .location-card .copy-btn.copied {
+            border-color: var(--green);
+            color: var(--green);
+        }
+
+        .location-card .directions-btn {
+            display: inline-block;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 0.3rem 0.6rem;
+            font-size: 0.75rem;
+            font-family: 'Inter', sans-serif;
+            color: var(--gray-muted);
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        .location-card .directions-btn:hover {
+            border-color: var(--blue-accent);
+            color: var(--blue-accent);
+        }
+
         .location-card .hours-detail {
             margin-top: 0.6rem;
             font-size: 0.85rem;
@@ -744,6 +789,7 @@
         Look up early voting locations and hours for the 2026 Texas primary election. You can vote at any early vote center in your county.
     </p>
     <span class="dates-pill">Early Voting: Feb 17 &ndash; Feb 27, 2026</span>
+    <p style="margin-top:1.25rem;font-size:0.9rem;color:var(--gray-muted);">Don't forget your ID. <a href="https://www.votetexas.gov/voting/need-id.html" target="_blank" style="color:var(--blue-accent);text-decoration:none;font-weight:600;">See accepted forms of ID &rarr;</a></p>
 </section>
 
 <section class="search-section">
@@ -811,6 +857,17 @@ async function init() {
         document.getElementById('combobox-clear').style.display = 'block';
         showCounty(hash);
     }
+}
+
+function copyAddr(btn, addr) {
+    navigator.clipboard.writeText(addr).then(() => {
+        btn.textContent = '✓ Copied!';
+        btn.classList.add('copied');
+        setTimeout(() => {
+            btn.textContent = '📋 Copy address';
+            btn.classList.remove('copied');
+        }, 2000);
+    });
 }
 
 function setupCombobox() {
@@ -1226,6 +1283,10 @@ async function showCounty(name) {
             html += `<div class="location-card" data-loc-idx="${idx}"><div class="card-top"><div>
                 <h3>${loc.name}</h3>`;
             if (addr) html += `<p class="address"><a href="${mapsUrl}" target="_blank">${addr}</a></p>`;
+            if (addr) html += `<div class="card-actions">
+                <button class="copy-btn" onclick="copyAddr(this, '${addr.replace(/'/g, "\\'")}')">📋 Copy address</button>
+                <a href="${mapsUrl}" target="_blank" class="directions-btn">📍 Get directions</a>
+            </div>`;
             html += `</div>`;
             if (loc._dist !== undefined && loc._dist !== null) {
                 html += `<span class="distance">${loc._dist.toFixed(1)} mi</span>`;
