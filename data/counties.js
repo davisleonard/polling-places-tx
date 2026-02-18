@@ -160,195 +160,195 @@
       },
       {
         "name": "Brook Hollow Branch Library",
-        "address": "530 Heimer Rd., San Antonio, TX"
+        "address": "530 Heimer Rd., San Antonio, TX 78232"
       },
       {
         "name": "Castle Hills City Hall",
-        "address": "209 Lemonwood, Castle Hills, TX"
+        "address": "209 Lemonwood, Castle Hills, TX 78213"
       },
       {
         "name": "Christian Family Baptist Church",
-        "address": "1589 Grosenbacher, San Antonio, TX"
+        "address": "1589 Grosenbacher, San Antonio, TX 78252"
       },
       {
         "name": "Claude Black Community Center",
-        "address": "2805 E. Commerce, San Antonio, TX"
+        "address": "2805 E. Commerce, San Antonio, TX 78203"
       },
       {
         "name": "Cody Branch Library",
-        "address": "11441 Vance Jackson Rd., San Antonio, TX"
+        "address": "11441 Vance Jackson Rd., San Antonio, TX 78230"
       },
       {
         "name": "Collins Garden Branch Library",
-        "address": "200 N. Park Blvd., San Antonio, TX"
+        "address": "200 N. Park Blvd., San Antonio, TX 78204"
       },
       {
         "name": "Converse Community Event Center",
-        "address": "407 S. Seguin Rd., Converse, TX"
+        "address": "407 S. Seguin Rd., Converse, TX 78109"
       },
       {
         "name": "Copernicus Community Center",
-        "address": "5003 Lord Rd., San Antonio, TX"
+        "address": "5003 Lord Rd., San Antonio, TX 78220"
       },
       {
         "name": "Cortez Branch Library",
-        "address": "2803 Hunter Blvd., San Antonio, TX"
+        "address": "2803 Hunter Blvd., San Antonio, TX 78224"
       },
       {
         "name": "Encino Branch Library",
-        "address": "2515 E. Evans Rd, San Antonio, TX"
+        "address": "2515 E. Evans Rd, San Antonio, TX 78259"
       },
       {
-        "name": "Fair Oaks Ranch Police Dept. \u2013 Training Room",
-        "address": "7286 Dietz Elkhorn Dr., Fair Oaks Ranch, TX"
+        "name": "Fair Oaks Ranch Police Dept. – Training Room",
+        "address": "7286 Dietz Elkhorn Dr., Fair Oaks Ranch, TX 78015"
       },
       {
         "name": "Frank Garrett Multi Service Center",
-        "address": "1226 N.W. 18th St., San Antonio, TX"
+        "address": "1226 N.W. 18th St., San Antonio, TX 78221"
       },
       {
         "name": "Great Northwest Branch Library",
-        "address": "9050 Wellwood, San Antonio, TX"
+        "address": "9050 Wellwood, San Antonio, TX 78250"
       },
       {
         "name": "Guerra Branch Library",
-        "address": "7978 W. Military Dr., San Antonio, TX"
+        "address": "7978 W. Military Dr., San Antonio, TX 78227"
       },
       {
         "name": "Helotes City Hall",
-        "address": "12951 Bandera Rd., Helotes, TX"
+        "address": "12951 Bandera Rd., Helotes, TX 78023"
       },
       {
         "name": "Igo Branch Library",
-        "address": "13330 Kyle Seale Parkway, San Antonio, TX"
+        "address": "13330 Kyle Seale Parkway, San Antonio, TX 78249"
       },
       {
         "name": "Johnston Branch Library",
-        "address": "6307 Sun Valley Dr., San Antonio, TX"
+        "address": "6307 Sun Valley Dr., San Antonio, TX 78235"
       },
       {
         "name": "Kirby City Hall",
-        "address": "112 Bauman, Kirby, TX"
+        "address": "112 Bauman, Kirby, TX 78219"
       },
       {
         "name": "Las Palmas Branch Library",
-        "address": "515 Castroville Rd., San Antonio, TX"
+        "address": "515 Castroville Rd., San Antonio, TX 78237"
       },
       {
         "name": "Leon Valley Conference Center",
-        "address": "6427 Evers Rd., Leon Valley, TX"
+        "address": "6427 Evers Rd., Leon Valley, TX 78238"
       },
       {
         "name": "Lions Field Adult and Senior Center",
-        "address": "2809 Broadway St., San Antonio, TX"
+        "address": "2809 Broadway St., San Antonio, TX 78209"
       },
       {
         "name": "Macedonia Baptist Church",
-        "address": "111 Hobart, San Antonio, TX"
+        "address": "111 Hobart, San Antonio, TX 78237"
       },
       {
         "name": "Maverick Branch Library",
-        "address": "8700 Mystic Park, San Antonio, TX"
+        "address": "8700 Mystic Park, San Antonio, TX 78254"
       },
       {
         "name": "McCreless Branch Library",
-        "address": "1023 Ada St., San Antonio, TX"
+        "address": "1023 Ada St., San Antonio, TX 78223"
       },
       {
         "name": "Memorial Branch Library",
-        "address": "3222 Culebra Rd., San Antonio, TX"
+        "address": "3222 Culebra Rd., San Antonio, TX 78228"
       },
       {
         "name": "Mission Branch Library",
-        "address": "3134 Roosevelt Ave, San Antonio, TX"
+        "address": "3134 Roosevelt Ave, San Antonio, TX 78214"
       },
       {
         "name": "Mission Del Lago Community Room",
-        "address": "2301 Del Lago, San Antonio, TX"
+        "address": "2301 Del Lago, San Antonio, TX 78221"
       },
       {
-        "name": "Northeast Lakeview College \u2013 Medina CTE Rm. 104 Bldg. 800",
-        "address": "1201 Kitty Hawk Rd., Universal City, TX"
+        "name": "Northeast Lakeview College – Medina CTE Rm. 104 Bldg. 800",
+        "address": "1201 Kitty Hawk Rd., Universal City, TX 78148"
       },
       {
         "name": "Northside Activity Center",
-        "address": "7001 Culebra Rd., San Antonio, TX"
+        "address": "7001 Culebra Rd., San Antonio, TX 78238"
       },
       {
-        "name": "Northwest Vista College \u2013 Mountain Laurel Hall Rm. 100 A&B",
-        "address": "3535 N. Ellison Dr., San Antonio, TX"
+        "name": "Northwest Vista College – Mountain Laurel Hall Rm. 100 A&B",
+        "address": "3535 N. Ellison Dr., San Antonio, TX 78251"
       },
       {
-        "name": "Our Lady of the Lake University \u2013 Sueltenfus Library Community Room",
-        "address": "411 S.W. 24th St., San Antonio, TX"
+        "name": "Our Lady of the Lake University – Sueltenfus Library Community Room",
+        "address": "411 S.W. 24th St., San Antonio, TX 78207"
       },
       {
-        "name": "Palo Alto College \u2013 Palomino Center Rm. 110",
-        "address": "1400 W. Villaret Blvd., San Antonio, TX"
+        "name": "Palo Alto College – Palomino Center Rm. 110",
+        "address": "1400 W. Villaret Blvd., San Antonio, TX 78224"
       },
       {
         "name": "Parman Branch Library at Stone Oak",
-        "address": "20735 Wilderness Oak, San Antonio, TX"
+        "address": "20735 Wilderness Oak, San Antonio, TX 78258"
       },
       {
         "name": "Precinct 1 Satellite Office",
-        "address": "3505 Pleasanton Rd., San Antonio, TX"
+        "address": "3505 Pleasanton Rd., San Antonio, TX 78221"
       },
       {
         "name": "Precinct 3 Satellite Office",
-        "address": "320 Interpark Blvd., San Antonio, TX"
+        "address": "320 Interpark Blvd., San Antonio, TX 78216"
       },
       {
         "name": "San Antonio College - Victory Center Rm. 117",
-        "address": "1819 N. Main Ave., San Antonio, TX"
+        "address": "1819 N. Main Ave., San Antonio, TX 78212"
       },
       {
         "name": "Schaefer Branch Library",
-        "address": "6322 US Hwy. 87 E., San Antonio, TX"
+        "address": "6322 US Hwy. 87 E., San Antonio, TX 78263"
       },
       {
         "name": "Semmes Branch Library",
-        "address": "15060 Judson Rd., San Antonio, TX"
+        "address": "15060 Judson Rd., San Antonio, TX 78247"
       },
       {
         "name": "Shavano Park City Hall",
-        "address": "900 Saddletree Ct., Shavano Park, TX"
+        "address": "900 Saddletree Ct., Shavano Park, TX 78231"
       },
       {
         "name": "Somerset City Hall",
-        "address": "7360 E. 6th St., Somerset, TX"
+        "address": "7360 E. 6th St., Somerset, TX 78069"
       },
       {
         "name": "St. Hedwig City Hall",
-        "address": "13065 FM-1346, St. Hedwig, TX"
+        "address": "13065 FM-1346, St. Hedwig, TX 78152"
       },
       {
-        "name": "St. Philips College \u2013 William Hudgens (WAC) Rm. 100",
-        "address": "1801 Martin Luther King Dr., San Antonio, TX"
+        "name": "St. Philips College – William Hudgens (WAC) Rm. 100",
+        "address": "1801 Martin Luther King Dr., San Antonio, TX 78203"
       },
       {
-        "name": "Texas A&M University \u2013 Mays Ctr. Ste. 111",
-        "address": "One University Way, San Antonio, TX"
+        "name": "Texas A&M University – Mays Ctr. Ste. 111",
+        "address": "One University Way, San Antonio, TX 78224"
       },
       {
         "name": "Thousand Oaks Branch Library",
-        "address": "4618 Thousand Oaks, San Antonio, TX"
+        "address": "4618 Thousand Oaks, San Antonio, TX 78233"
       },
       {
         "name": "Tobin Library at Oakwell",
-        "address": "4134 Harry Wurzbach, San Antonio, TX"
+        "address": "4134 Harry Wurzbach, San Antonio, TX 78209"
       },
       {
-        "name": "UTSA \u2013 Bexar Room",
-        "address": "1 UTSA Circle, San Antonio, TX"
+        "name": "UTSA – Bexar Room",
+        "address": "1 UTSA Circle, San Antonio, TX 78249"
       },
       {
         "name": "Wonderland of the Americas",
-        "address": "4522 Fredericksburg Rd., San Antonio, TX"
+        "address": "4522 Fredericksburg Rd., San Antonio, TX 78201"
       },
       {
         "name": "Woodlawn Pointe Center",
-        "address": "702 Donaldson Ave., San Antonio, TX"
+        "address": "702 Donaldson Ave., San Antonio, TX 78201"
       }
     ],
     "hours": [
@@ -550,79 +550,79 @@
     "locations": [
       {
         "name": "Cameron County Courthouse Judicial Complex (Main)",
-        "address": "954 E Harrison St, Brownsville, TX"
+        "address": "954 E Harrison St, Brownsville, TX 78520"
       },
       {
         "name": "Brownsville Public Library",
-        "address": "2600 Central Blvd, Brownsville, TX"
+        "address": "2600 Central Blvd, Brownsville, TX 78520"
       },
       {
         "name": "Southmost Public Library",
-        "address": "4320 Southmost Rd, Brownsville, TX"
+        "address": "4320 Southmost Rd, Brownsville, TX 78521"
       },
       {
         "name": "Cameron Park Community Center (El Centro Cultural)",
-        "address": "2100 Gregory Ave, Brownsville, TX"
+        "address": "2100 Gregory Ave, Brownsville, TX 78520"
       },
       {
         "name": "Harlingen County Annex Bldg.",
-        "address": "3302 Wilson Rd, Harlingen, TX"
+        "address": "3302 Wilson Rd, Harlingen, TX 78552"
       },
       {
         "name": "San Benito Community Bldg.",
-        "address": "210 E Heywood St, San Benito, TX"
+        "address": "210 E Heywood St, San Benito, TX 78586"
       },
       {
         "name": "Port Isabel City Hall",
-        "address": "305 E Maxan St, Port Isabel, TX"
+        "address": "305 E Maxan St, Port Isabel, TX 78578"
       },
       {
         "name": "American Legion Hall",
-        "address": "219 E Commercial Ave, La Feria, TX"
+        "address": "219 E Commercial Ave, La Feria, TX 78559"
       },
       {
         "name": "Los Fresnos Community Center",
-        "address": "204 N Brazil St, Los Fresnos, TX"
+        "address": "204 N Brazil St, Los Fresnos, TX 78566"
       },
       {
         "name": "New Horizon Medical Center",
-        "address": "191 E Price Rd, Brownsville, TX"
+        "address": "191 E Price Rd, Brownsville, TX 78521"
       },
       {
         "name": "Harlingen Cultural Arts Center",
-        "address": "576 76 Dr, Harlingen, TX"
+        "address": "576 76 Dr, Harlingen, TX 78550"
       },
       {
         "name": "Rio Hondo Civic Center",
-        "address": "121 N Arroyo Blvd, Rio Hondo, TX"
+        "address": "121 N Arroyo Blvd, Rio Hondo, TX 78583"
       },
       {
         "name": "Santa Rosa Maria Luisa Ruiz Guerra County Annex Bldg.",
-        "address": "116 Santa Vista Ave, Santa Rosa, TX"
+        "address": "116 Santa Vista Ave, Santa Rosa, TX 78552"
       },
       {
         "name": "UTRGV Student Union",
-        "address": "650 Ringgold Rd, Brownsville, TX"
+        "address": "650 Ringgold Rd, Brownsville, TX 78520"
       },
       {
         "name": "Los Indios Community Center",
-        "address": "309 Heywood St, Los Indios, TX"
+        "address": "309 Heywood St, Los Indios, TX 78567"
       },
       {
         "name": "Town of Rancho Viejo City Hall",
-        "address": "3301 Carmen Ave, Rancho Viejo, TX"
+        "address": "3301 Carmen Ave, Rancho Viejo, TX 78575"
       },
       {
         "name": "Bob Clark Social Service Center",
-        "address": "9901 California Rd, Brownsville, TX"
+        "address": "9901 California Rd, Brownsville, TX 78521"
       },
       {
         "name": "Cameron County Brownsville Annex (Levee Building)",
-        "address": "835 E Levee St, Brownsville, TX"
+        "address": "835 E Levee St, Brownsville, TX 78520"
       },
       {
         "name": "Santa Maria ISD Administrative Bldg.",
-        "address": "11119 Military Rd, Santa Maria, TX"
+        "address": "11119 Military Rd, Santa Maria, TX 78592"
       }
     ]
   },
@@ -948,445 +948,445 @@
     "website": "http://www.dallascountyvotes.org/",
     "locations": [
       {
-        "name": "Elections Training / Warehouse \u2013 Voting Room",
+        "name": "Elections Training / Warehouse – Voting Room",
         "address": "1460 Round Table Dr, Dallas, TX 75247",
         "lat": 32.8367791,
         "lon": -96.8792484
       },
       {
-        "name": "Glenn Heights Family Center \u2013 Multipurpose Room",
+        "name": "Glenn Heights Family Center – Multipurpose Room",
         "address": "1932 S Hampton Rd, Glenn Heights, TX 75154",
         "lat": 32.5526695,
         "lon": -96.8568903
       },
       {
-        "name": "Islamic Association of North Texas \u2013 Brothers & Sisters Ent Foyer",
+        "name": "Islamic Association of North Texas – Brothers & Sisters Ent Foyer",
         "address": "840 Abrams Rd, Richardson, TX 75081",
         "lat": 32.9377892,
         "lon": -96.7308854
       },
       {
-        "name": "Vietnamese Community Center \u2013 Senior Room",
+        "name": "Vietnamese Community Center – Senior Room",
         "address": "3221 Belt Line Rd, Garland, TX 75044",
         "lat": 32.944661,
         "lon": -96.6722667
       },
       {
-        "name": "For Oak Cliff \u2013 Multipurpose Room",
+        "name": "For Oak Cliff – Multipurpose Room",
         "address": "907 E Ledbetter Dr, Dallas, TX 75216",
         "lat": 32.6836548,
         "lon": -96.8106856
       },
       {
-        "name": "North Garland Branch Library \u2013 Program Room",
+        "name": "North Garland Branch Library – Program Room",
         "address": "3845 N Garland Ave, Garland, TX 75040",
         "lat": 32.9516922,
         "lon": -96.6540239
       },
       {
-        "name": "Kiest Recreation Center \u2013 Small Room",
+        "name": "Kiest Recreation Center – Small Room",
         "address": "3081 S Hampton Rd, Dallas, TX 75224",
         "lat": 32.7103619,
         "lon": -96.8568913
       },
       {
-        "name": "MLK Jr Branch Library \u2013 Auditorium",
+        "name": "MLK Jr Branch Library – Auditorium",
         "address": "2922 MLK Jr Blvd, Dallas, TX 75215",
         "lat": 32.7737345,
         "lon": -96.7645771
       },
       {
-        "name": "Northway Christian Church \u2013 Fellowship Hall",
+        "name": "Northway Christian Church – Fellowship Hall",
         "address": "7202 W Northwest Hwy, Dallas, TX 75225",
         "lat": 32.8645252,
         "lon": -96.7817167
       },
       {
-        "name": "Addison Town Hall \u2013 Lobby",
+        "name": "Addison Town Hall – Lobby",
         "address": "15650 Addison Rd, Addison, TX 75001",
         "lat": 32.962204,
         "lon": -96.8285562
       },
       {
-        "name": "Royal Lane Baptist Church \u2013 Vickrey Hall",
+        "name": "Royal Lane Baptist Church – Vickrey Hall",
         "address": "6707 Royal Ln, Dallas, TX 75230",
         "lat": 32.8954378,
         "lon": -96.7899196
       },
       {
-        "name": "Makkah Masjid IDEA \u2013 Back Multipurpose Room",
+        "name": "Makkah Masjid IDEA – Back Multipurpose Room",
         "address": "3301 W Buckingham Rd, Garland, TX 75042",
         "lat": 32.93099,
         "lon": -96.6792494
       },
       {
-        "name": "Madinah Masjid of Carrollton \u2013 Multipurpose Hall",
+        "name": "Madinah Masjid of Carrollton – Multipurpose Hall",
         "address": "2180 Old Denton Rd, Carrollton, TX 75006",
         "lat": 32.9751713,
         "lon": -96.9093891
       },
       {
-        "name": "Ministerios Charisma \u2013 Large Side Room",
+        "name": "Ministerios Charisma – Large Side Room",
         "address": "740 Melrose Dr, Richardson, TX 75080",
         "lat": 32.970823,
         "lon": -96.74688
       },
       {
-        "name": "Oak Gardens Church \u2013 Foyer",
+        "name": "Oak Gardens Church – Foyer",
         "address": "4008 S Polk St, Dallas, TX 75224",
         "lat": 32.6957685,
         "lon": -96.8388061
       },
       {
-        "name": "St Paul's Church \u2013 Fellowship Hall",
+        "name": "St Paul's Church – Fellowship Hall",
         "address": "6464 E Lovers Lane, Dallas, TX 75214",
         "lat": 32.8518321,
         "lon": -96.7488089
       },
       {
-        "name": "Hamilton Park UMC \u2013 Library",
+        "name": "Hamilton Park UMC – Library",
         "address": "11881 Schroeder Rd, Dallas, TX 75243",
         "lat": 32.9108531,
         "lon": -96.7630021
       },
       {
-        "name": "Dallas County Mesquite Gov Ctr \u2013 Community Rm L101",
+        "name": "Dallas County Mesquite Gov Ctr – Community Rm L101",
         "address": "500 S Galloway Ave, Mesquite, TX 75149",
         "lat": 32.762801,
         "lon": -96.59866
       },
       {
-        "name": "Dallas County Records Bldg \u2013 Lobby",
+        "name": "Dallas County Records Bldg – Lobby",
         "address": "500 Elm St, Dallas, TX 75202",
         "lat": 32.7795,
         "lon": -96.807929
       },
       {
-        "name": "Islamic Center of Irving \u2013 Library & Foyer",
+        "name": "Islamic Center of Irving – Library & Foyer",
         "address": "2555 Esters Rd, Irving, TX 75062",
         "lat": 32.8427164,
         "lon": -97.0107132
       },
       {
-        "name": "Envision Dallas \u2013 Conference Room",
+        "name": "Envision Dallas – Conference Room",
         "address": "1801 Valley View Ln, Farmers Branch, TX 75234",
         "lat": 32.9214284,
         "lon": -96.919951
       },
       {
-        "name": "Esperanza Comm Ctr at Dobie \u2013 Gym",
+        "name": "Esperanza Comm Ctr at Dobie – Gym",
         "address": "14040 Rolling Hills Ln, Dallas, TX 75240",
         "lat": 32.9342978,
         "lon": -96.7639483
       },
       {
-        "name": "Singing Hills Recreation Center \u2013 Tech Room",
+        "name": "Singing Hills Recreation Center – Tech Room",
         "address": "6805 Patrol Way, Dallas, TX 75241",
         "lat": 32.6668736,
         "lon": -96.7892337
       },
       {
-        "name": "Pioneer Event Center \u2013 Oduduwa Hall",
+        "name": "Pioneer Event Center – Oduduwa Hall",
         "address": "1025 W Pioneer Pkwy, Grand Prairie, TX 75052",
         "lat": 32.7097718,
         "lon": -97.0190092
       },
       {
-        "name": "Frank Crowley Courts Building \u2013 Room 1A250",
+        "name": "Frank Crowley Courts Building – Room 1A250",
         "address": "133 N Riverfront Blvd, Dallas, TX 75207",
         "lat": 32.7777125,
         "lon": -96.8146628
       },
       {
-        "name": "Oak Lawn Branch Library \u2013 Auditorium",
+        "name": "Oak Lawn Branch Library – Auditorium",
         "address": "4100 Cedar Springs Rd, Dallas, TX 75219",
         "lat": 32.8123779,
         "lon": -96.812414
       },
       {
-        "name": "Dallas College-R Jan LeCroy Ctr \u2013 LeCroy Center R012",
+        "name": "Dallas College-R Jan LeCroy Ctr – LeCroy Center R012",
         "address": "9596 Walnut St, Dallas, TX 75243",
         "lat": 32.923532,
         "lon": -96.727152
       },
       {
-        "name": "Lochwood Branch Library \u2013 Blackbox Theater",
+        "name": "Lochwood Branch Library – Blackbox Theater",
         "address": "11221 Lochwood Blvd, Dallas, TX 75218",
         "lat": 32.848481,
         "lon": -96.688207
       },
       {
-        "name": "Samuell Grand Recreation Center \u2013 Game Room 112",
+        "name": "Samuell Grand Recreation Center – Game Room 112",
         "address": "6200 E Grand Ave, Dallas, TX 75223",
         "lat": 32.797895,
         "lon": -96.742482
       },
       {
-        "name": "Skyline Branch Library \u2013 Auditorium",
+        "name": "Skyline Branch Library – Auditorium",
         "address": "6006 Everglade Rd, Dallas, TX 75227",
         "lat": 32.7855127,
         "lon": -96.6999086
       },
       {
-        "name": "Dallas College-Pleasant Grove Ctr \u2013 PG 108/109",
+        "name": "Dallas College-Pleasant Grove Ctr – PG 108/109",
         "address": "802 S Buckner Blvd, Dallas, TX 75217",
         "lat": 32.7260751,
         "lon": -96.6827838
       },
       {
-        "name": "Harry Stone Recreation Center \u2013 Multipurpose Room 104",
+        "name": "Harry Stone Recreation Center – Multipurpose Room 104",
         "address": "2403 Millmar Dr, Dallas, TX 75228",
         "lat": 32.826117,
         "lon": -96.6743019
       },
       {
-        "name": "Florence Recreation Center \u2013 Event Room",
+        "name": "Florence Recreation Center – Event Room",
         "address": "2501 Whitson Way, Mesquite, TX 75150",
         "lat": 32.8289186,
         "lon": -96.636415
       },
       {
-        "name": "Dallas College-Eastfield Campus \u2013 G101",
+        "name": "Dallas College-Eastfield Campus – G101",
         "address": "3737 Motley Dr, Mesquite, TX 75150",
         "lat": 32.8134644,
         "lon": -96.6610717
       },
       {
-        "name": "Dallas College-Garland Center \u2013 Room GC306A & GC302B",
+        "name": "Dallas College-Garland Center – Room GC306A & GC302B",
         "address": "675 W Walnut St, Garland, TX 75040",
         "lat": 32.9163161,
         "lon": -96.6376718
       },
       {
-        "name": "South Garland Branch Library \u2013 Program Room",
+        "name": "South Garland Branch Library – Program Room",
         "address": "4845 Broadway Blvd, Garland, TX 75043",
         "lat": 32.8552306,
         "lon": -96.6024857
       },
       {
-        "name": "Marsh Lane Baptist Church \u2013 Fellowship Hall",
+        "name": "Marsh Lane Baptist Church – Fellowship Hall",
         "address": "10716 Marsh Ln, Dallas, TX 75229",
         "lat": 32.8941747,
         "lon": -96.8555951
       },
       {
-        "name": "Fretz Park Library \u2013 Black Box Theater",
+        "name": "Fretz Park Library – Black Box Theater",
         "address": "6990 Belt Line Rd, Dallas, TX 75254",
         "lat": 32.9495865,
         "lon": -96.7832698
       },
       {
-        "name": "Audelia Road Branch Library \u2013 Auditorium",
+        "name": "Audelia Road Branch Library – Auditorium",
         "address": "10045 Audelia Rd, Dallas, TX 75238",
         "lat": 32.8857486,
         "lon": -96.7183474
       },
       {
-        "name": "University Park UMC \u2013 Room 101",
+        "name": "University Park UMC – Room 101",
         "address": "4024 Caruth Blvd, Dallas, TX 75225",
         "lat": 32.8588935,
         "lon": -96.8025176
       },
       {
-        "name": "Farmers Branch Manske Library \u2013 Community Hub",
+        "name": "Farmers Branch Manske Library – Community Hub",
         "address": "13613 Webb Chapel Rd, Farmers Branch, TX 75234",
         "lat": 32.9334441,
         "lon": -96.8737551
       },
       {
-        "name": "Dallas College-Brookhaven Campus \u2013 W Building W1001 and W1002",
+        "name": "Dallas College-Brookhaven Campus – W Building W1001 and W1002",
         "address": "3939 Valley View Ln, Farmers Branch, TX 75244",
         "lat": 32.9290352,
         "lon": -96.85005
       },
       {
-        "name": "Josey Ranch Lake Library \u2013 Front Meeting Room",
+        "name": "Josey Ranch Lake Library – Front Meeting Room",
         "address": "1700 Keller Springs Rd, Carrollton, TX 75006",
         "lat": 32.9704538,
         "lon": -96.8937492
       },
       {
-        "name": "Valley Ranch Library \u2013 Meeting Room",
+        "name": "Valley Ranch Library – Meeting Room",
         "address": "401 Cimarron Trl, Irving, TX 75063",
         "lat": 32.9340611,
         "lon": -96.9506291
       },
       {
-        "name": "Coppell Town Center \u2013 Atrium",
+        "name": "Coppell Town Center – Atrium",
         "address": "255 E Parkway Blvd, Coppell, TX 75019",
         "lat": 32.9781216,
         "lon": -96.987326
       },
       {
-        "name": "Rowlett Community Centre \u2013 Room D",
+        "name": "Rowlett Community Centre – Room D",
         "address": "5300 Main St, Rowlett, TX 75088",
         "lat": 32.9031383,
         "lon": -96.5629043
       },
       {
-        "name": "Sachse City Hall \u2013 Courtroom",
+        "name": "Sachse City Hall – Courtroom",
         "address": "3815-B Sachse Rd, Sachse, TX 75048",
         "lat": 32.973339,
         "lon": -96.5897852
       },
       {
-        "name": "Paul L Dunbar Library \u2013 Auditorium",
+        "name": "Paul L Dunbar Library – Auditorium",
         "address": "2008 E Kiest Blvd, Dallas, TX 75216",
         "lat": 32.7150174,
         "lon": -96.7911837
       },
       {
-        "name": "Friendship West Baptist Church \u2013 Banquet Hall Foyer",
+        "name": "Friendship West Baptist Church – Banquet Hall Foyer",
         "address": "2020 W Wheatland Rd, Dallas, TX 75232",
         "lat": 32.6465606,
         "lon": -96.8505584
       },
       {
-        "name": "Dallas College-Cedar Valley Campus \u2013 Rm M105",
+        "name": "Dallas College-Cedar Valley Campus – Rm M105",
         "address": "3030 N Dallas Ave, Lancaster, TX 75134",
         "lat": 32.6256484,
         "lon": -96.7713021
       },
       {
-        "name": "Highland Hills Library \u2013 Auditorium",
+        "name": "Highland Hills Library – Auditorium",
         "address": "6200 Bonnie View Rd, Dallas, TX 75241",
         "lat": 32.670714,
         "lon": -96.761347
       },
       {
-        "name": "A E Sims Cedar Hill Rec Center \u2013 Bluebonnet Room",
+        "name": "A E Sims Cedar Hill Rec Center – Bluebonnet Room",
         "address": "310 E Parkerville Rd, Cedar Hill, TX 75104",
         "lat": 32.5744265,
         "lon": -96.9378987
       },
       {
-        "name": "Duncanville Library \u2013 Meeting Rooms 1-3",
+        "name": "Duncanville Library – Meeting Rooms 1-3",
         "address": "201 James Collins Blvd, Duncanville, TX 75116",
         "lat": 32.6486106,
         "lon": -96.9074414
       },
       {
-        "name": "Balch Springs Recreation Center \u2013 Meeting Room",
+        "name": "Balch Springs Recreation Center – Meeting Room",
         "address": "4372 Shepherd Ln, Balch Springs, TX 75180",
         "lat": 32.7099147,
         "lon": -96.6141011
       },
       {
-        "name": "Sunnyvale Town Hall \u2013 Council Chambers",
+        "name": "Sunnyvale Town Hall – Council Chambers",
         "address": "127 N Collins Rd, Sunnyvale, TX 75182",
         "lat": 32.7915424,
         "lon": -96.5623902
       },
       {
-        "name": "Disciple Central Comm Church \u2013 Youth Room",
+        "name": "Disciple Central Comm Church – Youth Room",
         "address": "901 N Polk St, Desoto, TX 75115",
         "lat": 32.6104889,
         "lon": -96.8398786
       },
       {
-        "name": "Lancaster Veterans Memorial Library \u2013 Meeting Room",
+        "name": "Lancaster Veterans Memorial Library – Meeting Room",
         "address": "1600 Veterans Memorial Pkwy, Lancaster, TX 75134",
         "lat": 32.61267,
         "lon": -96.758305
       },
       {
-        "name": "Seagoville City Hall \u2013 Foyer",
+        "name": "Seagoville City Hall – Foyer",
         "address": "702 N Hwy 175, Seagoville, TX 75159",
         "lat": 32.6487955,
         "lon": -96.5437333
       },
       {
-        "name": "Wilmer Community Center \u2013 Main Room",
+        "name": "Wilmer Community Center – Main Room",
         "address": "101 Davidson Plz, Wilmer, TX 75172",
         "lat": 32.5891,
         "lon": -96.6851
       },
       {
-        "name": "Hutchins City Hall \u2013 Council Chambers",
+        "name": "Hutchins City Hall – Council Chambers",
         "address": "321 N Main St, Hutchins, TX 75141",
         "lat": 32.6496117,
         "lon": -96.7133098
       },
       {
-        "name": "Dallas College-West Dallas Center \u2013 W141",
+        "name": "Dallas College-West Dallas Center – W141",
         "address": "3330 N Hampton Rd, Dallas, TX 75212",
         "lat": 32.7826398,
         "lon": -96.8559682
       },
       {
-        "name": "Mountain Creek Library \u2013 Auditorium",
+        "name": "Mountain Creek Library – Auditorium",
         "address": "6102 Mountain Creek Pkwy, Dallas, TX 75249",
         "lat": 32.6506035,
         "lon": -96.9660452
       },
       {
-        "name": "Martin Weiss Recreation Center \u2013 Small Room",
+        "name": "Martin Weiss Recreation Center – Small Room",
         "address": "1111 Martindell Ave, Dallas, TX 75211",
         "lat": 32.7343078,
         "lon": -96.8762152
       },
       {
-        "name": "Oak Cliff Government Center \u2013 Main Lobby",
+        "name": "Oak Cliff Government Center – Main Lobby",
         "address": "702 E Jefferson Blvd, Dallas, TX 75203",
         "lat": 32.7477801,
         "lon": -96.8137412
       },
       {
-        "name": "Jaycee Zaragoza Recreation Center \u2013 Arts and Crafts Room",
+        "name": "Jaycee Zaragoza Recreation Center – Arts and Crafts Room",
         "address": "3114 Clymer St, Dallas, TX 75212",
         "lat": 32.780233,
         "lon": -96.909358
       },
       {
-        "name": "Grauwyler Park Recreation Center \u2013 Room A",
+        "name": "Grauwyler Park Recreation Center – Room A",
         "address": "7780 Harry Hines Blvd, Dallas, TX 75235",
         "lat": 32.8322108,
         "lon": -96.8590184
       },
       {
-        "name": "Dallas College-Mountain View Campus \u2013 E Building Foyer",
+        "name": "Dallas College-Mountain View Campus – E Building Foyer",
         "address": "4849 W Illinois Ave, Dallas, TX 75211",
         "lat": 32.726465,
         "lon": -96.901518
       },
       {
-        "name": "Betty Warmack Library \u2013 Empower Room",
+        "name": "Betty Warmack Library – Empower Room",
         "address": "760 Bardin Rd, Grand Prairie, TX 75052",
         "lat": 32.6670577,
         "lon": -97.0132096
       },
       {
-        "name": "Crosswinds High School \u2013 Room 104",
+        "name": "Crosswinds High School – Room 104",
         "address": "1100 N Carrier Pkwy, Grand Prairie, TX 75050",
         "lat": 32.7565608,
         "lon": -97.0185322
       },
       {
-        "name": "Our Redeemer Lutheran Church-GP \u2013 Fellowship Hall NE Wing",
+        "name": "Our Redeemer Lutheran Church-GP – Fellowship Hall NE Wing",
         "address": "4729 S Carrier Pkwy, Grand Prairie, TX 75052",
         "lat": 32.6560316,
         "lon": -97.0049107
       },
       {
-        "name": "Irving City Hall \u2013 Main Lobby",
+        "name": "Irving City Hall – Main Lobby",
         "address": "825 W Irving Blvd, Irving, TX 75060",
         "lat": 32.8140511,
         "lon": -96.9556627
       },
       {
-        "name": "Bear Creek Community Church \u2013 Lobby Breezeway",
+        "name": "Bear Creek Community Church – Lobby Breezeway",
         "address": "2700 Finley Rd, Irving, TX 75062",
         "lat": 32.8503947,
         "lon": -96.9822196
       },
       {
-        "name": "Dallas College-North Lake Campus \u2013 Library 235",
+        "name": "Dallas College-North Lake Campus – Library 235",
         "address": "5001 N Macarthur Blvd, Irving, TX 75038",
         "lat": 32.8751741,
         "lon": -96.9626011
       },
       {
-        "name": "Irving Arts Center \u2013 Art Lab 1",
+        "name": "Irving Arts Center – Art Lab 1",
         "address": "3333 N Macarthur Blvd, Irving, TX 75062",
         "lat": 32.8502444,
         "lon": -96.9591518
@@ -1978,19 +1978,19 @@
     "locations": [
       {
         "name": "Sienna Annex",
-        "address": "5855 Sienna Springs Way, Missouri City, TX"
+        "address": "5855 Sienna Springs Way, Missouri City, TX 77459"
       },
       {
         "name": "Beasley City Hall",
-        "address": "319 3rd Street, Beasley, TX"
+        "address": "319 3rd Street, Beasley, TX 77417"
       },
       {
         "name": "Cinco Ranch Branch Library",
-        "address": "2620 Commercial Center Blvd, Katy, TX"
+        "address": "2620 Commercial Center Blvd, Katy, TX 77494"
       },
       {
         "name": "Commonwealth Clubhouse",
-        "address": "4330 Knightsbridge Blvd, Sugar Land, TX"
+        "address": "4330 Knightsbridge Blvd, Sugar Land, TX 77479"
       },
       {
         "name": "Elections Office (Main Early Voting Site)",
@@ -1998,103 +1998,103 @@
       },
       {
         "name": "FBC ESD No. 4 Admin. Bldg.",
-        "address": "33301 FM 1093 Rd, Fulshear, TX"
+        "address": "33301 FM 1093 Rd, Fulshear, TX 77441"
       },
       {
         "name": "Four Corners Community Center",
-        "address": "15700 Old Richmond Rd, Sugar Land, TX"
+        "address": "15700 Old Richmond Rd, Sugar Land, TX 77498"
       },
       {
         "name": "Jacks Conference Center",
-        "address": "3232 Austin Pkwy, Sugar Land, TX"
+        "address": "3232 Austin Pkwy, Sugar Land, TX 77479"
       },
       {
         "name": "Kroger Riverstone",
-        "address": "18861 University Blvd, Sugar Land, TX"
+        "address": "18861 University Blvd, Sugar Land, TX 77479"
       },
       {
         "name": "Meadows Place City Hall",
-        "address": "1 Troyan Dr, Meadows Place, TX"
+        "address": "1 Troyan Dr, Meadows Place, TX 77477"
       },
       {
         "name": "Missouri City Visitors Center",
-        "address": "1522 Texas Pkwy, Missouri City, TX"
+        "address": "1522 Texas Pkwy, Missouri City, TX 77489"
       },
       {
         "name": "Road and Bridge (Needville)",
-        "address": "3743 School St, Needville, TX"
+        "address": "3743 School St, Needville, TX 77461"
       },
       {
         "name": "Rosenberg Annex",
-        "address": "4520 Reading Rd, Rosenberg, TX"
+        "address": "4520 Reading Rd, Rosenberg, TX 77471"
       },
       {
         "name": "Bowie Middle",
-        "address": "700 Plantation Dr, Richmond, TX"
+        "address": "700 Plantation Dr, Richmond, TX 77406"
       },
       {
         "name": "Chasewood Clubhouse",
-        "address": "7622 Chasewood Dr, Missouri City, TX"
+        "address": "7622 Chasewood Dr, Missouri City, TX 77489"
       },
       {
         "name": "Crawford High School",
-        "address": "801 Caldwell Ranch Blvd, Rosharon, TX"
+        "address": "801 Caldwell Ranch Blvd, Rosharon, TX 77583"
       },
       {
         "name": "Crockett Middle School",
-        "address": "19001 Beechnut St, Richmond, TX"
+        "address": "19001 Beechnut St, Richmond, TX 77407"
       },
       {
         "name": "Firethorne Clubhouse",
-        "address": "28100 N Firethorne Road, Katy, TX"
+        "address": "28100 N Firethorne Road, Katy, TX 77494"
       },
       {
         "name": "Fulshear Branch Library",
-        "address": "6350 GM Library Road, Fulshear, TX"
+        "address": "6350 GM Library Road, Fulshear, TX 77441"
       },
       {
         "name": "George Memorial Library",
-        "address": "1001 Golfview Dr, Richmond, TX"
+        "address": "1001 Golfview Dr, Richmond, TX 77469"
       },
       {
         "name": "Great Oaks Baptist Church",
-        "address": "7101 FM 2759 Rd, Richmond, TX"
+        "address": "7101 FM 2759 Rd, Richmond, TX 77469"
       },
       {
         "name": "Hightower HS",
-        "address": "3333 Hurricane Ln, Missouri City, TX"
+        "address": "3333 Hurricane Ln, Missouri City, TX 77459"
       },
       {
         "name": "Lost Creek Conference Center",
-        "address": "3703 Lost Creek Blvd, Sugar Land, TX"
+        "address": "3703 Lost Creek Blvd, Sugar Land, TX 77561"
       },
       {
         "name": "Maryam Islamic Center",
-        "address": "504 Sartartia Rd, Sugar Land, TX"
+        "address": "504 Sartartia Rd, Sugar Land, TX 77479"
       },
       {
         "name": "Mission Bend Branch Library",
-        "address": "8421 Addicks-Clodine Rd, Houston, TX"
+        "address": "8421 Addicks-Clodine Rd, Houston, TX 77083"
       },
       {
         "name": "Quail Valley Fund Office",
-        "address": "3603 Glenn Lakes Ln, Missouri City, TX"
+        "address": "3603 Glenn Lakes Ln, Missouri City, TX 77459"
       },
       {
         "name": "Reese Technical Center",
-        "address": "12300 University Dr, Sugar Land, TX"
+        "address": "12300 University Dr, Sugar Land, TX 77479"
       },
       {
         "name": "Richmond Water Maintenance Facility",
-        "address": "110 N 8th Street, Richmond, TX"
+        "address": "110 N 8th Street, Richmond, TX 77469"
       },
       {
         "name": "Sugar Land Branch Library",
-        "address": "550 Eldridge Rd, Sugar Land, TX"
+        "address": "550 Eldridge Rd, Sugar Land, TX 77478"
       },
       {
         "name": "Tompkins High School",
-        "address": "4400 Falcon Landing Blvd, Katy, TX"
+        "address": "4400 Falcon Landing Blvd, Katy, TX 77494"
       }
     ]
   },
@@ -2443,243 +2443,243 @@
     "website": "https://www.harrisvotes.com/",
     "locations": [
       {
-        "name": "Harris County Attorney Conference Center \u2013 County Conference Center III/Meeting Room 109",
+        "name": "Harris County Attorney Conference Center – County Conference Center III/Meeting Room 109",
         "address": "1019 Congress Avenue, Houston, TX 77002"
       },
       {
-        "name": "BakerRipley Ripley House \u2013 Gym",
+        "name": "BakerRipley Ripley House – Gym",
         "address": "4410 Navigation Boulevard, Houston, TX 77011"
       },
       {
-        "name": "Moody Park Community Center \u2013 Gym",
+        "name": "Moody Park Community Center – Gym",
         "address": "3725 Fulton Street, Houston, TX 77009"
       },
       {
-        "name": "Metropolitan MultiService Center \u2013 Gymnasium",
+        "name": "Metropolitan MultiService Center – Gymnasium",
         "address": "1475 West Gray Street, Houston, TX 77019"
       },
       {
-        "name": "Wheeler Avenue Baptist Church Fellowship Hall \u2013 Fellowship Hall",
+        "name": "Wheeler Avenue Baptist Church Fellowship Hall – Fellowship Hall",
         "address": "3826 Wheeler Avenue Building D, Houston, TX 77004"
       },
       {
-        "name": "Kashmere MultiService Center \u2013 Auditorium",
+        "name": "Kashmere MultiService Center – Auditorium",
         "address": "4802 Lockwood Drive, Houston, TX 77026"
       },
       {
-        "name": "Shrine of The Black Madonna Cultural and Event Center \u2013 Main Floor",
+        "name": "Shrine of The Black Madonna Cultural and Event Center – Main Floor",
         "address": "5309 Martin Luther King Boulevard, Houston, TX 77021"
       },
       {
-        "name": "SPJST Lodge 88 \u2013 Annex in back of main building",
+        "name": "SPJST Lodge 88 – Annex in back of main building",
         "address": "1435 Beall Street, Houston, TX 77008"
       },
       {
-        "name": "HCC Northline \u2013 Community Room 115",
+        "name": "HCC Northline – Community Room 115",
         "address": "8001 Fulton Street, Houston, TX 77022"
       },
       {
-        "name": "HCC Southeast College Building C Parking Garage \u2013 Ground Floor Parking Garage",
+        "name": "HCC Southeast College Building C Parking Garage – Ground Floor Parking Garage",
         "address": "6815 Rustic Street, Houston, TX 77087"
       },
       {
-        "name": "Chinese Community Center \u2013 Gym",
+        "name": "Chinese Community Center – Gym",
         "address": "9800 Town Park Drive, Houston, TX 77036"
       },
       {
-        "name": "Pasadena Convention Center \u2013 Room 106",
+        "name": "Pasadena Convention Center – Room 106",
         "address": "7902 Fairmont Parkway, Pasadena, TX 77507"
       },
       {
-        "name": "El Franco Lee Park Community Center \u2013 Room B",
+        "name": "El Franco Lee Park Community Center – Room B",
         "address": "9400 Hall Road, Houston, TX 77089"
       },
       {
-        "name": "HCPL Barbara Bush Branch Library \u2013 Meeting Room",
+        "name": "HCPL Barbara Bush Branch Library – Meeting Room",
         "address": "6817 Cypresswood Drive, Spring, TX 77379"
       },
       {
-        "name": "Berry Center \u2013 Hall B",
+        "name": "Berry Center – Hall B",
         "address": "8877 Barker Cypress Road, Cypress, TX 77433"
       },
       {
-        "name": "Trini Mendenhall Community Center \u2013 Gym",
+        "name": "Trini Mendenhall Community Center – Gym",
         "address": "1414 Wirt Road, Houston, TX 77055"
       },
       {
-        "name": "HCPL Katherine Tyra @ Bear Creek Branch Library \u2013 Meeting Room",
+        "name": "HCPL Katherine Tyra @ Bear Creek Branch Library – Meeting Room",
         "address": "16719 Clay Road, Houston, TX 77084"
       },
       {
-        "name": "Harris County Robert A. Eckels Justice Center \u2013 1st Floor Lobby",
+        "name": "Harris County Robert A. Eckels Justice Center – 1st Floor Lobby",
         "address": "1210 Congress Avenue, Houston, TX 77002"
       },
       {
-        "name": "Fiesta Mart \u2013 In front of store",
+        "name": "Fiesta Mart – In front of store",
         "address": "8130 Kirby Drive, Houston, TX 77054"
       },
       {
-        "name": "NRG Arena \u2013 NRG Arena",
+        "name": "NRG Arena – NRG Arena",
         "address": "1 NRG Park, Houston, TX 77054"
       },
       {
-        "name": "Sunnyside MultiService Center \u2013 Auditorium",
+        "name": "Sunnyside MultiService Center – Auditorium",
         "address": "3502 Bellfort Avenue, Houston, TX 77051"
       },
       {
-        "name": "Acres Homes MultiService Center \u2013 Gymnasium",
+        "name": "Acres Homes MultiService Center – Gymnasium",
         "address": "6719 West Montgomery Road, Houston, TX 77091"
       },
       {
-        "name": "Fallbrook Church \u2013 Multi-Purpose Room/Gym",
+        "name": "Fallbrook Church – Multi-Purpose Room/Gym",
         "address": "12512 Walters Road, Houston, TX 77014"
       },
       {
-        "name": "Northeast Multi-Service Center \u2013 Large Meeting Room",
+        "name": "Northeast Multi-Service Center – Large Meeting Room",
         "address": "9720 Spaulding Street, Houston, TX 77016"
       },
       {
-        "name": "HCPL Octavia Fields Branch Library \u2013 Meeting Room",
+        "name": "HCPL Octavia Fields Branch Library – Meeting Room",
         "address": "1503 South Houston Avenue, Humble, TX 77338"
       },
       {
-        "name": "Sheldon ISD Early Childhood Center \u2013 Main Lobby",
+        "name": "Sheldon ISD Early Childhood Center – Main Lobby",
         "address": "11411 C.E. King Parkway, Houston, TX 77044"
       },
       {
-        "name": "Iglesia Mundo De Fe (World of Faith Church) \u2013 Main Auditorium",
+        "name": "Iglesia Mundo De Fe (World of Faith Church) – Main Auditorium",
         "address": "7909 Airline Drive, Houston, TX 77037"
       },
       {
-        "name": "Bayland Park Community Center \u2013 Gym",
+        "name": "Bayland Park Community Center – Gym",
         "address": "6400 Bissonnet Street, Houston, TX 77074"
       },
       {
-        "name": "T.H. Rogers School \u2013 Cafeteria",
+        "name": "T.H. Rogers School – Cafeteria",
         "address": "5840 San Felipe Street, Houston, TX 77057"
       },
       {
-        "name": "Galena Park ISD Stadium \u2013 East Fieldhouse",
+        "name": "Galena Park ISD Stadium – East Fieldhouse",
         "address": "1506 Keene Street, Galena Park, TX 77547"
       },
       {
-        "name": "Tracy Gee Community Center \u2013 Gym",
+        "name": "Tracy Gee Community Center – Gym",
         "address": "3599 Westcenter Drive, Houston, TX 77042"
       },
       {
-        "name": "Crosby Church \u2013 Main Auditorium",
+        "name": "Crosby Church – Main Auditorium",
         "address": "5725 Highway 90, Crosby, TX 77532"
       },
       {
-        "name": "Fort Settlement Middle School \u2013 Gym Lobby/Dance Room",
+        "name": "Fort Settlement Middle School – Gym Lobby/Dance Room",
         "address": "5440 Elkins Road, Sugar Land, TX 77479"
       },
       {
-        "name": "Hiram Clarke Multi-Service Center \u2013 Gym",
+        "name": "Hiram Clarke Multi-Service Center – Gym",
         "address": "3810 West Fuqua Street, Houston, TX 77045"
       },
       {
-        "name": "HCPL Freeman Branch Library \u2013 Meeting Room",
+        "name": "HCPL Freeman Branch Library – Meeting Room",
         "address": "16616 Diana Lane, Houston, TX 77062"
       },
       {
-        "name": "John Phelps Courthouse \u2013 1st Floor Jury Room",
+        "name": "John Phelps Courthouse – 1st Floor Jury Room",
         "address": "101 South Richey Street, Pasadena, TX 77506"
       },
       {
-        "name": "Houston Food Bank \u2013 Room 153",
+        "name": "Houston Food Bank – Room 153",
         "address": "535 Portwall Street, Houston, TX 77029"
       },
       {
-        "name": "East Harris County Activity Center \u2013 Activity Center",
+        "name": "East Harris County Activity Center – Activity Center",
         "address": "7340 Spencer Highway, Pasadena, TX 77505"
       },
       {
-        "name": "Compaq Center at Brookhollow \u2013 Entrance A",
+        "name": "Compaq Center at Brookhollow – Entrance A",
         "address": "10510 Fountainview Drive, Houston, TX 77042"
       },
       {
-        "name": "Clinton Park Swim Center \u2013 Meeting Room",
+        "name": "Clinton Park Swim Center – Meeting Room",
         "address": "200 Mississippi Street, Houston, TX 77029"
       },
       {
-        "name": "Harris County Precinct 1 Place \u2013 La Raza Room 100",
+        "name": "Harris County Precinct 1 Place – La Raza Room 100",
         "address": "7330 Spencer Highway, Pasadena, TX 77505"
       },
       {
-        "name": "South Belt-Ellington Chamber of Commerce \u2013 Meeting Room",
+        "name": "South Belt-Ellington Chamber of Commerce – Meeting Room",
         "address": "10500 Scarsdale Boulevard, Houston, TX 77089"
       },
       {
-        "name": "HCPL South Houston Branch Library \u2013 Meeting Room",
+        "name": "HCPL South Houston Branch Library – Meeting Room",
         "address": "607 Avenue A, South Houston, TX 77587"
       },
       {
-        "name": "League City Civic Center \u2013 Civic Center",
+        "name": "League City Civic Center – Civic Center",
         "address": "400 West Walker Street, League City, TX 77573"
       },
       {
-        "name": "Channelview Fire Station #2 \u2013 Main Room",
+        "name": "Channelview Fire Station #2 – Main Room",
         "address": "16003 Market Street, Channelview, TX 77530"
       },
       {
-        "name": "West Gray MultiService Center \u2013 Auditorium",
+        "name": "West Gray MultiService Center – Auditorium",
         "address": "1475 West Gray Street, Houston, TX 77019"
       },
       {
-        "name": "Spring Branch Memorial Library \u2013 Meeting Room",
+        "name": "Spring Branch Memorial Library – Meeting Room",
         "address": "930 Corbindale Road, Houston, TX 77024"
       },
       {
-        "name": "Dodson Lake Activity Center \u2013 Main Room",
+        "name": "Dodson Lake Activity Center – Main Room",
         "address": "611 Olive Avenue, South Houston, TX 77587"
       },
       {
-        "name": "HCPL Maud Smith Marks Branch Library \u2013 Meeting Room",
+        "name": "HCPL Maud Smith Marks Branch Library – Meeting Room",
         "address": "1815 Westgreen Boulevard, Katy, TX 77450"
       },
       {
-        "name": "Kingwood Community Center \u2013 Auditorium",
+        "name": "Kingwood Community Center – Auditorium",
         "address": "4102 Rustic Woods Drive, Kingwood, TX 77345"
       },
       {
-        "name": "Sterling Municipal Library \u2013 Wilhite Meeting Room",
+        "name": "Sterling Municipal Library – Wilhite Meeting Room",
         "address": "1 Mary Elizabeth Wilbanks Avenue, Baytown, TX 77520"
       },
       {
-        "name": "Richard and Meg Weekley Community Center \u2013 Room 300",
+        "name": "Richard and Meg Weekley Community Center – Room 300",
         "address": "8440 Greenhouse Road, Cypress, TX 77433"
       },
       {
-        "name": "Cactus Jack Cagle Community Center \u2013 Community Center",
+        "name": "Cactus Jack Cagle Community Center – Community Center",
         "address": "709 Riley Fuzzel Road, Spring, TX 77373"
       },
       {
-        "name": "Saint John Lutheran Church and School \u2013 Sanctuary",
+        "name": "Saint John Lutheran Church and School – Sanctuary",
         "address": "15235 Spring Cypress Road, Cypress, TX 77429"
       },
       {
-        "name": "Juergens Hall Community Center \u2013 Dance Hall",
+        "name": "Juergens Hall Community Center – Dance Hall",
         "address": "26026 Hempstead Highway, Cypress, TX 77429"
       },
       {
-        "name": "Vera Brummet May Community Center \u2013 Room 118",
+        "name": "Vera Brummet May Community Center – Room 118",
         "address": "2100 Wolf Road, Huffman, TX 77336"
       },
       {
-        "name": "Tomball Public Works Building \u2013 Training Room",
+        "name": "Tomball Public Works Building – Training Room",
         "address": "501B James Street, Tomball, TX 77375"
       },
       {
-        "name": "Katy Branch Harris County Public Library \u2013 Meeting Room",
+        "name": "Katy Branch Harris County Public Library – Meeting Room",
         "address": "5414 Franz Road, Katy, TX 77493"
       },
       {
-        "name": "Lone Star College Creekside \u2013 Room 116",
+        "name": "Lone Star College Creekside – Room 116",
         "address": "8747 West New Harmony Trail, Tomball, TX 77375"
       },
       {
-        "name": "Hockley Community Center \u2013 Room ABC",
+        "name": "Hockley Community Center – Room ABC",
         "address": "28515 Old Washington Road, Hockley, TX 77447"
       }
     ],
@@ -2814,127 +2814,127 @@
     "locations": [
       {
         "name": "SGT Fernando de la Rosa Memorial Library - Large Meeting Room",
-        "address": "416 N. Tower Rd., Alamo, TX"
+        "address": "416 N. Tower Rd., Alamo, TX 78516"
       },
       {
         "name": "Alton Recreation Center - Room 1",
-        "address": "349 Dawes Ave., Alton, TX"
+        "address": "349 Dawes Ave., Alton, TX 78573"
       },
       {
         "name": "Amigos Del Valle - Main Area",
-        "address": "1408 Silver Ave., Donna, TX"
+        "address": "1408 Silver Ave., Donna, TX 78537"
       },
       {
         "name": "Sergeant Juan Rodriguez Community Center - Meeting Room",
-        "address": "320 W. Santa Rosa Ave., Edcouch, TX"
+        "address": "320 W. Santa Rosa Ave., Edcouch, TX 78538"
       },
       {
         "name": "Elections Annex Building (Main EV Location) - Annex Room",
-        "address": "317 N. Closner Blvd., Edinburg, TX"
+        "address": "317 N. Closner Blvd., Edinburg, TX 78541"
       },
       {
         "name": "San Carlos Endowment Center - Culture Room",
-        "address": "107 N. Sunflower Rd., Edinburg, TX"
+        "address": "107 N. Sunflower Rd., Edinburg, TX 78541"
       },
       {
         "name": "UTRGV - ESTAC Lounge",
-        "address": "1201 W. University Dr., Edinburg, TX"
+        "address": "1201 W. University Dr., Edinburg, TX 78541"
       },
       {
         "name": "Elsa Municipal Court - Court Chambers",
-        "address": "216 E. 4th St., Elsa, TX"
+        "address": "216 E. 4th St., Elsa, TX 78543"
       },
       {
         "name": "Granjeno Public Facility - Computer Lab/Library",
-        "address": "6569 S. FM 494, Mission, TX"
+        "address": "6569 S. FM 494, Mission, TX 78572"
       },
       {
         "name": "Hidalgo Public Library - Conference Room",
-        "address": "710 Ram\u00f3n Ayala Dr., Hidalgo, TX"
+        "address": "710 Ramón Ayala Dr., Hidalgo, TX 78557"
       },
       {
         "name": "La Joya Youth Center - Back Room",
-        "address": "604 Salomon Chapa Dr., La Joya, TX"
+        "address": "604 Salomon Chapa Dr., La Joya, TX 78560"
       },
       {
         "name": "La Villa ISD Multi-Purpose Service Center - Meeting Room A",
-        "address": "500 E. 9th St., La Villa, TX"
+        "address": "500 E. 9th St., La Villa, TX 78562"
       },
       {
         "name": "Fireman's Pumphouse - Main Entrance",
-        "address": "201 N. 1st St., McAllen, TX"
+        "address": "201 N. 1st St., McAllen, TX 78501"
       },
       {
         "name": "Lark Community Center - Exercise Room",
-        "address": "2601 Lark Ave., McAllen, TX"
+        "address": "2601 Lark Ave., McAllen, TX 78504"
       },
       {
         "name": "Palm View Community Center - Exercise Room",
-        "address": "3401 Jordan Rd., McAllen, TX"
+        "address": "3401 Jordan Rd., McAllen, TX 78503"
       },
       {
         "name": "STC Nursing Campus Building B - Community Room",
-        "address": "1901 S. McColl Rd., McAllen, TX"
+        "address": "1901 S. McColl Rd., McAllen, TX 78503"
       },
       {
         "name": "STC Pecan Campus Building U - Internet Cafe",
-        "address": "3201 Pecan Blvd., McAllen, TX"
+        "address": "3201 Pecan Blvd., McAllen, TX 78501"
       },
       {
         "name": "Mercedes Civic Center - Main Entrance",
-        "address": "520 E. 2nd St., Mercedes, TX"
+        "address": "520 E. 2nd St., Mercedes, TX 78570"
       },
       {
         "name": "Bannworth Gym - Gymnasium",
-        "address": "1822 N. Shary Rd., Mission, TX"
+        "address": "1822 N. Shary Rd., Mission, TX 78572"
       },
       {
         "name": "Mission Parks and Recreation Center - Gymnasium",
-        "address": "721 Bryan Rd., Mission, TX"
+        "address": "721 Bryan Rd., Mission, TX 78572"
       },
       {
         "name": "Veterans Memorial Pavilion - Main Area",
-        "address": "300 S. Inspiration Rd., Mission, TX"
+        "address": "300 S. Inspiration Rd., Mission, TX 78572"
       },
       {
         "name": "Pct. 3 Field Operations Office - Old Workshop Training Room",
-        "address": "8320 W. Mile 7 Rd., Mission, TX"
+        "address": "8320 W. Mile 7 Rd., Mission, TX 78572"
       },
       {
         "name": "Monte Alto ISD Teaching and Learning Center - Meeting Room",
-        "address": "25149 1st St., Monte Alto, TX"
+        "address": "25149 1st St., Monte Alto, TX 78538"
       },
       {
         "name": "Palmview Recreation Center - Gymnasium",
-        "address": "406 W. Veterans Blvd., Palmview, TX"
+        "address": "406 W. Veterans Blvd., Palmview, TX 78571"
       },
       {
         "name": "Pct. 3 'The Mansion' - Back Entrance",
-        "address": "2401 Moorefield Rd., Palmview, TX"
+        "address": "2401 Moorefield Rd., Palmview, TX 78572"
       },
       {
         "name": "Jose 'Pepe' Salinas Center - Small Hall",
-        "address": "1011 W. Kelly Ave., Pharr, TX"
+        "address": "1011 W. Kelly Ave., Pharr, TX 78577"
       },
       {
         "name": "Development and Research Center - Multi-Purpose Room",
-        "address": "850 W. Dicker Rd., Pharr, TX"
+        "address": "850 W. Dicker Rd., Pharr, TX 78577"
       },
       {
         "name": "Progreso Family Community Center - Main Entrance",
-        "address": "510 N. FM 1015, Weslaco, TX"
+        "address": "510 N. FM 1015, Weslaco, TX 78599"
       },
       {
         "name": "San Juan Memorial Library - Multi-Purpose Room",
-        "address": "1010 S. Standard St., San Juan, TX"
+        "address": "1010 S. Standard St., San Juan, TX 78589"
       },
       {
         "name": "Sullivan City WIC Clinic - Lobby",
-        "address": "371 W. Expressway 83, Sullivan City, TX"
+        "address": "371 W. Expressway 83, Sullivan City, TX 78595"
       },
       {
         "name": "Franklin D. Roosevelt Complex - Classroom",
-        "address": "814 E. Plaza St., Weslaco, TX"
+        "address": "814 E. Plaza St., Weslaco, TX 78596"
       }
     ]
   },
@@ -4372,7 +4372,7 @@
         "address": "208 Municipal Drive, Kennedale, TX 76060"
       },
       {
-        "name": "Sheriff\u2019s Office North Patrol Division",
+        "name": "Sheriff’s Office North Patrol Division",
         "address": "6651 Lake Worth Boulevard, Lake Worth, TX 76135"
       },
       {
@@ -4533,159 +4533,159 @@
     "website": "https://votetravis.gov",
     "locations": [
       {
-        "name": "Ben Hur Shrine Center \u2013 Ballroom",
+        "name": "Ben Hur Shrine Center – Ballroom",
         "address": "7811 Rockwood Ln, Austin, TX 78757"
       },
       {
-        "name": "Carver Branch Library \u2013 Meeting Room 2",
+        "name": "Carver Branch Library – Meeting Room 2",
         "address": "1161 Angelina St, Austin, TX 78702"
       },
       {
-        "name": "Lakeway Activity Center \u2013 Room F",
+        "name": "Lakeway Activity Center – Room F",
         "address": "105 Cross Creek, Lakeway, TX 78734"
       },
       {
-        "name": "PfISD Rock Gym \u2013 Gymnasium",
+        "name": "PfISD Rock Gym – Gymnasium",
         "address": "702 W Pecan St, Pflugerville, TX 78660"
       },
       {
-        "name": "Randalls Brodie \u2013 Caf\u00e9",
+        "name": "Randalls Brodie – Café",
         "address": "9911 Brodie Ln, Austin, TX 78748"
       },
       {
-        "name": "Travis County Clerk \u2013 Early Voting Room",
+        "name": "Travis County Clerk – Early Voting Room",
         "address": "5501 Airport Blvd, Austin, TX 78751"
       },
       {
-        "name": "UT Texas Union \u2013 Room 2.214",
+        "name": "UT Texas Union – Room 2.214",
         "address": "2308 Whitis Ave, Austin, TX 78712"
       },
       {
-        "name": "Austin City Hall \u2013 Media Room #1034",
+        "name": "Austin City Hall – Media Room #1034",
         "address": "301 W 2nd St, Austin, TX 78701"
       },
       {
-        "name": "Austin Energy Headquarters \u2013 Capital Training Room",
+        "name": "Austin Energy Headquarters – Capital Training Room",
         "address": "4815 Mueller Blvd, Austin, TX 78723"
       },
       {
-        "name": "Austin Oaks Church \u2013 Family Life Foyer",
+        "name": "Austin Oaks Church – Family Life Foyer",
         "address": "4220 Monterey Oaks Blvd, Austin, TX 78749"
       },
       {
-        "name": "Austin Permitting and Development Center \u2013 Room #1407",
+        "name": "Austin Permitting and Development Center – Room #1407",
         "address": "6310 Wilhelmina Delco Dr, Austin, TX 78752"
       },
       {
-        "name": "Austin Recreation Center \u2013 Dance Studio",
+        "name": "Austin Recreation Center – Dance Studio",
         "address": "1301 Shoal Creek Blvd, Austin, TX 78701"
       },
       {
-        "name": "Balcones Bingo \u2013 Main Hall",
+        "name": "Balcones Bingo – Main Hall",
         "address": "13096 US-183, Austin, TX 78750"
       },
       {
-        "name": "Balcones Woods Shopping Center \u2013 Suite 102",
+        "name": "Balcones Woods Shopping Center – Suite 102",
         "address": "11150 Research Blvd, Austin, TX 78759"
       },
       {
-        "name": "Bee Cave City Hall \u2013 Community Room A",
+        "name": "Bee Cave City Hall – Community Room A",
         "address": "4000 Galleria Pkwy, Bee Cave, TX 78738"
       },
       {
-        "name": "Cepeda Branch Library \u2013 Meeting Room 1",
+        "name": "Cepeda Branch Library – Meeting Room 1",
         "address": "651 N Pleasant Valley Rd, Austin, TX 78702"
       },
       {
-        "name": "Christ Episcopal Church \u2013 Outreach Center",
+        "name": "Christ Episcopal Church – Outreach Center",
         "address": "3520 Whitestone Blvd, Cedar Park, TX 78613"
       },
       {
-        "name": "Christ Our Savior Lutheran Church \u2013 Fellowship Hall/ Library",
+        "name": "Christ Our Savior Lutheran Church – Fellowship Hall/ Library",
         "address": "21900 Farm To Market Rd 1431, Lago Vista, TX 78645"
       },
       {
-        "name": "Circle C Community Center \u2013 Meeting Rooms 2",
+        "name": "Circle C Community Center – Meeting Rooms 2",
         "address": "7817 La Crosse Ave, Austin, TX 78739"
       },
       {
-        "name": "Community Center at Del Valle \u2013 Activity Room/ Bldg D",
+        "name": "Community Center at Del Valle – Activity Room/ Bldg D",
         "address": "3518 S FM 973, Del Valle, TX 78617"
       },
       {
-        "name": "Community Center at Oak Hill \u2013 Community Room",
+        "name": "Community Center at Oak Hill – Community Room",
         "address": "8656 State Hwy 71, Austin, TX 78735"
       },
       {
-        "name": "Dan Ruiz Branch Library \u2013 Meeting Room 1",
+        "name": "Dan Ruiz Branch Library – Meeting Room 1",
         "address": "1600 Grove Blvd, Austin, TX 78741"
       },
       {
-        "name": "Disability Rights Texas \u2013 Board Rooms",
+        "name": "Disability Rights Texas – Board Rooms",
         "address": "2222 W Braker Ln, Austin, TX 78758"
       },
       {
-        "name": "George Morales Dove Springs Recreation Center \u2013 Dance Studio",
+        "name": "George Morales Dove Springs Recreation Center – Dance Studio",
         "address": "5801 Ainez Dr, Austin, TX 78744"
       },
       {
-        "name": "Gus Garcia Recreation Center \u2013 Senior Room",
+        "name": "Gus Garcia Recreation Center – Senior Room",
         "address": "1201 E Rundberg Ln, Austin, TX 78753"
       },
       {
-        "name": "Lake Travis ISD Educational Development Center \u2013 Sage Room",
+        "name": "Lake Travis ISD Educational Development Center – Sage Room",
         "address": "607 Ranch Road 620 N, Austin, TX 78734"
       },
       {
-        "name": "LBJ School of Public Affairs \u2013 Lobby",
+        "name": "LBJ School of Public Affairs – Lobby",
         "address": "2315 Red River St, Austin, TX 78712"
       },
       {
-        "name": "Manor ISD Admin Building \u2013 Technology Room",
+        "name": "Manor ISD Admin Building – Technology Room",
         "address": "10335 US-290, Manor, TX 78653"
       },
       {
-        "name": "Northwest Recreation Center \u2013 Classroom #2",
+        "name": "Northwest Recreation Center – Classroom #2",
         "address": "2913 Northland Dr, Austin, TX 78757"
       },
       {
-        "name": "Pleasant Hill Branch Library \u2013 Meeting Room",
+        "name": "Pleasant Hill Branch Library – Meeting Room",
         "address": "211 E William Canon Dr, Austin, TX 78745"
       },
       {
-        "name": "Randalls Flagship West Lake Hills \u2013 Caf\u00e9",
+        "name": "Randalls Flagship West Lake Hills – Café",
         "address": "3300 Bee Caves Rd, Austin, TX 78746"
       },
       {
-        "name": "Randalls Steiner Ranch \u2013 Caf\u00e9",
+        "name": "Randalls Steiner Ranch – Café",
         "address": "5145 N Fm 620, Austin, TX 78732"
       },
       {
-        "name": "Riverbend Centre \u2013 QUAD4 A/B/C/D",
+        "name": "Riverbend Centre – QUAD4 A/B/C/D",
         "address": "4214 N Capital Of Texas Hwy, Austin, TX 78746"
       },
       {
-        "name": "RRISD Hartfield Performing Arts Center \u2013 Lobby",
+        "name": "RRISD Hartfield Performing Arts Center – Lobby",
         "address": "5800 McNeil Dr, Austin, TX 78729"
       },
       {
-        "name": "South Austin Recreation Center \u2013 Lobby",
+        "name": "South Austin Recreation Center – Lobby",
         "address": "1100 Cumberland Rd, Austin, TX 78704"
       },
       {
-        "name": "Travis County Civil and Family Courts Facility \u2013 Conference Room",
+        "name": "Travis County Civil and Family Courts Facility – Conference Room",
         "address": "1700 Guadalupe St, Austin, TX 78701"
       },
       {
-        "name": "Typhoon Texas Waterpark \u2013 Main Lobby",
+        "name": "Typhoon Texas Waterpark – Main Lobby",
         "address": "18500 TX 130 Service Rd, Pflugerville, TX 78660"
       },
       {
-        "name": "Westoak Woods Baptist Church \u2013 CMB Room #104",
+        "name": "Westoak Woods Baptist Church – CMB Room #104",
         "address": "2900 W Slaughter Ln, Austin, TX 78748"
       },
       {
-        "name": "Wheatsville Food Coop South Lamar \u2013 Community Kitchen",
+        "name": "Wheatsville Food Coop South Lamar – Community Kitchen",
         "address": "4001 S Lamar Blvd, Austin, TX 78704"
       }
     ],
