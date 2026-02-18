@@ -1240,7 +1240,7 @@ async function showCounty(name) {
     } else {
         html += `<div class="no-data">
             <h3>Early Voting Locations</h3>
-            <p>We don't have individual location data for ${name} County yet. Use one of these resources to find your early voting locations:</p>
+            <p>Access ${name} County's vote centers and hours here:</p>
             <div class="btn-row">`;
         if (data.pdfUrl) html += `<a href="${data.pdfUrl}" target="_blank" class="btn-primary">View Early Voting PDF</a>`;
         if (data.evSourceUrl) html += `<a href="${data.evSourceUrl}" target="_blank" class="btn-primary">${data.evSourceLabel || 'Early Voting Locations'}</a>`;
