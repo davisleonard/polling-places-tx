@@ -620,6 +620,76 @@
 
         .leaflet-popup-content a:hover { text-decoration: underline; }
 
+        /* VOTING PLAN CTA */
+        .voting-plan-cta {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+            color: white;
+            text-align: center;
+            padding: 3rem 2rem;
+        }
+
+        .voting-plan-cta h2 {
+            font-size: 1.6rem;
+            font-weight: 800;
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.02em;
+        }
+
+        .voting-plan-cta p {
+            color: rgba(255,255,255,0.8);
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+            max-width: 520px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .voting-plan-cta .cta-btn {
+            display: inline-block;
+            background: var(--red-accent);
+            color: white;
+            padding: 0.85rem 2rem;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1rem;
+            transition: background 0.2s, transform 0.15s;
+        }
+
+        .voting-plan-cta .cta-btn:hover {
+            background: #d4163f;
+            transform: translateY(-1px);
+        }
+
+        .inline-cta {
+            margin-top: 2rem;
+            padding: 1.25rem 1.5rem;
+            background: var(--blue-accent-light);
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .inline-cta p {
+            font-size: 0.95rem;
+            color: var(--navy);
+            margin-bottom: 0.75rem;
+            font-weight: 500;
+        }
+
+        .inline-cta a {
+            display: inline-block;
+            background: var(--red-accent);
+            color: white;
+            padding: 0.6rem 1.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+
+        .inline-cta a:hover { background: #d4163f; }
+
         /* FOOTER */
         footer {
             background: var(--navy);
@@ -695,6 +765,12 @@
     <div id="results"></div>
 
 </div>
+
+<section class="voting-plan-cta">
+    <h2>Make Your Voting Plan</h2>
+    <p>Know when and where you'll vote — and make a plan to get there. It takes 30 seconds.</p>
+    <a href="https://go.rally.win/pm/lookup/go" target="_blank" class="cta-btn">Make My Plan &rarr;</a>
+</section>
 
 <footer>
     <p>Data sourced from county election offices. For official information, visit
@@ -807,21 +883,38 @@ function setupCombobox() {
     function selectCounty(name) {
         userCoords = null;
         input.value = name + ' County';
+        input.placeholder = 'Search counties...';
         dropdown.classList.remove('open');
         input.setAttribute('aria-expanded', 'false');
+        input.blur();
         updateToggle();
         showCounty(name);
     }
 
-    function openDropdown() {
-        renderDropdown(input.value);
+    function openDropdown(filter) {
+        renderDropdown(filter !== undefined ? filter : input.value);
         dropdown.classList.add('open');
         input.setAttribute('aria-expanded', 'true');
     }
 
-    input.addEventListener('focus', openDropdown);
+    input.addEventListener('focus', () => {
+        // If a county is already selected, clear input so user can pick a new one
+        if (currentCounty) {
+            input.value = '';
+            input.placeholder = currentCounty + ' County';
+            updateToggle();
+        }
+        openDropdown('');
+    });
 
     input.addEventListener('input', () => {
+        // If user starts typing over a selected county, hide old results immediately
+        if (currentCounty) {
+            currentCounty = null;
+            userCoords = null;
+            document.getElementById('results').style.display = 'none';
+            window.location.hash = '';
+        }
         renderDropdown(input.value);
         dropdown.classList.add('open');
         input.setAttribute('aria-expanded', 'true');
@@ -846,13 +939,27 @@ function setupCombobox() {
         } else if (e.key === 'Escape') {
             dropdown.classList.remove('open');
             input.setAttribute('aria-expanded', 'false');
+            restoreIfNeeded();
+            input.blur();
         }
     });
+
+    function restoreIfNeeded() {
+        // If user blurred without selecting a new county, restore the old one
+        if (currentCounty && !input.value.trim()) {
+            input.value = currentCounty + ' County';
+            input.placeholder = 'Search counties...';
+            updateToggle();
+        } else if (!currentCounty && !input.value.trim()) {
+            input.placeholder = 'Search counties...';
+        }
+    }
 
     document.addEventListener('click', (e) => {
         if (!e.target.closest('#combobox')) {
             dropdown.classList.remove('open');
             input.setAttribute('aria-expanded', 'false');
+            restoreIfNeeded();
         }
     });
 }
@@ -1129,15 +1236,23 @@ async function showCounty(name) {
         });
     } else {
         html += `<div class="no-data">
-            <h3>Detailed locations coming soon</h3>
-            <p>Visit your county's election office for early voting locations and hours.</p>
+            <h3>Early Voting Locations</h3>
+            <p>We don't have individual location data for ${name} County yet. Use one of these resources to find your early voting locations:</p>
             <div class="btn-row">`;
         if (data.pdfUrl) html += `<a href="${data.pdfUrl}" target="_blank" class="btn-primary">View Early Voting PDF</a>`;
-        if (data.website) html += `<a href="${data.website}" target="_blank" class="btn-secondary">County Election Website</a>`;
-        html += `</div>
-            <p style="margin-top:1.25rem;font-size:0.85rem;">You can also check <a href="https://www.votetexas.gov/voting/where.html" target="_blank" style="color:var(--blue-accent);">VoteTexas.gov</a> to find your vote center.</p>
-        </div>`;
+        if (data.evSourceUrl) html += `<a href="${data.evSourceUrl}" target="_blank" class="btn-primary">${data.evSourceLabel || 'Early Voting Locations'}</a>`;
+        if (data.website && data.website !== data.evSourceUrl) html += `<a href="${data.website}" target="_blank" class="btn-primary">County Election Website</a>`;
+        html += `<a href="https://www.votetexas.gov/voting/where.html" target="_blank" class="btn-secondary">Look Up on VoteTexas.gov</a>`;
+        html += `</div>`;
+        if (data.phone) html += `<p style="margin-top:1rem;font-size:0.9rem;">Or call the ${name} County election office: <a href="tel:${data.phone}">${data.phone}</a></p>`;
+        html += `</div>`;
     }
+
+    // Inline voting plan CTA
+    html += `<div class="inline-cta">
+        <p>Found your location? Make a voting plan so you don't forget.</p>
+        <a href="https://go.rally.win/pm/lookup/go" target="_blank">Make My Voting Plan &rarr;</a>
+    </div>`;
 
     results.innerHTML = html;
 
