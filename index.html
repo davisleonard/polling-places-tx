@@ -1251,12 +1251,6 @@ async function showCounty(name) {
         html += `</div>`;
     }
 
-    // Inline voting plan CTA
-    html += `<div class="inline-cta">
-        <p>Found your location? Make a voting plan so you don't forget.</p>
-        <a href="https://go.rally.win/pm/lookup/go" target="_blank">Make My Voting Plan &rarr;</a>
-    </div>`;
-
     results.innerHTML = html;
 
     // Initialize map if we have locations
