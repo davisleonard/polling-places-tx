@@ -1,4 +1,10 @@
-*.pdf
 *.txt
+*.DS_Store
 export_csv.py
+geocode_locations.py
+sos_page.html
 .vercel
+# PDFs in root (working files)
+/*.pdf
+# Keep docs and pdfs folder tracked
+!docs and pdfs/

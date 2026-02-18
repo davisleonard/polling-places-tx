@@ -4842,8 +4842,8 @@
   },
   "Houston": {
     "website": "http://www.co.houston.tx.us/default.aspx?Houston_County/Home",
-    "evSourceUrl": "http://www.co.houston.tx.us/page/houston.Elections",
-    "evSourceLabel": "Houston County Elections"
+    "evSourceUrl": "docs and pdfs/Houston County.pdf",
+    "evSourceLabel": "Houston County Election Notice (PDF)"
   },
   "Howard": {
     "website": "http://www.co.howard.tx.us/default.aspx?Howard_County/Elections",
@@ -6181,8 +6181,8 @@
   },
   "Newton": {
     "website": "http://www.co.newton.tx.us/default.aspx?Newton_County/Home",
-    "evSourceUrl": "http://www.co.newton.tx.us/page/newton.Elections",
-    "evSourceLabel": "Newton County Elections"
+    "evSourceUrl": "docs and pdfs/Newton County.pdf",
+    "evSourceLabel": "Newton County Election Notice (PDF)"
   },
   "Nolan": {
     "website": "http://www.co.nolan.tx.us/",
@@ -6367,8 +6367,8 @@
   },
   "Palo Pinto": {
     "website": "https://www.co.palo-pinto.tx.us/",
-    "evSourceUrl": "https://www.co.palo-pinto.tx.us/",
-    "evSourceLabel": "Palo Pinto County Website"
+    "evSourceUrl": "docs and pdfs/Palo Pinto.pdf",
+    "evSourceLabel": "Palo Pinto County Election Notice (PDF)"
   },
   "Panola": {
     "website": "http://www.co.panola.tx.us/",
@@ -6834,8 +6834,8 @@
   },
   "San Augustine": {
     "website": "https://www.co.san-augustine.tx.us/page/sanaugustine.Elections",
-    "evSourceUrl": "https://www.votetexas.gov/voting/where.html",
-    "evSourceLabel": "Find Your Polling Place"
+    "evSourceUrl": "docs and pdfs/San Augustine Democratic Notice.pdf",
+    "evSourceLabel": "San Augustine County Election Notice (PDF)"
   },
   "San Jacinto": {
     "website": "http://www.co.san-jacinto.tx.us/default.aspx?San-Jacinto_County/Elections",
