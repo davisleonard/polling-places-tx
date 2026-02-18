@@ -4256,11 +4256,15 @@
         "address": "1601 NE Green Oaks Boulevard, Arlington, TX 76006"
       },
       {
-        "name": "700 E Abram Street Arlington",
-        "address": "76010, 2100 Southeast Parkway, TX"
+        "name": "Tarrant County Subcourthouse in Arlington",
+        "address": "700 E Abram Street, Arlington, TX 76010"
       },
       {
-        "name": "7 Tarrant County Subcourthouse in Arlington Tarrant County College Southeast Campus EMBD 1105 Azle ISD PD",
+        "name": "Tarrant County College Southeast Campus EMBD 1105",
+        "address": "2100 Southeast Parkway, Arlington, TX 76018"
+      },
+      {
+        "name": "Azle ISD PD",
         "address": "483 Sandy Beach Road, Suite A, Azle, TX 76020"
       },
       {
@@ -4324,15 +4328,23 @@
         "address": "4205 Basswood Boulevard, Fort Worth, TX 76137"
       },
       {
-        "name": "2700 Premier Street Fort Worth",
-        "address": "76111, 201 Burnett Street, TX"
+        "name": "Tarrant County College Northwest Campus WFSC 1403A",
+        "address": "4801 Marine Creek Parkway, Fort Worth, TX 76179"
       },
       {
-        "name": "2615 W Pioneer Parkway Grand Prairie",
-        "address": "75051, 6, TX"
+        "name": "Tarrant County Elections Center (Main Early Voting Site)",
+        "address": "2700 Premier Street, Fort Worth, TX 76111"
       },
       {
-        "name": "Tarrant County College Northwest Campus WFSC 1403A 24 Tarrant County Elections Center Main Early Voting Site 25 Tarrant County Plaza Building 26 (Principal sitio de votaci\u00f3n adelantada) (Trung T\u00e2m B\u1ea7u C\u1eed S\u01a1\u0301m) Asia Times Square Hong Kong building room 116 27 Grapevine Public Library",
+        "name": "Tarrant County Plaza Building",
+        "address": "201 Burnett Street, Fort Worth, TX 76102"
+      },
+      {
+        "name": "Asia Times Square",
+        "address": "2615 W Pioneer Parkway, Grand Prairie, TX 75051"
+      },
+      {
+        "name": "Grapevine Public Library",
         "address": "1201 Municipal Way, Grapevine, TX 76051"
       },
       {
