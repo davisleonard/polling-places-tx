@@ -172,8 +172,8 @@
       }
     ],
     "evPageUrl": "https://www.bellcountytx.com/departments/elections/early_voting_information.php",
-    "evSourceUrl": "https://www.bellcountytx.com/departments/elections/",
-    "evSourceLabel": "Bell County Elections"
+    "evSourceUrl": "https://www.bellcountytx.com/departments/elections/early_voting_information.php",
+    "evSourceLabel": "Voting Locations on County Site"
   },
   "Bexar": {
     "website": "http://www.bexar.org/elections/index.html",
@@ -590,8 +590,8 @@
       }
     ],
     "evPageUrl": "https://www.brazoriacountyclerktx.gov/departments/elections/polling-places-early-voting",
-    "evSourceUrl": "https://www.brazoriacountyclerktx.gov/departments/elections/",
-    "evSourceLabel": "Brazoria County Elections"
+    "evSourceUrl": "docs and pdfs/Brazoria County.pdf",
+    "evSourceLabel": "Brazoria County Election Notice (PDF)"
   },
   "Brazos": {
     "website": "https://elections.brazoscountytx.gov/",
@@ -616,8 +616,8 @@
       }
     ],
     "evPageUrl": "https://elections.brazoscountytx.gov/early-voting-places/",
-    "evSourceUrl": "https://elections.brazoscountytx.gov/",
-    "evSourceLabel": "Brazos County Elections"
+    "evSourceUrl": "docs and pdfs/Brazos County.pdf",
+    "evSourceLabel": "Brazos County Election Notice (PDF)"
   },
   "Brewster": {
     "website": "https://www.brewstercounty.gov/",
@@ -1215,7 +1215,8 @@
       }
     ],
     "phone": "(972) 548-4100",
-    "evPageUrl": "https://www.collincountytx.gov/Elections/polling-locations"
+    "evPageUrl": "https://www.collincountytx.gov/Elections/polling-locations?electionId=70&scheduleType=ev&electionDesc=March%203,%202026%20Primary%20Election",
+    "evPageLabel": "Voting Locations on County Site"
   },
   "Collingsworth": {
     "website": "http://www.co.collingsworth.tx.us/",
@@ -2617,7 +2618,8 @@
         "lon": -106.3751756
       }
     ],
-    "evPageUrl": "https://epcountyvotes.com/voter-information/early-voting-locations"
+    "evPageUrl": "https://epcountyvotes.com/voter-information/early-voting-locations",
+    "evPageLabel": "Voting Locations on County Site"
   },
   "Ellis": {
     "website": "http://co.ellis.tx.us/index.asp?nid=312",
@@ -2640,8 +2642,8 @@
       }
     ],
     "phone": "972-825-5195",
-    "evSourceUrl": "http://co.ellis.tx.us/index.asp?nid=312",
-    "evSourceLabel": "Ellis County Website"
+    "evSourceUrl": "docs and pdfs/Ellis County.pdf",
+    "evSourceLabel": "Ellis County Election Notice (PDF)"
   },
   "Erath": {
     "website": "https://www.co.erath.tx.us/186/Current-Elections",
@@ -3190,7 +3192,9 @@
         "lon": -95.182504
       }
     ],
-    "evPageUrl": "https://galvestonvotes.org/polling-locations/"
+    "evPageUrl": "https://galvestonvotes.org/polling-locations/",
+    "evSourceUrl": "docs and pdfs/Galveston County.pdf",
+    "evSourceLabel": "Galveston County Election Notice (PDF)"
   },
   "Garza": {
     "website": "http://www.garzacounty.net/",
@@ -3955,8 +3959,8 @@
       }
     ],
     "evPageUrl": "https://www.hayscountytx.gov/elections/20260303",
-    "evSourceUrl": "https://www.hayscountytx.gov/elections",
-    "evSourceLabel": "Hays County Elections"
+    "evSourceUrl": "docs and pdfs/Hays County.pdf",
+    "evSourceLabel": "Hays County Election Notice (PDF)"
   },
   "Hemphill": {
     "website": "http://www.co.hemphill.tx.us/",
@@ -4488,8 +4492,8 @@
       }
     ],
     "evPageUrl": "https://www.jeffersonelections.com/",
-    "evSourceUrl": "https://www.jeffersonelections.com/",
-    "evSourceLabel": "Jefferson County Elections"
+    "evSourceUrl": "docs and pdfs/Jefferson County.pdf",
+    "evSourceLabel": "Jefferson County Election Notice (PDF)"
   },
   "Jim Hogg": {
     "website": "https://www.co.jim-hogg.tx.us/page/jim-hogg.Elections",
@@ -4523,9 +4527,10 @@
         "hours": "7:00 AM - 7:00 PM"
       }
     ],
-    "evPageUrl": "https://www.johnsoncountytx.org/departments/elections-office",
-    "evSourceUrl": "https://www.johnsoncountytx.org/departments/elections-office",
-    "evSourceLabel": "Johnson County Elections"
+    "evPageUrl": "https://www.johnsoncountytx.org/departments/elections-office/early-voting-and-election-day-locations-634",
+    "evSourceUrl": "docs and pdfs/Johnson County.pdf",
+    "evSourceLabel": "Johnson County Election Notice (PDF)",
+    "evPageLabel": "Voting Locations on County Site"
   },
   "Jones": {
     "website": "http://www.co.jones.tx.us/default.aspx?Jones_County/Home",
@@ -4898,8 +4903,8 @@
       }
     ],
     "evPageUrl": "https://votelubbock.gov/election-information/early-voting-information/",
-    "evSourceUrl": "https://votelubbock.gov/",
-    "evSourceLabel": "Lubbock County Elections"
+    "evSourceUrl": "docs and pdfs/Lubbock County.pdf",
+    "evSourceLabel": "Lubbock County Election Notice (PDF)"
   },
   "Lynn": {
     "website": "http://www.co.lynn.tx.us/",
@@ -5025,8 +5030,8 @@
       }
     ],
     "evPageUrl": "https://www.mclennan.gov/337/Elections",
-    "evSourceUrl": "https://www.mclennan.gov/337/Elections",
-    "evSourceLabel": "McLennan County Elections"
+    "evSourceUrl": "docs and pdfs/McLennan County.pdf",
+    "evSourceLabel": "McLennan County Election Notice (PDF)"
   },
   "McMullen": {
     "website": null,
@@ -5146,8 +5151,8 @@
       }
     ],
     "evPageUrl": "https://elections.mctx.org/evPolls.asp?ELID=93&curLang=English&ElectionId=PRI030326",
-    "evSourceUrl": "https://elections.mctx.org/",
-    "evSourceLabel": "Montgomery County Elections"
+    "evSourceUrl": "https://elections.mctx.org/evPolls.asp?ELID=93&curLang=English&ElectionId=PRI030326",
+    "evSourceLabel": "Voting Locations on County Site"
   },
   "Moore": {
     "website": "http://www.co.moore.tx.us/default.aspx?Moore_County/Elections",
@@ -5358,7 +5363,9 @@
         "lon": -97.4507244
       }
     ],
-    "evPageUrl": "https://www.nuecesco.com/county-services/county-clerk/elections-department"
+    "evPageUrl": "https://www.nuecesco.com/county-services/county-clerk/elections-department",
+    "evSourceUrl": "docs and pdfs/Nueces County.pdf",
+    "evSourceLabel": "Nueces County Election Notice (PDF)"
   },
   "Ochiltree": {
     "website": "http://www.co.ochiltree.tx.us/",
@@ -6820,8 +6827,8 @@
       }
     ],
     "evPageUrl": "https://www.webbcountytx.gov/electionsadministration/",
-    "evSourceUrl": "https://www.webbcountytx.gov/electionsadministration/",
-    "evSourceLabel": "Webb County Elections"
+    "evSourceUrl": "docs and pdfs/Webb County.pdf",
+    "evSourceLabel": "Webb County Election Notice (PDF)"
   },
   "Wharton": {
     "website": "http://www.co.wharton.tx.us/default.aspx?Wharton_County/Elections",
