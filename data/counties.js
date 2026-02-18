@@ -4842,13 +4842,8 @@
   },
   "Houston": {
     "website": "http://www.co.houston.tx.us/default.aspx?Houston_County/Home",
-    "locations": [
-      {
-        "name": "Houston County Senior Citizen Center",
-        "address": "716 W. Wells, Crockett, TX 75835",
-        "hours": "Feb 17-20: 9am-6pm | Feb 21: 7am-7pm | Feb 22: 1pm-7pm | Feb 23-27: 7am-7pm"
-      }
-    ]
+    "evSourceUrl": "http://www.co.houston.tx.us/page/houston.Elections",
+    "evSourceLabel": "Houston County Elections"
   },
   "Howard": {
     "website": "http://www.co.howard.tx.us/default.aspx?Howard_County/Elections",
@@ -6186,22 +6181,8 @@
   },
   "Newton": {
     "website": "http://www.co.newton.tx.us/default.aspx?Newton_County/Home",
-    "locations": [
-      {
-        "name": "Newton County Clerk's Office",
-        "address": "115 Court Street, Newton, TX 75966",
-        "hours": "Feb 17-20: 8am-5pm | Feb 21: 8am-8pm | Feb 22: 1pm-7pm | Feb 23-27: 8am-8pm",
-        "lat": 30.8517913,
-        "lon": -93.7825272
-      },
-      {
-        "name": "Deweyville Subcourthouse",
-        "address": "42520 St Hwy 87, Deweyville, TX 77632",
-        "hours": "Feb 17-20: 8am-5pm | Feb 21: 8am-8pm | Feb 22: 1pm-7pm | Feb 23-27: 8am-8pm",
-        "lat": 30.286534,
-        "lon": -93.7568535
-      }
-    ]
+    "evSourceUrl": "http://www.co.newton.tx.us/page/newton.Elections",
+    "evSourceLabel": "Newton County Elections"
   },
   "Nolan": {
     "website": "http://www.co.nolan.tx.us/",
@@ -6386,22 +6367,8 @@
   },
   "Palo Pinto": {
     "website": "https://www.co.palo-pinto.tx.us/",
-    "locations": [
-      {
-        "name": "Palo Pinto Methodist Church",
-        "address": "419 Oak St, Palo Pinto, TX 76484",
-        "hours": "Feb 17-20: 8am-5pm | Feb 21: 7am-7pm | Feb 22: 9am-3pm | Feb 23-27: 7am-7pm",
-        "lat": 32.7669457,
-        "lon": -98.297772
-      },
-      {
-        "name": "Palo Pinto County Annex Building",
-        "address": "100 S.E. 6th Ave, Mineral Wells, TX 76067",
-        "hours": "Feb 17-20: 8am-5pm | Feb 21: 7am-7pm | Feb 22: 9am-3pm | Feb 23-27: 7am-7pm",
-        "lat": 32.80906,
-        "lon": -98.107675
-      }
-    ]
+    "evSourceUrl": "https://www.co.palo-pinto.tx.us/",
+    "evSourceLabel": "Palo Pinto County Website"
   },
   "Panola": {
     "website": "http://www.co.panola.tx.us/",
@@ -6867,22 +6834,8 @@
   },
   "San Augustine": {
     "website": "https://www.co.san-augustine.tx.us/page/sanaugustine.Elections",
-    "locations": [
-      {
-        "name": "San Augustine Co. Elections Administrator Office",
-        "address": "225 No. Harrison, San Augustine, TX 75972",
-        "hours": "Feb 17-20: 8am-5pm | Feb 21: 7am-7pm | Feb 22: 1pm-7pm | Feb 23-27: 7am-7pm",
-        "lat": 31.5308749,
-        "lon": -94.1105783
-      },
-      {
-        "name": "Broaddus Community Center",
-        "address": "1011 FM 2558 @ CR 361, Broaddus, TX 75929",
-        "hours": "Feb 17-20: 8am-5pm | Feb 21: 7am-7pm | Feb 22: 1pm-7pm | Feb 23-27: 7am-7pm",
-        "lat": 31.2858307,
-        "lon": -94.2692306
-      }
-    ]
+    "evSourceUrl": "https://www.votetexas.gov/voting/where.html",
+    "evSourceLabel": "Find Your Polling Place"
   },
   "San Jacinto": {
     "website": "http://www.co.san-jacinto.tx.us/default.aspx?San-Jacinto_County/Elections",
